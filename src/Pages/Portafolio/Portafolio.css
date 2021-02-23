@@ -64,6 +64,23 @@
     margin: auto;
   }
 
+
+.card-img{
+  
+  margin-top: 0;
+  height: 726px;
+  width: 77vw;
+  border-radius: 65px; 
+}
+
+.card-img2{
+
+  height: 726px;
+  width: 77vw;
+  border-radius: 65px;
+  margin-top: 5vh;
+}
+
   .gdimg{
     height: 726px;
     width: 77vw;
@@ -75,7 +92,7 @@
     height: 300px;
     width: 77vw;
     border-radius: 65px;
-    margin-top: -1046px;
+    margin-top: 3vh;
   }
 
   .txtcol2{
