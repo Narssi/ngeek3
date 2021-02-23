@@ -1,0 +1,55 @@
+.carrusel{
+    padding: 2em;
+    width: 90%;
+    margin: auto;
+  }
+
+
+  .tittle{
+    padding: 5em;
+  }
+
+  .back-info{
+    background-color: #f2f4fa;
+    height: 70vh;
+    width: 60%;
+  }
+
+ 
+  .back-img{
+    background-image: url('../../Assets/job2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 40%;
+  }
+
+  .back-img img{
+    padding-top: 12em;
+    width: 50%;
+  }
+
+  .flex-EX {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around; 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .flex-Cards{
+    background: #E9EEF6;
+    padding: 1em;
+    width: 253px;
+    height: 273px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    border-radius: 65px;
+  }
+  
+

@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.839f4909.chunk.css",
+    "main.js": "/static/js/main.833ec11d.chunk.js",
+    "main.js.map": "/static/js/main.833ec11d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4dd1fd9f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4dd1fd9f.js.map",
+    "static/js/2.2a7274d5.chunk.js": "/static/js/2.2a7274d5.chunk.js",
+    "static/js/2.2a7274d5.chunk.js.map": "/static/js/2.2a7274d5.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.826bbcb3aa2119011f3464574c59e774.js": "/precache-manifest.826bbcb3aa2119011f3464574c59e774.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.839f4909.chunk.css.map": "/static/css/main.839f4909.chunk.css.map",
+    "static/js/2.2a7274d5.chunk.js.LICENSE.txt": "/static/js/2.2a7274d5.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/Fond2.ba5e7748.png",
+    "static/media/Iphone.png": "/static/media/Iphone.7dcc52de.png",
+    "static/media/Reconocimientos.css": "/static/media/fondo1.b1a5c5f4.jpg",
+    "static/media/git.svg": "/static/media/git.bfdc1d14.svg",
+    "static/media/gitlab.svg": "/static/media/gitlab.156de95d.svg",
+    "static/media/link.svg": "/static/media/link.9b3eaf45.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4dd1fd9f.js",
+    "static/js/2.2a7274d5.chunk.js",
+    "static/css/main.839f4909.chunk.css",
+    "static/js/main.833ec11d.chunk.js"
+  ]
+}

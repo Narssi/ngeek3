@@ -1,0 +1,103 @@
+
+
+.portafolio{
+  width: 77%;
+  margin: auto;
+ 
+}
+
+.card-img{
+  background-image: url("../../Assets/demo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 726px;
+  width: 35vw;
+  border-radius: 65px; 
+}
+
+.txtcol{
+  background: #ffffff;
+  height: 341px;
+  width: 35vw;
+  border-radius: 65px;
+  text-align: center;
+  -webkit-box-shadow: 2px 2px 5px rgb(201, 201, 201);
+  -moz-box-shadow: 2px 2px 5px rgb(201, 201, 201);
+  box-shadow: 2px 2px 5px rgb(201, 201, 201);
+ 
+}
+
+.card-img2{
+  background-image: url("../../Assets/Rectangle.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 726px;
+  width: 35vw;
+  border-radius: 65px;
+  margin-top: -350px;
+}
+
+.txtcol2{
+  background: #ffffff;
+  height: 341px;
+  width: 35vw;
+  border-radius: 65px;
+  margin-top: 30px;
+  -webkit-box-shadow: 2px 2px 5px rgb(201, 201, 201);
+  -moz-box-shadow: 2px 2px 5px rgb(201, 201, 201);
+  box-shadow: 2px 2px 5px rgb(201, 201, 201);
+}
+
+
+.body-t{
+  height: auto;
+  width: 50%;
+  margin: auto;
+}
+
+@media  (max-width: 575.98px) { 
+
+  .portafolio{
+    width: 84%;
+    margin: auto;
+  }
+
+  .gdimg{
+    height: 726px;
+    width: 77vw;
+    border-radius: 65px;
+    margin-top: 200px;
+  }
+  
+  .txtcol{
+    height: 300px;
+    width: 77vw;
+    border-radius: 65px;
+    margin-top: -1046px;
+  }
+
+  .txtcol2{
+    background: #ffffff;
+    height: 341px;
+    width: 77vw;
+    border-radius: 65px;
+    margin-top: 30px;
+  }
+
+  .gdimg2{
+    height: 726px;
+    width: 77vw;
+    border-radius: 65px;
+    margin-top: 36px;
+  }
+  
+  .demo4{
+    height: 341px;
+    width: 77vw;
+    border-radius: 65px;
+    margin-top: 30px;
+  }
+
+ }

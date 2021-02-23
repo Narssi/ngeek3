@@ -1,0 +1,111 @@
+
+/***********************
+Text Home
+************************/
+
+@font-face {
+    font-family: 'Charlotte';
+    src: local('Charlotte'), url(../fonts/Charlotte.woff) format('woff');
+  }
+
+.Home{
+    width: 50%;
+    color: black;
+    margin: auto;
+    h1{
+        font-size: 8vw; 
+    }
+    h2, h3{
+        font-size: 25px; 
+    }
+    p{
+        font-family: 'Charlotte';
+        font-size: 60px;
+    }   
+}
+
+
+/***********************
+Text Portafolio
+************************/
+
+.txtcol2{
+    padding-top: 6em;
+    h1{
+      font-size: 2em;
+    }
+    h2{
+      font-size: 1.8em;
+    }
+}
+.txtcol{
+    padding-top: 6em;
+    h1{
+        font-size: 3em;
+      }
+      h2{
+        font-size: 2em;
+      }
+  }
+
+/***********************
+Text Reconocimientos
+************************/
+
+.Info {
+    h1{
+        color: white;
+        margin-top: 15vh;
+        font-size: 3rem;
+    }
+    
+  }
+
+  .button-L{
+    font-size: 30px;
+    color: white;
+  }
+
+
+/***********************
+Text Experiencia
+************************/
+
+  .Experiencia {
+    
+    h1{
+        font-size: 5rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    p{
+        font-size: 1.5rem;
+        color: black;
+    }
+  }
+
+  .back-info{
+    h1{
+        font-size: 1.6rem;
+        padding-top: 7em;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    p{
+
+    }
+  }
+
+
+
+/***********************
+Text Contacto
+************************/
+
+.Contacto {
+    h1{
+        font-size: 3em;
+    }
+}

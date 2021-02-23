@@ -1,0 +1,63 @@
+
+/***********************
+CSS Reconocimientos
+*/
+
+
+.Reconocimientos{
+  margin-top: 60px;
+}
+
+.setting{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 567px;
+}
+
+
+.row{
+  margin-right: 0px;
+    margin-left: 0px;
+}
+  
+.Info{
+  
+  height: 567px;
+  color: white;
+  opacity: 0.9;
+  height: auto;
+  padding: 2em;
+  border-radius: 20px;
+}
+
+
+
+button{
+  background-color: black;
+  border-radius: 17px;
+  width: 196px;
+  height: 57px;
+  border: 0px solid;
+  color: white;
+}
+
+
+
+
+.st{
+  width: 40%;
+  margin-left: 25%;
+  border-radius: 20px;
+  background-color: white;
+  height: 7px;
+  bottom: 30px;
+  position: absolute;
+}
+
+.button-L{
+  border-radius: 17px;
+  border: 0px solid;
+  margin: auto;
+  margin-top: 90px;
+}
