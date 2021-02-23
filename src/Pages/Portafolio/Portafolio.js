@@ -14,7 +14,7 @@ const Portafolio = () => {
                 <Col><div className="card-img"></div></Col>
                 <Col> 
                     <div className="txtcol">     
-                            <h1>Ultimate Design</h1>
+                            <h1>Ultimo Diseño</h1>
                             <h2>ACOMER CLUB</h2> 
                     </div>
                 </Col>
@@ -24,7 +24,7 @@ const Portafolio = () => {
                     <div className="txtcol2">
                             <h1>Design & Developer</h1>
                             <h2>PORTAFOLIO</h2>
-                            <Link className="ruta" to="/portlist"><button>VIEW +</button></Link>
+                            <Link className="ruta" to="/portlist"><button>VER +</button></Link>
                     </div>
                 </Col>
                 <Col><div className="card-img2"></div></Col>

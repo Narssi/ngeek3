@@ -7,7 +7,7 @@
 }
 
 .card-img{
-  background-image: url("../../Assets/demo.jpg");
+  background-image: url("../../Assets/toks.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -29,7 +29,7 @@
 }
 
 .card-img2{
-  background-image: url("../../Assets/Rectangle.jpg");
+  background-image: url("../../Assets/toks2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
