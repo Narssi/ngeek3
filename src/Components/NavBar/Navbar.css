@@ -7,7 +7,7 @@
     cursor: pointer;
     position: fixed;
     display: flex;
-   
+    opacity: 90%;
     justify-content: center;
     z-index: 1;
 
