@@ -1,8 +1,7 @@
 import React from 'react';
 import './Experiencia.css';
 import Carousel from 'react-bootstrap/Carousel';
-import { experienceData } from "../../Data/data-experience";
-import { carruselData } from "../../Data/data-carusel";
+import { experienceData, carruselData } from "../../Data/data-ngk";
 
 const Experiencia = () => {
     return (

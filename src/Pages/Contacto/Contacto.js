@@ -1,9 +1,8 @@
 import React from 'react';
 import './Contacto.css';
-//import {ContactData} from '../../Data/data-contact';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { FooterImg } from "../../Data/data-footer";
+import { ContactData } from "../../Data/data-ngk";
 
 const Contacto = () => {
     return(
@@ -13,15 +12,15 @@ const Contacto = () => {
                     <h1>Contacto</h1>
                 </li>
                 <div className="icons">
-                <Row >
-                    {FooterImg.map((Footer, key) =>{
+                < >
+                    {ContactData.map((icons, key) =>{
                         return(
-                            <Col key={key} className="icons">
-                                <img src={`./assets/footer/${Footer.id}.svg`} className="rounded float-left"  alt="img"/>
-                            </Col>
+                            <li key={key} className="icons">
+                                <img src={`./assets/contacto/${icons.id}.svg`} className="rounded float-left"  alt="img"/>
+                            </li>
                         );
                     })}
-                </Row>    
+                </>    
                 </div>
             </ul>   
         </div>

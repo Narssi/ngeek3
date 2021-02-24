@@ -33,3 +33,16 @@
   text-align: center;
 
 }
+
+
+.icons{
+  width: 15vw;
+  display: flex;
+  margin: 7px;
+}
+
+@media  (max-width: 575.98px) {
+  .icons{
+    width: 40vw;
+  }
+}

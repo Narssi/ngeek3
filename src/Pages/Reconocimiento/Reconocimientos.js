@@ -3,7 +3,7 @@ import './Reconocimientos.css'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 //import { Link } from 'react-router-dom';
-import {DiplomasData} from '../../Data/data-cursos';
+import {DiplomasData} from '../../Data/data-ngk';
 
 const Reconocimientos = () => (
     <div className='Reconocimientos'>

@@ -3,7 +3,7 @@ import './Footer.css';
 import { Data } from "../../Data/data-ngk";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { FooterImg } from "../../Data/data-footer";
+import { FooterImg } from '../../Data/data-ngk';
 const Footer = () => {
     return (
     <div className='Footer'>

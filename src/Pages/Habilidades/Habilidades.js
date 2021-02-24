@@ -1,6 +1,6 @@
 import React from 'react';
 import './Habilidades.css';
-import {SkillData} from '../../Data/data-skills';
+import {SkillData} from '../../Data/data-ngk';
 
 const Habilidades = () => {
     return (

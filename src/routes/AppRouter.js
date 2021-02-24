@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Reconocimientos from '../Pages/Reconocimiento/Reconocimientos';
 import Portafolio from '../Pages/Portafolio/Portafolio';
-//import Habilidades from '../Pages/Habilidades/Habilidades';
+import Habilidades from '../Pages/Habilidades/Habilidades';
 import Contacto from '../Pages/Contacto/Contacto';
 import Footer from '../Components/Footer/Footer';
 import NBmenu from '../Components/NavBar/Navbar';
@@ -13,12 +13,12 @@ class AppRouter extends Component{
  render(){
     return (
         <div>
-         <NBmenu/>
+        <NBmenu/>
         <Home/>
         <Portafolio/>
         <Reconocimientos/>
         <Experiencia/>
-  
+        <Habilidades/>
         <Contacto/>
         <Footer/>
         </div>

@@ -3,7 +3,7 @@ import React from 'react';
 //import { Link } from 'react-router-dom';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import {AxityMobile, AxityWebP, AxityWebT, OmnibusMexico} from '../../../Data/data-listP';
+import {AxityMobile, AxityWebP, AxityWebT, OmnibusMexico} from '../../../Data/data-proyectos';
 import './Port-List.css'
 const PortList = () => {
 
@@ -35,8 +35,6 @@ const PortList = () => {
         </Row>
         
         </div>
-        
-
         <div className='npx'>
         <Row>
           {AxityWebP.map((axm, key) =>{
