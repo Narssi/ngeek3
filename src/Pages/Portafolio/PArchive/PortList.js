@@ -4,11 +4,12 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import {AxityMobile, AxityWebP, AxityWebT, OmnibusMexico} from '../../../Data/data-proyectos';
-import './Port-List.css'
+import './Port-List.css';
+import { motion } from "framer-motion";
 const PortList = () => {
 
     return(
-        <div className='PortafolioList'>
+        <motion.div className='PortafolioList' initial={{opacity:0}} animate={{opacity:1}}>
 
         <div className='headerp'>
        
@@ -97,7 +98,7 @@ const PortList = () => {
         </div>
        
        
-      </div>
+      </motion.div>
     );
 
 };

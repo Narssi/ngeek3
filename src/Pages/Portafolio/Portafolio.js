@@ -4,32 +4,33 @@ import Col from 'react-bootstrap/Col';
 import './Portafolio.css';
 import '../../style/demo.scss';
 import { Link } from 'react-router-dom';
+import { motion } from "framer-motion";
 
 
 const Portafolio = () => {
     
     return (
-    <div className='portafolio'>
+    <motion.div className='portafolio' initial={{opacity:0}} animate={{opacity:1}}>
             <Row >
-                <Col><div className="card-img"></div></Col>
+                <Col><motion.div whileHover={{scale: 1.1}} className="card-img"></motion.div></Col>
                 <Col> 
-                    <div className="txtcol">     
+                    <motion.div whileHover={{scale: 1.1}} className="txtcol">     
                             <h1>Ultimo Diseño</h1>
                             <h2>ACOMER CLUB</h2> 
-                    </div>
+                    </motion.div>
                 </Col>
             </Row>
             <Row >
                 <Col>
-                    <div className="txtcol2">
+                    <motion.div  whileHover={{scale: 1.1}} className="txtcol2">
                             <h1>Design & Developer</h1>
                             <h2>PORTAFOLIO</h2>
                             <Link className="ruta" to="/portlist"><button>VER +</button></Link>
-                    </div>
+                    </motion.div>
                 </Col>
-                <Col><div className="card-img2"></div></Col>
+                <Col><motion.div whileHover={{scale: 1.1}} className="card-img2"></motion.div></Col>
             </Row>
-    </div>
+    </motion.div>
     
 );
 };
