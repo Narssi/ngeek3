@@ -7,10 +7,15 @@ CSS Home
     font-family: 'Montserrat', sans-serif;
     background-color: #F7F9FF;
   }
-  
+
   .App-header {
     background-color: #ffffff;
-    background-image: url('../Assets/Background2.jpg');
+    background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.411),
+      rgba(248, 248, 255, 0.993)
+    ),
+    url('../Assets/back.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,7 +25,7 @@ CSS Home
     align-items: center;
     justify-content: center;
   }
-  
+
 
 /***********************
 CSS Portafolio
@@ -29,4 +34,4 @@ CSS Portafolio
 .portafolio{
     height: auto;
   }
-  
+

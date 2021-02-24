@@ -1,9 +1,9 @@
 import React from 'react';
-import '../../style/Footer.css';
-import { Data } from "../../Data/data-ngk";
+import '../style/Footer.css';
+import { Data } from "../Data/data-ngk";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { FooterImg } from '../../Data/data-ngk';
+import { FooterImg } from '../Data/data-ngk';
 const Footer = () => {
     return (
     <div className='Footer'>
