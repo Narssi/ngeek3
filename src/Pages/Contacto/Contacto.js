@@ -1,7 +1,5 @@
 import React from 'react';
 import './Contacto.css';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import { ContactData } from "../../Data/data-ngk";
 
 const Contacto = () => {
