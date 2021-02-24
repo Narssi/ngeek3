@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../style/text.css';
 import { Data } from "../../Data/data-ngk";
-import { motion, AnimatePresence } from "framer-motion";
+import {  AnimatePresence } from "framer-motion";
 
 const Home = () => {
     return (
