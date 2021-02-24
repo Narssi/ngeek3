@@ -1,21 +1,29 @@
 import React from 'react';
 import '../../style/text.css';
 import { Data } from "../../Data/data-ngk";
-import {  AnimatePresence } from "framer-motion";
+import {  motion } from "framer-motion";
 
 const Home = () => {
     return (
     <div className='App-header'>
+    
         {Data.map((Home, key) => {
             return(
-                <AnimatePresence initial={false} exitBeforeEnter>
-                <div key={key} className="Home">
+               
+                <motion.div key={key} className="Home"  
+                initial={{ scale: 0 }}
+                animate={{ rotate: 0, scale: 1 }}
+                transition={{
+                    type: "spring",
+                    stiffness: 260,
+                    damping: 20
+                }}>
                     <h1>{Home.Tittle}</h1>
                     <h2>{Home.SubTittle}</h2>
                     <h3>{Home.text}</h3>
                     <p>{Home.ngeek}</p>
-                </div>
-                </AnimatePresence>
+                </motion.div>
+               
             );
         })}
     </div>

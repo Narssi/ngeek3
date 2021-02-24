@@ -12,9 +12,9 @@ const Portafolio = () => {
     return (
     <motion.div className='portafolio' initial={{opacity:0}} animate={{opacity:1}}>
             <Row >
-                <Col><motion.div whileHover={{scale: 1.1}} className="card-img"></motion.div></Col>
+                <Col><motion.div whileHover={{scale: 1.04}} className="card-img"></motion.div></Col>
                 <Col> 
-                    <motion.div whileHover={{scale: 1.1}} className="txtcol">     
+                    <motion.div whileHover={{scale: 1.04}} className="txtcol">     
                             <h1>Ultimo Diseño</h1>
                             <h2>ACOMER CLUB</h2> 
                     </motion.div>
@@ -22,13 +22,13 @@ const Portafolio = () => {
             </Row>
             <Row >
                 <Col>
-                    <motion.div  whileHover={{scale: 1.1}} className="txtcol2">
+                    <motion.div  whileHover={{scale: 1.04}} className="txtcol2">
                             <h1>Design & Developer</h1>
                             <h2>PORTAFOLIO</h2>
                             <Link className="ruta" to="/portlist"><button>VER +</button></Link>
                     </motion.div>
                 </Col>
-                <Col><motion.div whileHover={{scale: 1.1}} className="card-img2"></motion.div></Col>
+                <Col><motion.div whileHover={{scale: 1.04}} className="card-img2"></motion.div></Col>
             </Row>
     </motion.div>
     
