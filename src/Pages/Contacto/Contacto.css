@@ -36,13 +36,13 @@
 
 
 .icons{
-  width: 15vw;
+  width: 25%;
   display: flex;
   margin: 7px;
 }
 
 @media  (max-width: 575.98px) {
   .icons{
-    width: 40vw;
+    width: 40%;
   }
 }
