@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 const Portafolio = () => {
 
     return (
-    <motion.div className='portafolio' initial={{opacity:0}} animate={{opacity:1}}>
+    <motion.div className='portafolio' initial={{opacity:0, y: 40}} animate={{opacity:1, y: 0 }}>
             <Row >
                 <Col><motion.div whileHover={{scale: 1.04}} className="card-img"></motion.div></Col>
                 <Col>

@@ -12,13 +12,23 @@ const Home = () => {
             return(
 
                 <motion.div key={key} className="Home"
-                  initial={{ opacity: 0, y: 50 }}
+                  initial={{ opacity: 0, y: 40 }}
                   animate={{ opacity: 1, y: 0 }}
                   >
-                    <h1>{Home.Tittle}</h1>
-                    <h2>{Home.SubTittle}</h2>
+
+                  <h1>{Home.Tittle}</h1>
+
+                  <h3 className="word w1">UI Design</h3>
+                  <h3 className="word w2">UX Reserch</h3>
+                  <h3 className="word w3">Mobile Developer</h3>
+                  <h3 className="word w4">Front-End Developer</h3>
+
+                   <div className="de">
+                   <h2>{Home.SubTittle}</h2>
                     <h3>{Home.text}</h3>
                     <p>{Home.ngeek}</p>
+                   </div>
+
                 </motion.div>
 
             );
