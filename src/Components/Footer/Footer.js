@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css';
+import '../../style/Footer.css';
 import { Data } from "../../Data/data-ngk";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -17,7 +17,7 @@ const Footer = () => {
                         </Col>
                     );
                 })}
-            </Row>    
+            </Row>
          </div>
 
         {Data.map((Footer, key) =>{

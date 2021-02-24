@@ -1,1 +1,112 @@
 
+/***********************
+Text Home
+************************/
+
+@font-face {
+  font-family: 'Charlotte';
+  src: local('Charlotte'), url(../fonts/Charlotte.woff) format('woff');
+}
+
+.Home{
+  width: 50%;
+  color: black;
+  margin: auto;
+}
+
+.Home h1{
+  font-size: 8vw;
+}
+.Home h2, h3{
+  font-size: 25px;
+}
+.Home p{
+  font-family: 'Charlotte';
+  font-size: 60px;
+}
+
+
+/***********************
+Text Portafolio
+************************/
+
+.txtcol2{
+  padding-top: 6em;
+
+}
+.txtcol2 h1{
+  font-size: 2em;
+}
+.txtcol2 h2{
+  font-size: 1.8em;
+}
+
+.txtcol{
+  padding-top: 6em;
+}
+.txtcol h1{
+  font-size: 2em;
+}
+.txtcol h2{
+  font-size: 2em;
+}
+
+/***********************
+Text Reconocimientos
+************************/
+
+
+.Info h1{
+  color: rgb(255, 255, 255);
+  margin-top: 15vh;
+  font-size: 3rem;
+}
+.Info h2{
+color: rgb(255, 255, 255);
+}
+
+.Info .button-L{
+  font-size: 30px;
+  color: white;
+}
+
+
+/***********************
+Text Experiencia
+************************/
+
+
+.Experiencia h1{
+  font-size: 2rem;
+}
+.Experiencia h2{
+  font-size: 2rem;
+}
+.Experiencia p{
+  font-size: 1.5rem;
+  color: black;
+}
+
+
+.back-info h1{
+  font-size: 1.6rem;
+  padding-top: 7em;
+}
+.back-info h2{
+  font-size: 2.5rem;
+}
+
+
+
+/***********************
+Text Contacto
+************************/
+
+.Contacto h1{
+  font-size: 3em;
+      padding-top: 0.2em;
+}
+
+
+
+

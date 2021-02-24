@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './Navbar.css';
+import '../../style/Navbar.css';
 import ngk from '../../Assets/NGK.svg';
 import { Link } from 'react-scroll';
 
@@ -82,7 +82,7 @@ class Navbar extends Component {
                   to="Contacto">Contacto</Link>
                   </li>
                 </ul>
-            </nav> 
+            </nav>
           </div>
         );
     }
