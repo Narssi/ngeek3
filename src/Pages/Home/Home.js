@@ -4,6 +4,7 @@ import { Data } from "../../Data/data-ngk";
 import {  motion } from "framer-motion";
 
 const Home = () => {
+    
     return (
     <div className='App-header'>
     
@@ -16,7 +17,7 @@ const Home = () => {
                 transition={{
                     type: "spring",
                     stiffness: 260,
-                    damping: 20
+                    damping: 200
                 }}>
                     <h1>{Home.Tittle}</h1>
                     <h2>{Home.SubTittle}</h2>

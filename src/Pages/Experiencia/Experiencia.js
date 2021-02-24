@@ -2,6 +2,7 @@ import React from 'react';
 import './Experiencia.css';
 import Carousel from 'react-bootstrap/Carousel';
 import { experienceData, carruselData } from "../../Data/data-ngk";
+import {  motion } from "framer-motion";
 
 const Experiencia = () => {
     return (
@@ -32,10 +33,12 @@ const Experiencia = () => {
             <ul className="flex-EX">
                 {experienceData.map((experience, key) =>{
                     return(       
-                    <li key={key} className="flex-Cards">
-                        <img src={`./assets/experience/${experience.id}.svg`} className="rounded"  alt="img"/>
+                    <motion.li  whileHover={{ scale: 0.9 }} key={key} className="flex-Cards">
+                        <motion.img animate={{ rotate: 30}} 
+                        transition={{ ease: "linear", duration: 2, repeat: Infinity, repeatType: "reverse" }}
+                         src={`./assets/experience/${experience.id}.svg`} className="rounded"  alt="img"/>
                         <p>{experience.text}</p>
-                    </li>
+                    </motion.li>
                     );
                 })}
             </ul>  
