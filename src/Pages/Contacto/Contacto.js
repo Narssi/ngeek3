@@ -14,14 +14,16 @@ const Contacto = () => {
                 < >
                     {ContactData.map((icons, key) =>{
                         return(
+
                             <li key={key} className="icons">
-                                <motion.img whileHover={{ scale: 0.8 }} src={`./assets/contacto/${icons.id}.svg`} className="rounded float-left"  alt="img"/>
+                                <motion.img whileHover={{ scale: 0.8 }}  src={`./assets/contacto/${icons.id}.svg`} className="rounded float-left"  alt="img"/>
+
                             </li>
                         );
                     })}
-                </>    
+                </>
                 </div>
-            </ul>   
+            </ul>
         </div>
     );
 }

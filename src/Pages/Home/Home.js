@@ -2,6 +2,7 @@ import React from 'react';
 import '../../style/text.css';
 import { Data } from "../../Data/data-ngk";
 import {  motion } from "framer-motion";
+import Typical from 'react-typical';
 
 const Home = () => {
 
@@ -26,7 +27,7 @@ const Home = () => {
                    <div className="de">
                    <h2>{Home.SubTittle}</h2>
                     <h3>{Home.text}</h3>
-                    <p>{Home.ngeek}</p>
+                    <Typical steps={[Home.ngeek, 8000]} loop={Infinity} wrapper="p"></Typical>
                    </div>
 
                 </motion.div>

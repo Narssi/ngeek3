@@ -15,9 +15,9 @@
     width: 60%;
   }
 
- 
+
   .back-img{
-    background-image: url('../../Assets/job2.jpg');
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,7 +33,7 @@
   .flex-EX {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around; 
+    justify-content: space-around;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -51,5 +51,5 @@
     text-align: center;
     border-radius: 65px;
   }
-  
+
 

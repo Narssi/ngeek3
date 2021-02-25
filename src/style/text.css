@@ -4,8 +4,13 @@ Text Home
 ************************/
 
 @font-face {
-  font-family: 'Charlotte';
-  src: local('Charlotte'), url(../fonts/Charlotte.woff) format('woff');
+  font-family: 'Shorthair';
+  src: local('Shorthair'), url(../fonts/Shorthair.woff) format('woff');
+}
+
+@font-face{
+  font-family: 'Comfortaa-Light';
+  src: local('Comfortaa-Light'), url(../fonts/Comfortaa-Light.woff) format('woff');
 }
 
 .Home{
@@ -17,12 +22,14 @@ Text Home
 
 .Home h1{
   font-size: 8vw;
+  font-family: 'Comfortaa-Light';
 }
 .Home h2, h3{
   font-size: 20px;
+  font-family: 'Comfortaa-Light';
 }
 .Home p{
-  font-family: 'Charlotte';
+  font-family: 'Shorthair';
   font-size: 60px;
 }
 
@@ -98,10 +105,10 @@ Text Home
   60%{
     opacity: 0;
   }
-70%{
+  70%{
     opacity: 1;
   }
-  80% {
+  100% {
     opacity:0;
   }
 }

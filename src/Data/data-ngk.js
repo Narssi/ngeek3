@@ -1,6 +1,6 @@
 export const Data = [
     {
-        'Tittle': 'Diseñador Creativo',
+        'Tittle': 'Creative Designer',
         'SubTittle': 'Desarrollado',
         'text': 'por',
         'ngeek': 'Narciso Reyes',
@@ -33,52 +33,57 @@ DiplomasData = [
         'text2': 'React, Angular, SwiftUI, XAML',
         'picture': './assets/cursos/co.jpg'
     }
-   
+
 ],
 
 
 carruselData = [
-   
+
     {
         'id': '1',
         'name': 'Axity',
         'Position': 'UIUX Mobile Developer',
         'info': '',
-        'Fecha': 'Septiembre 2019 - Junio 2020'
+        'Fecha': 'Septiembre 2019 - Junio 2020',
+        'wallpapper': './assets/experience/dos.jpg',
     },
     {
         'id': '2',
         'name': 'Omnibus de Mexico',
         'Position': 'UIUX Mobile Developer',
         'info': '',
-        'Fecha': 'Agosto 2019 - Noviembre 2019'
+        'Fecha': 'Agosto 2019 - Noviembre 2019',
+        'wallpapper': './assets/experience/omnibus.jpg',
     },
     {
         'id': '3',
         'name': 'Softtek',
         'Position': 'UX Reserch- Analista de Sistemas/ Release Manager ',
         'info': '',
-        'Fecha': 'Abril 2018 - Julio 2019'
+        'Fecha': 'Abril 2018 - Julio 2019',
+        'wallpapper': './assets/experience/Softtek.jpg',
     },
     {
         'id': '4',
         'name': 'QueOnda Creatividad Aplicada',
         'Position': 'UIUX Front End Developer',
         'info': '',
-        'Fecha': 'Febrero 2017 - Marzo 2018'
+        'Fecha': 'Febrero 2017 - Marzo 2018',
+        'wallpapper': './assets/experience/co.jpg',
     },
     {
         'id': '5',
         'name': 'Microsoft',
         'Position': 'Microsoft Student Partners / UIUX Developer',
         'info': '',
-        'Fecha': 'Septiembre 2013 - Febrero 2018'
+        'Fecha': 'Septiembre 2013 - Febrero 2018',
+        'wallpapper': './assets/experience/microsoft.jpg',
 
     },
 ],
 
 experienceData = [
-   
+
     {
         'id': '6',
         'text': 'Experiencia Profesional'
@@ -115,12 +120,15 @@ SkillData = [
 ContactData = [
     {
         'id': 'in',
+        'url': 'https://www.google.com'
     },
     {
         'id': 'Wa',
+        'url': 'https://www.google.com'
     },
     {
         'id': 'git',
+        'url': 'https://www.google.com'
     },
 ],
 
@@ -129,5 +137,5 @@ FooterImg = [
     {
         'id': 'NGK'
     },
-   
+
 ]

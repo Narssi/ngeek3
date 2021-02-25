@@ -22,7 +22,7 @@ const Experiencia = () => {
                                         <h2>{carrusel.Position}</h2>
                                         <p>{carrusel.Fecha}</p>
                                     </li>
-                                    <li className="back-img"><img src={`./assets/carrusel/${carrusel.id}.svg`} className="rounded"  alt="img"/></li>
+                                    <li className="back-img" style={{backgroundImage:`url(${carrusel.wallpapper})`}}></li>
                                 </ul>
                             </Carousel.Item>
                         );
@@ -33,7 +33,7 @@ const Experiencia = () => {
                 {experienceData.map((experience, key) =>{
                     return(
                     <motion.li  whileHover={{ scale: 0.9 }} key={key} className="flex-Cards">
-                        <motion.img animate={{ rotate: 30}}
+                        <motion.img animate={{ rotate: 20}}
                         transition={{ ease: "linear", duration: 2, repeat: Infinity, repeatType: "reverse" }}
                          src={`./assets/experience/${experience.id}.svg`} className="rounded"  alt="img"/>
                         <p>{experience.text}</p>
