@@ -13,7 +13,7 @@ const Reconocimientos = () => (
             return(
                 <Col sm className="setting" key={key} style={{backgroundImage:`linear-gradient(
                   to bottom,
-                  rgba(255, 255, 255, 0.411),
+                  rgba(0, 0, 0, 0.311),
                   rgba(248, 248, 255, 0.993)
                 ),url(${diplom.picture})`}}>
                     <div className="Info" >
