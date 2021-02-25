@@ -1,13 +1,24 @@
-import React, {Component} from 'react';
+import React, { useEffect} from 'react';
 import './App.css';
 import './style/body.css';
 import PortList from './Pages/Portafolio/PArchive/PortList';
 import AppRouter  from './routes/AppRouter';
 import Diplomas from './Pages/Reconocimiento/diplomas/Diplomas';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import ReactGa from 'react-ga';
+function App (){
 
-class App extends Component {
- render(){
+ 
+
+
+  useEffect(() => {
+  
+    ReactGa.initialize('G-7NMDQ2SEWX');
+
+    ReactGa.pageview(AppRouter);
+  
+  }, [])
+
   return (
     <Router>
     
@@ -20,7 +31,7 @@ class App extends Component {
      </div>
     </Router>
   );
- }
+ 
  
 }
 
