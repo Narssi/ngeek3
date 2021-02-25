@@ -1,9 +1,10 @@
 export const Data = [
     {
         'Tittle': 'Creative Designer',
-        'SubTittle': 'Desarrollado',
-        'text': 'por',
-        'ngeek': 'Narciso Reyes',
+        'SubTittle': 'Developed',
+        'text': 'by',
+        'ngeek': '',
+        'signature': 'Narciso Reyes',
 
         'web': 'www.ngeekreyes.com',
         'Register': '© Copyright | NGK ',
@@ -17,13 +18,13 @@ DiplomasData = [
         'id': '1s',
         'text': 'UI Design & UX Reserch',
         'text2': 'Design interfaces Apps',
-        'picture': './assets/cursos/co.jpg'
+        'picture': './assets/cursos/card.jpg'
     },
     {
         'id': '2s',
         'text': 'Diplomas',
         'text2': 'Cursos',
-        'picture': './assets/cursos/co.jpg',
+        'picture': './assets/cursos/card2.jpg',
         'button': 'Próximamente'
 
     },
@@ -31,7 +32,7 @@ DiplomasData = [
         'id': '3s',
         'text': 'Front-end Mobile and Web',
         'text2': 'React, Angular, SwiftUI, XAML',
-        'picture': './assets/cursos/co.jpg'
+        'picture': './assets/cursos/ds.jpg'
     }
 
 ],

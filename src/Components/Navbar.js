@@ -1,10 +1,13 @@
 import React, {Component} from 'react';
 import '../style/Navbar.css';
 import ngk from '../Assets/NGK.svg';
+import men from '../Assets/men.svg';
 import { Link } from 'react-scroll';
 
 
 class Navbar extends Component {
+
+
     state = { clicked : false};
 
     handleClick =() => {
@@ -16,11 +19,11 @@ class Navbar extends Component {
         return(
           <div>
             <nav className="NavBaritems">
-                <img src={ngk} className="rounded float-left lk"  alt="lk"></img>
+                <img src={ngk} className="float-left blk"  alt="lk"></img>
                 <div className="menu-icon" onClick={this.handleClick}>
                  <i className={this.state.clicked ? 'fas fa-times': 'fas fa-bars'}></i>
                 </div>
-                <ul  className={this.state.clicked ? 'nav-menu active': 'nav-menu'}>
+                    <ul  className={this.state.clicked ? 'nav-menu active': 'nav-menu'}>
                   <li>
                   <Link
                   activeClass = "active"
@@ -82,6 +85,10 @@ class Navbar extends Component {
                   to="Contacto">Contacto</Link>
                   </li>
                 </ul>
+                <div className="objects">
+
+                  <img src={men} className="float-right lk"  alt="lk"></img>
+                </div>
             </nav>
           </div>
         );

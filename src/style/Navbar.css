@@ -37,6 +37,17 @@
   }
 
 
+  .objects{
+    right: 46px;
+    position: absolute;
+  }
+
+  .blk{
+    left: 46px;
+    position: absolute;
+    width: 6%;
+  }
+
 
 
   @media screen and (max-width: 960px){
@@ -52,14 +63,14 @@
           position: absolute;
           top: 80px;
           left: -100%;
-          
+
           transition: all 0.5s ease;
       }
 
       .nav-menu.active{
           background-color: bisque;
           left: 0;
-          
+
           transition: all 0.5s ease;
           z-index: 1;
       }
@@ -76,15 +87,28 @@
 
 
      h1{
- 
+
         font-size: 1.1vw;
         font-size: 20vw;
     }
-    
 
 
 
-   
-  
+  .objects{
+    right: -140px;
+    position: absolute;
+  }
+
+  .blk{
+
+    position: static;
+    width: 100%;
+  }
+
+
+
+
+
+
   }
 

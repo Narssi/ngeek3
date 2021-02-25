@@ -27,7 +27,7 @@ const Home = () => {
                    <div className="de">
                    <h2>{Home.SubTittle}</h2>
                     <h3>{Home.text}</h3>
-                    <Typical steps={[Home.ngeek, 8000]} loop={Infinity} wrapper="p"></Typical>
+                    <Typical steps={[Home.ngeek, 1000, Home.signature, 3000]} loop={Infinity} wrapper="p"></Typical>
                    </div>
 
                 </motion.div>

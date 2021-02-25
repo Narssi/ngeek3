@@ -6,13 +6,13 @@
 }
 
 .card-img{
-  background-image: url("../../Assets/toks.jpg");
+  background-image: url("../../Assets/dd.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 726px;
   width: 35vw;
-  border-radius: 65px; 
+  border-radius: 65px;
 }
 
 .txtcol{
@@ -24,7 +24,7 @@
   -webkit-box-shadow: 2px 2px 5px rgb(201, 201, 201);
   -moz-box-shadow: 2px 2px 5px rgb(201, 201, 201);
   box-shadow: 2px 2px 5px rgb(201, 201, 201);
- 
+
 }
 
 .card-img2{
@@ -56,7 +56,7 @@
   margin: auto;
 }
 
-@media  (max-width: 575.98px) { 
+@media  (max-width: 575.98px) {
 
   .portafolio{
     width: 84%;
@@ -65,11 +65,11 @@
 
 
 .card-img{
-  
+
   margin-top: 0;
   height: 726px;
   width: 77vw;
-  border-radius: 65px; 
+  border-radius: 65px;
 }
 
 .card-img2{
@@ -86,7 +86,7 @@
     border-radius: 65px;
     margin-top: 200px;
   }
-  
+
   .txtcol{
     height: 300px;
     width: 77vw;
@@ -108,7 +108,7 @@
     border-radius: 65px;
     margin-top: 36px;
   }
-  
+
   .demo4{
     height: 341px;
     width: 77vw;
