@@ -145,12 +145,12 @@ Text Reconocimientos
 
 
 .Info h1{
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   margin-top: 15vh;
   font-size: 3rem;
 }
 .Info h2{
-color: rgb(255, 255, 255);
+color: rgb(10, 10, 10);
 }
 
 .Info .button-L{

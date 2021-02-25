@@ -20,9 +20,9 @@ CSS Reconocimientos
   margin-right: 0px;
     margin-left: 0px;
 }
-  
+
 .Info{
-  
+
   height: 567px;
   color: white;
   opacity: 0.9;
@@ -49,7 +49,7 @@ button{
   width: 40%;
   margin-left: 25%;
   border-radius: 20px;
-  background-color: white;
+  background-color: BLACK;
   height: 7px;
   bottom: 30px;
   position: absolute;

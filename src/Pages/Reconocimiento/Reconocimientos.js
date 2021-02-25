@@ -11,7 +11,11 @@ const Reconocimientos = () => (
       <Row>
         {DiplomasData.map((diplom, key) =>{
             return(
-                <Col sm className="setting" key={key} style={{backgroundImage:`url(${diplom.picture})`}}>
+                <Col sm className="setting" key={key} style={{backgroundImage:`linear-gradient(
+                  to bottom,
+                  rgba(255, 255, 255, 0.411),
+                  rgba(248, 248, 255, 0.993)
+                ),url(${diplom.picture})`}}>
                     <div className="Info" >
                         <h1>{diplom.text}</h1>
                         <h2>{diplom.text2}</h2>
