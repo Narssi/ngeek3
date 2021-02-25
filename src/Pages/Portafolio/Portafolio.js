@@ -24,7 +24,7 @@ const Portafolio = () => {
                     <motion.div  whileHover={{scale: 1.04}} className="txtcol2">
                             <h1>Design & Developer</h1>
                             <h2>PORTAFOLIO</h2>
-                            <Link className="ruta" to="/portlist"><button>VER +</button></Link>
+                            <Link className="ruta" to="/portlist"><button className="button button--pan"><span>View +</span></button></Link>
                     </motion.div>
                 </Col>
                 <Col><motion.div whileHover={{scale: 1.04}} className="card-img2"></motion.div></Col>
