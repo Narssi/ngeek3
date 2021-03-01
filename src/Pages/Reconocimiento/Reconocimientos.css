@@ -5,7 +5,9 @@ CSS Reconocimientos
 
 
 .Reconocimientos{
-  margin-top: 60px;
+  padding-top: 60px;
+  width: 90%;
+  margin: auto;
 }
 
 .setting{
@@ -13,6 +15,7 @@ CSS Reconocimientos
   background-repeat: no-repeat;
   background-size: cover;
   height: 567px;
+  margin: auto;
 }
 
 
@@ -34,7 +37,7 @@ CSS Reconocimientos
 
 
 button{
-  background-color: black;
+  background-color: white;
   border-radius: 17px;
   width: 196px;
   height: 57px;
@@ -49,7 +52,7 @@ button{
   width: 40%;
   margin-left: 25%;
   border-radius: 20px;
-  background-color: BLACK;
+  background-color: white;
   height: 7px;
   bottom: 30px;
   position: absolute;

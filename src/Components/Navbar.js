@@ -32,7 +32,7 @@ class Navbar extends Component {
                   offset={-70}
                   onClick={this.handleClick}
                   duration= {1500}
-                  to="App-header">Inicio</Link>
+                  to="App-header">Home</Link>
                   </li>
                   <li>
                   <Link
@@ -42,7 +42,7 @@ class Navbar extends Component {
                   offset={-70}
                   onClick={this.handleClick}
                   duration= {1500}
-                  to="portafolio">Portafolio</Link>
+                  to="portafolio">Book</Link>
                   </li>
                   <li>
                   <Link
@@ -52,7 +52,7 @@ class Navbar extends Component {
                   offset={-70}
                   onClick={this.handleClick}
                   duration= {1500}
-                  to="Reconocimientos">Reconocimientos</Link>
+                  to="Reconocimientos">Adwards</Link>
                   </li>
                   <li>
                   <Link
@@ -62,7 +62,7 @@ class Navbar extends Component {
                   offset={-70}
                   duration= {1500}
                   onClick={this.handleClick}
-                  to="Experiencia">Experiencias</Link>
+                  to="Experiencia">Jobs</Link>
                   </li>
                   <li>
                   <Link
@@ -72,7 +72,7 @@ class Navbar extends Component {
                   offset={-70}
                   duration= {1500}
                   onClick={this.handleClick}
-                  to="Habilidades">Habilidades</Link>
+                  to="Habilidades">Skills</Link>
                   </li>
                   <li>
                   <Link
@@ -82,7 +82,7 @@ class Navbar extends Component {
                   offset={-70}
                   duration= {1500}
                   onClick={this.handleClick}
-                  to="Contacto">Contacto</Link>
+                  to="Contacto">Contact</Link>
                   </li>
                 </ul>
                 <div className="objects">

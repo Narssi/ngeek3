@@ -16,23 +16,23 @@ DiplomasData = [
 
     {
         'id': '1s',
-        'text': 'UI Design & UX Reserch',
+        'text': 'UI DESIGN & UX RESERCH',
         'text2': 'Design interfaces Apps',
-        'picture': './assets/cursos/card4.jpg'
+        'picture': './assets/cursos/fondo1.jpg'
     },
     {
         'id': '2s',
-        'text': 'Diplomas',
+        'text': 'ALL COURSES',
         'text2': 'Cursos',
-        'picture': './assets/cursos/card.jpg',
+        'picture': './assets/cursos/fondo2.jpg',
         'button': 'Próximamente'
 
     },
     {
         'id': '3s',
-        'text': 'Front-end Mobile and Web',
+        'text': 'FRONT-END MOBILE AND WEB',
         'text2': 'React, Angular, SwiftUI, XAML',
-        'picture': './assets/cursos/card5.jpg'
+        'picture': './assets/cursos/fondo3.jpg'
     }
 
 ],
