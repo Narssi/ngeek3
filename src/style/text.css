@@ -186,12 +186,36 @@ Text Experiencia
 
 
 .back-info h1{
-  font-size: 1.6rem;
-  padding-top: 7em;
+  font-size: 25px;
+  padding-top: 1em;
+  animation: color-change 3s infinite;
 }
 .back-info h2{
-  font-size: 2.5rem;
+  font-size: 15px;
+  animation: color-change 3s infinite;
 }
+
+
+@keyframes color-change{
+  0%{
+    color: rgb(122, 122, 122);
+  }
+  40%{
+    color: rgb(77, 77, 77);
+  }
+  60%{
+    color: rgb(77, 77, 77);
+  }
+  80%{
+    color: rgb(2, 2, 2);
+  }
+  100%{
+    color: rgb(122, 122, 122);
+  }
+}
+
+
+
 
 
 

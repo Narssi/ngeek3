@@ -8,8 +8,8 @@ const Experiencia = () => {
     return (
         <div className="Experiencia">
             <div className="tittle">
-                <h1>Trabajos</h1>
-                <h2>Experiencia Profesional</h2>
+                <h1>Works</h1>
+                <h2>Professional Experience</h2>
             </div>
             <div className="carrusel">
                 <Carousel>
@@ -17,12 +17,16 @@ const Experiencia = () => {
                         return(
                             <Carousel.Item key={key} interval={2000}>
                                 <ul className="flex-EX">
-                                    <li className="back-info">
-                                        <h1>{carrusel.name}</h1>
-                                        <h2>{carrusel.Position}</h2>
-                                        <p>{carrusel.Fecha}</p>
+                                    <li className="back-img">
+                                  
+                                    
                                     </li>
-                                    <li className="back-img" style={{backgroundImage:`url(${carrusel.wallpapper})`}}></li>
+                                    <li className="back-info" >
+                                         <img src={`./assets/carrusel/${carrusel.id}.svg`} className="rounded"  alt="img"/>
+                                        <h1>{carrusel.Position}</h1>
+                                        <h2>{carrusel.info}</h2>
+                                        <p>{carrusel.Fecha}</p>  
+                                    </li>
                                 </ul>
                             </Carousel.Item>
                         );

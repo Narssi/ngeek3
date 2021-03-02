@@ -2,6 +2,8 @@
     padding: 2em;
     width: 90%;
     margin: auto;
+    background: #E9EEF6;
+    border-radius: 30px;
   }
 
 
@@ -9,25 +11,27 @@
     padding: 5em;
   }
 
-  .back-info{
-    background-color: #f2f4fa;
-    height: 70vh;
-    width: 60%;
+  .back-info {
+    height: 80vh;
+    width: 50%;
+    text-align: left;
+    padding-left: 3em;
+    padding-top: 7em;
+
   }
 
 
   .back-img{
-
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
-    width: 40%;
+    height: 80vh;
+    width: 50%;
   }
 
-  .back-img img{
-    padding-top: 12em;
-    width: 50%;
+  .back-info img{
+    padding-top: 1em;
+    width: 20%;
   }
 
   .flex-EX {
@@ -37,6 +41,7 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    
   }
 
   .flex-Cards{

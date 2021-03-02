@@ -44,31 +44,31 @@ carruselData = [
         'id': '1',
         'name': 'Axity',
         'Position': 'UIUX Mobile Developer',
-        'info': '',
+        'info': 'Designed UI in collaboration with enginnering & customer, designed interactive prototypes Interface for Android and iOS and conducted user testing, colors, icons, fonts, Images and visual guidelines.',
         'Fecha': 'Septiembre 2019 - Junio 2020',
-        'wallpapper': './assets/experience/dos.jpg',
+        'wallpapper': './assets/experience/ls.jpg',
     },
     {
         'id': '2',
         'name': 'Omnibus de Mexico',
         'Position': 'UIUX Mobile Developer',
-        'info': '',
+        'info': 'Designed UI in collaboration with enginnering & customer, designed interactive prototypes Interface for Android and iOS and conducted user testing, colors, icons, fonts, Images and visual guidelines.',
         'Fecha': 'Agosto 2019 - Noviembre 2019',
-        'wallpapper': './assets/experience/omnibus.jpg',
+        'wallpapper': './assets/experience/2.jpg',
     },
     {
         'id': '3',
         'name': 'Softtek',
         'Position': 'UX Reserch- Analista de Sistemas/ Release Manager ',
-        'info': '',
+        'info': 'Designed UI in collaboration with enginnering & customer, designed interactive prototypes Interface for Android and iOS and conducted user testing, colors, icons, fonts, Images and visual guidelines.',
         'Fecha': 'Abril 2018 - Julio 2019',
-        'wallpapper': './assets/experience/Softtek.jpg',
+        'wallpapper': './assets/experience/so.jpg',
     },
     {
         'id': '4',
         'name': 'QueOnda Creatividad Aplicada',
         'Position': 'UIUX Front End Developer',
-        'info': '',
+        'info': 'Designed UI in collaboration with enginnering & customer, designed interactive prototypes Interface for Android and iOS and conducted user testing, colors, icons, fonts, Images and visual guidelines.',
         'Fecha': 'Febrero 2017 - Marzo 2018',
         'wallpapper': './assets/experience/co.jpg',
     },
@@ -76,9 +76,9 @@ carruselData = [
         'id': '5',
         'name': 'Microsoft',
         'Position': 'Microsoft Student Partners / UIUX Developer',
-        'info': '',
+        'info': 'Designed UI in collaboration with enginnering & customer, designed interactive prototypes Interface for Android and iOS and conducted user testing, colors, icons, fonts, Images and visual guidelines.',
         'Fecha': 'Septiembre 2013 - Febrero 2018',
-        'wallpapper': './assets/experience/microsoft.jpg',
+        'wallpapper': './assets/experience/mis.jpg',
 
     },
 ],
@@ -87,19 +87,19 @@ experienceData = [
 
     {
         'id': '6',
-        'text': 'Experiencia Profesional'
+        'text': 'Professional Experience'
     },
     {
         'id': 'auto',
-        'text': 'Apasionado'
+        'text': 'Passionate'
     },
     {
         'id': 'corazon',
-        'text': 'Autodidacta'
+        'text': 'Self-Taught'
     },
     {
         'id': 'team',
-        'text':'Trabajo en Equipo'
+        'text':'Team Work'
     },
 ],
 
