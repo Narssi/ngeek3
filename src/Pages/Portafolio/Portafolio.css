@@ -30,6 +30,10 @@
 
 }
 
+.demo{
+  padding-top: 80px;
+}
+
 .card-img2{
   background-image: url("../../Assets/omni.jpg");
   background-position: center;
@@ -40,6 +44,29 @@
   border-radius: 90px;
   
 }
+
+.card-img4{
+  background-image: url("../../Assets/ri2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 726px;
+  width: 35vw;
+  border-radius: 90px;
+  
+}
+
+.card-img5{
+  background-image: url("../../Assets/tsuba.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 726px;
+  width: 35vw;
+  border-radius: 90px;
+  
+}
+
 
 .txtcol2{
   background: #ffffff;
