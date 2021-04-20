@@ -10,16 +10,11 @@ CSS Home
 
   .App-header {
     background-color: #ffffff;
-    background-image: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.411),
-      rgba(248, 248, 255, 0.993)
-    ),
-    url('../Assets/back.jpg');
+    background-image: url('../Assets/Background0.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 90vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;

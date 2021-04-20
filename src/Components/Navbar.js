@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import '../style/Navbar.css';
 import ngk from '../Assets/NGK.svg';
-import men from '../Assets/men.svg';
+//import men from '../Assets/men.svg';
 import { Link } from 'react-scroll';
 
 
@@ -32,7 +32,10 @@ class Navbar extends Component {
                   offset={-70}
                   onClick={this.handleClick}
                   duration= {1500}
-                  to="App-header">Home</Link>
+                  to="App-header">Portfolio</Link>
+                  </li>
+                  <li>
+                  about
                   </li>
                   <li>
                   <Link
@@ -42,17 +45,7 @@ class Navbar extends Component {
                   offset={-70}
                   onClick={this.handleClick}
                   duration= {1500}
-                  to="portafolio">Book</Link>
-                  </li>
-                  <li>
-                  <Link
-                  activeClass = "active"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  onClick={this.handleClick}
-                  duration= {1500}
-                  to="Reconocimientos">Adwards</Link>
+                  to="Reconocimientos">Rewards</Link>
                   </li>
                   <li>
                   <Link
@@ -62,33 +55,11 @@ class Navbar extends Component {
                   offset={-70}
                   duration= {1500}
                   onClick={this.handleClick}
-                  to="Experiencia">Jobs</Link>
+                  to="Experiencia">Contact</Link>
                   </li>
-                  <li>
-                  <Link
-                  activeClass = "active"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration= {1500}
-                  onClick={this.handleClick}
-                  to="Habilidades">Skills</Link>
-                  </li>
-                  <li>
-                  <Link
-                  activeClass = "active"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration= {1500}
-                  onClick={this.handleClick}
-                  to="Contacto">Contact</Link>
-                  </li>
+                  
+                 
                 </ul>
-                <div className="objects">
-
-                  <img src={men} className="float-right lk"  alt="lk"></img>
-                </div>
             </nav>
           </div>
         );

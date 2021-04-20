@@ -1,18 +1,21 @@
 
 
 .portafolio{
+  padding-top: 6em;
   width: 77%;
   margin: auto;
+  height: auto;
+  padding-bottom: 8em;
 }
 
 .card-img{
-  background-image: url("../../Assets/dd.jpg");
+  background-image: url("../../Assets/toks2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 726px;
+  height: 626px;
   width: 35vw;
-  border-radius: 65px;
+  border-radius: 90px;
 }
 
 .txtcol{
@@ -28,14 +31,14 @@
 }
 
 .card-img2{
-  background-image: url("../../Assets/toks2.jpg");
+  background-image: url("../../Assets/omni.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 726px;
+  height: 626px;
   width: 35vw;
-  border-radius: 65px;
-  margin-top: -350px;
+  border-radius: 90px;
+  
 }
 
 .txtcol2{

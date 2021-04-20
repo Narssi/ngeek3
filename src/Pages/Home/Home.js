@@ -1,8 +1,10 @@
 import React from 'react';
 import '../../style/text.css';
+import Portafolio from '../../Pages/Portafolio/Portafolio';
 import { Data } from "../../Data/data-ngk";
 import {  motion } from "framer-motion";
 import Typical from 'react-typical';
+
 
 const Home = () => {
 
@@ -31,9 +33,11 @@ const Home = () => {
                    </div>
 
                 </motion.div>
+                
 
             );
         })}
+         <Portafolio/>
     </div>
     );
 };

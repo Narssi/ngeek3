@@ -14,6 +14,12 @@ Text Home
 }
 
 @font-face{
+  font-family: 'Comfortaa-Bold';
+  src: local('Comfortaa-Bold'), url(../fonts/Comfortaa-Bold.woff) format('woff');
+}
+
+
+@font-face{
   font-family: 'Cocogoose';
   src: local('Cocogoose'), url(../fonts/Cocogoose.woff) format('woff');
 }
@@ -23,36 +29,42 @@ Text Home
 
 
 .Home{
-  width: 50%;
+  width: 30%;
   color: black;
   margin: auto;
-  padding-top: 5em;
+  padding-top: 10em;
 }
 
 .Home h1{
-  font-size: 8vw;
+  font-size: 6vw;
+  font-family: 'Comfortaa-Bold';
+  line-height:80%
 }
+.word{
+  font-size:1.8em;
+  
+  float:none;
+  opacity:0;
+  position: absolute;
+  left:0%;
+  width: 100%;
+  margin-top: 20px;
+}
+
 .Home h2, h3{
-  font-size: 20px;
+  font-size: 18px;
+  margin-top: -6px;
+  
 }
 .Home p{
   font-family: 'Shorthair';
-  font-size: 60px;
+  font-size: 25px;
 }
 
 .de{
   margin-top: 90px;
 }
 
-.word{
-  font-size:3em;
-  font-weight:bold;
-  float:none;
-  opacity:0;
-  position: absolute;
-  left:0%;
-  width: 100%;
-}
 
 .w1{
   animation: w1anim 20s infinite;
