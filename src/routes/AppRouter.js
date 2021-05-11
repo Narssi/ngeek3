@@ -5,7 +5,7 @@ import React, {Component} from 'react';
 //import Contacto from '../Pages/Contacto/Contacto';
 //import Footer from '../Components/Footer';
 import NBmenu from '../Components/Navbar';
-import Home from '../Pages/Home/Home';
+import Home from '../Pages/Portfolio/Portfolio';
 //import Experiencia from '../Pages/Experiencia/Experiencia';
 
 class AppRouter extends Component{
@@ -15,9 +15,6 @@ class AppRouter extends Component{
         <div>
         <NBmenu/>
         <Home/>
-        
-        
-        
         </div>
 
       );

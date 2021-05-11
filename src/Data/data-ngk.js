@@ -1,7 +1,7 @@
 export const Data = [
     {
-        'Tittle': 'Creative Designer',
-        'SubTittle': 'Developed',
+        'Tittle': 'NGK',
+        'SubTittle': '',
         'text': 'by',
         'ngeek': '',
         'signature': 'Narciso Reyes',
