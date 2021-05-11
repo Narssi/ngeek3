@@ -21,7 +21,7 @@ const Home = () => {
                   initial={{ opacity: 0, y: 40 }}
                   animate={{ opacity: 1, y: 0 }}
                   >
-                  <img src={ng} className="float-center"  alt="lk"></img>
+                  <img src={ng} className="float-center logo"  alt="lk"></img>
                   <h3 className="word w1">Creative Designer</h3>
                   <h3 className="word w2">UI Design</h3>
                   <h3 className="word w3">UX Reserch</h3>
