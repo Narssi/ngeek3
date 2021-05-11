@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import '../style/Navbar.css';
-import ng from '../Assets/ng.png';
+//import ng from '../Assets/ng.png';
 //import men from '../Assets/men.svg';
 import { Link } from 'react-scroll';
 

@@ -4,7 +4,7 @@ import Portafolio from '../Portafolio/Portafolio';
 import { Data } from "../../Data/data-ngk";
 import {  motion } from "framer-motion";
 import Typical from 'react-typical';
-import NBmenu from '../../Components/Navbar';
+//import NBmenu from '../../Components/Navbar';
 import ng from '../../Assets/ng.png';
 
 const Home = () => {
@@ -21,8 +21,6 @@ const Home = () => {
                   initial={{ opacity: 0, y: 40 }}
                   animate={{ opacity: 1, y: 0 }}
                   >
-
-                  
                   <img src={ng} className="float-center"  alt="lk"></img>
                   <h3 className="word w1">Creative Designer</h3>
                   <h3 className="word w2">UI Design</h3>
