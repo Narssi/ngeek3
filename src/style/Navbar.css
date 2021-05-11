@@ -17,6 +17,10 @@
 }
 
 
+.img{
+  width: 40%;
+}
+
   .nav-menu{
       display: grid;
       grid-template-columns: repeat(6, auto);
