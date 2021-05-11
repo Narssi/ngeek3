@@ -5,21 +5,21 @@ export const AxityMobile = [
         'text': 'AcomerCLub',
         'text2': 'Mobile App',
         'text3': 'iOS Android',
-        'picture': './assets/portafolio/back3.jpg',
+        'picture': './assets/portafolio/toks.jpg',
         'button': 'Ver Proceso'
     },
     {
         'id': '2s',
         'text': '',
         'text2': '',
-        'picture': './assets/portafolio/toks3.jpg',
+        'picture': './assets/portafolio/toks.jpg',
         
     },
     {
         'id': '3s',
         'text': '',
         'text2': '',
-        'picture': './assets/portafolio/toks5.jpg'
+        'picture': './assets/portafolio/toks.jpg'
     }
 ],
 AxityWebP = [

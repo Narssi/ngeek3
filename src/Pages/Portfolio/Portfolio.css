@@ -9,7 +9,7 @@
 }
 
 .card-img{
-  background-image: url("../../Assets/toks2.jpg");
+  background-image: url("../../Assets/toks.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -46,7 +46,7 @@
 }
 
 .card-img4{
-  background-image: url("../../Assets/ri2.jpg");
+  background-image: url("../../Assets/f1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -57,7 +57,7 @@
 }
 
 .card-img5{
-  background-image: url("../../Assets/tsuba.jpg");
+  background-image: url("../../Assets/front.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
