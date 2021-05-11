@@ -5,7 +5,7 @@ import React, {Component} from 'react';
 //import Contacto from '../Pages/Contacto/Contacto';
 //import Footer from '../Components/Footer';
 import NBmenu from '../Components/Navbar';
-import Home from '../Pages/Portfolio/Portfolio';
+import Portafolio from '../Pages/Portfolio/Portfolio';
 //import Experiencia from '../Pages/Experiencia/Experiencia';
 
 class AppRouter extends Component{
@@ -14,7 +14,7 @@ class AppRouter extends Component{
     return (
         <div>
         <NBmenu/>
-        <Home/>
+        <Portafolio/>
         </div>
 
       );

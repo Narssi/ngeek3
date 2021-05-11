@@ -1,10 +1,11 @@
 import React from 'react';
-import '../../style/text.css';
-import { Data } from "../../Data/data-ngk";
+import '../style/text.css';
+import { Data } from "../Data/data-ngk";
 import {  motion } from "framer-motion";
 import Typical from 'react-typical';
+import ng from '../Assets/ng.png';
 
-const LogoEffect = () => {
+const Logo = () => {
 
     return (
     <div className='App-header'>
@@ -17,7 +18,7 @@ const LogoEffect = () => {
                   animate={{ opacity: 1, y: 0 }}
                   >
 
-                  <h1>{Home.Tittle}</h1>
+                  <img src={ng} className="float-center logo"  alt="lk"></img>
                   <h3 className="word w1">Creative Designer</h3>
                   <h3 className="word w2">UI Design</h3>
                   <h3 className="word w3">UX Reserch</h3>
@@ -31,8 +32,6 @@ const LogoEffect = () => {
                    </div>
                    
                 </motion.div>
-                
-               
 
             );
         })}
@@ -40,4 +39,4 @@ const LogoEffect = () => {
     );
 };
 
-export default LogoEffect;
+export default Logo;
