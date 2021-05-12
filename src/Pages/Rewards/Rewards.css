@@ -8,6 +8,13 @@ CSS Reconocimientos
   padding-top: 60px;
   width: 90%;
   margin: auto;
+background-color: turquoise;
+}
+
+
+.Info h1{
+  color: #000;
+  font-size: 100px;
 }
 
 .setting{
@@ -33,19 +40,6 @@ CSS Reconocimientos
   padding: 2em;
   border-radius: 20px;
 }
-
-
-
-button{
-  background-color: white;
-  border-radius: 17px;
-  width: 196px;
-  height: 57px;
-  border: 0px solid;
-  color: white;
-}
-
-
 
 
 .st{

@@ -5,7 +5,7 @@
   height: 10vw;
 }
 
-.nav-menu1{
+.nav-menu{
     display: grid;
     grid-template-columns: repeat(6, auto);
     grid-gap: 25px;
@@ -49,18 +49,12 @@
 }
 
 
-.nav-menu{
-  opacity: 0;
-  z-index: -0;
-  margin-left: -1690px;
-}
-
 
   @media screen and (max-width: 960px){
      
 
     .navbar{
-      background-color:lightgray;
+      background-color:transparent;
       height: auto;
       padding-bottom: 20px;
     }
@@ -72,6 +66,7 @@
           margin-left: 0px;
           opacity: 1;
           z-index: 1;
+          height: auto;
       }
 
       .nav-menu1{
@@ -79,6 +74,26 @@
         z-index: 0;
         margin-top: -30px;
       }
+
+
+      .effect-nav :hover span,
+      .effect-nav :focus span {
+        -webkit-transform: translateY(-0%);
+        -moz-transform: translateY(-0%);
+        transform: translateY(-0%);
+      }
+
+      .effect-nav  span::before {
+        position: absolute;
+        top: 100%;
+        content: attr(data-hover);
+        font-weight: 900;
+        opacity: 0;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+      }
+      
 
   }
 
