@@ -8,6 +8,11 @@
   padding-bottom: 8em;
 }
 
+.logo{
+  width: 45%;
+}
+
+
 .card-img{
   background-image: url("../../Assets/toks.jpg");
   background-position: center;

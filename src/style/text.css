@@ -24,17 +24,11 @@ Text Home
   src: local('Cocogoose'), url(../fonts/Cocogoose.woff) format('woff');
 }
 
-
-.logo{
-  width: 40%;
-}
-
-
 .Home{
   width: 30%;
   color: black;
   margin: auto;
-  padding-top: 3em;
+  padding-top: 0em;
 }
 
 .Home h1{
@@ -50,12 +44,12 @@ Text Home
   position: absolute;
   left:0%;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 7px;
 }
 
 .Home h2, h3{
   font-size: 18px;
-  margin-top: -29px;
+  margin-top: -49px;
   
 }
 .Home p{
