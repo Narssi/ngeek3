@@ -1,8 +1,8 @@
 import React from 'react';
-import './Perfil.css'
+import './About.css'
 
 
-const Perfil = () => {
+const About = () => {
     return(
 
     <div className="perfil">
@@ -11,4 +11,4 @@ const Perfil = () => {
 
 );};
 
-export default Perfil;
+export default About;

@@ -1,118 +1,84 @@
+.navbar{
+  background-color:rgba(255, 255, 255, 0);
+  opacity: 1;
+  color: #000000;
+  height: 10vw;
+}
 
-.NavBaritems{
-    background-color: transparent;
+.nav-menu1{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 25px;
+    list-style: none;
     width: 100%;
-    height: 90px;
-    padding: 4em;
-    cursor: pointer;
-    position: absolute;
-    display: flex;
-    opacity: 1;
-    justify-content: right;
-    z-index: 1;
+    justify-content: center;
+    font-size: 22px;
+    color: black;
+    }
 
-}
-.navBar-logo h1{
-    font-size: 1vw;
+
+.effect-nav{
+  overflow: hidden;
+  padding: 0 4px;
+  height: 2.2em;
 }
 
-
-.img{
-  width: 40%;
+.effect-nav span{
+  position: relative;
+	display: inline-block;
+	-webkit-transition: -webkit-transform 0.3s;
+	-moz-transition: -moz-transform 0.3s;
+	transition: transform 0.3s;
 }
 
-  .nav-menu{
-      display: grid;
-      grid-template-columns: repeat(6, auto);
-      grid-gap: 20px;
-      list-style: none;
-      text-align: right;
-      width: 100%;
-      justify-content: center;
-      font-size: 22px;
-  }
+.effect-nav :hover span,
+.effect-nav :focus span {
+	-webkit-transform: translateY(-100%);
+	-moz-transform: translateY(-100%);
+	transform: translateY(-100%);
+}
 
-  .menu-icon{
-      display: none;
-  }
-
-  li{
-      text-decoration: none;
-  }
+.effect-nav  span::before {
+	position: absolute;
+	top: 100%;
+	content: attr(data-hover);
+	font-weight: 900;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
 
 
-  .objects{
-    right: 46px;
-    position: absolute;
-  }
-
-  .blk{
-    left: 46px;
-    position: absolute;
-    width: 6%;
-  }
-
+.nav-menu{
+  opacity: 0;
+  z-index: -0;
+  margin-left: -1690px;
+}
 
 
   @media screen and (max-width: 960px){
-      .NavBaritems{
-          position: fixed;
-      }
+     
+
+    .navbar{
+      background-color:lightgray;
+      height: auto;
+      padding-bottom: 20px;
+    }
 
       .nav-menu{
           display: flex;
           flex-direction: column;
-          width: 100%;
-          height: 100vh;
-          position: absolute;
-          top: 80px;
-          left: -100%;
-
-          transition: all 0.5s ease;
-      }
-
-      .nav-menu.active{
-          background-color: bisque;
-          left: 0;
-
-          transition: all 0.5s ease;
+          display: list-item; 
+          margin-left: 0px;
+          opacity: 1;
           z-index: 1;
       }
 
-      .menu-icon{
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        transform: translate(-100%, 60%);
-        font-size: 1.8rem;
-        cursor: pointer;
-    }
-
-
-     h1{
-
-        font-size: 1.1vw;
-        font-size: 20vw;
-    }
-
-
-
-  .objects{
-    right: -140px;
-    position: absolute;
-  }
-
-  .blk{
-
-    position: static;
-    width: 100%;
-  }
-
-
-
-
-
+      .nav-menu1{
+        opacity: 0;
+        z-index: 0;
+        margin-top: -30px;
+      }
 
   }
 
