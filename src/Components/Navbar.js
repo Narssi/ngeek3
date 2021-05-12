@@ -1,9 +1,5 @@
 import React, {Component} from 'react';
 import '../Components/Navbar.css';
-import ng from '../Assets/ng.png';
-//import men from '../Assets/men.svg';
-//import { Link } from 'react-scroll';
-import Logo from '../Components/Logo';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
 class Navbars extends Component {
