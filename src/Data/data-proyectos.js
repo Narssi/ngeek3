@@ -2,37 +2,37 @@ export const MobileApp = [
 
     {
         'id': 'logotoks',
-        'text': 'AcomerCLub',
-        'picture': './assets/portafolio/toks.jpg',
+        'text': 'AcomerCLub App',
+        'picture': './assets/portafolio/toks5.jpg',
     },
     {
         'id': '2s',
-        'text': 'Omnibus de México',
-        'picture': './assets/portafolio/omni.jpg',
+        'text': 'AcomerClub V1',
+        'picture': './assets/portafolio/1.jpg',
         
     },
     {
         'id': '2s',
-        'text': 'Spotify',
-        'picture': './assets/portafolio/spotify.jpg',
+        'text': 'AcomerClub V2',
+        'picture': './assets/portafolio/f2.jpg',
         
     },
     {
         'id': '2s',
-        'text': 'AcomerCLubWeb',
-        'picture': './assets/portafolio/font.jpg',
+        'text': 'Omnibus de Mexico',
+        'picture': './assets/portafolio/8.jpg',
         
     },
     {
         'id': '2s',
-        'text': 'AcomerClub 2',
-        'picture': './assets/portafolio/toks2.jpg',
+        'text': 'Grupo Tsuba',
+        'picture': './assets/portafolio/9.jpg',
         
     },
     {
         'id': '2s',
-        'text': 'Tsuba Web',
-        'picture': './assets/portafolio/tsuba.jpg',
+        'text': 'Express',
+        'picture': './assets/portafolio/t5.jpg',
         
     }
 ],
