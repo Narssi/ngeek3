@@ -13,7 +13,7 @@ const Portafolio = () => {
     <motion.div className='portafolio' initial={{opacity:0, y: 40}} animate={{opacity:1, y: 0 }}>
         <div className="portf">
             <Logo/> 
-            <div>
+            <div className="bodyprojects">
                 <Row >
                     <Col><motion.div whileHover={{scale: 1.04}} className="card-img"></motion.div></Col>
                     <Col><motion.div whileHover={{scale: 1.04}} className="card-img2"></motion.div></Col>

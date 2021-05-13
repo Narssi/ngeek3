@@ -1,7 +1,7 @@
 
 
 .portafolio{
-  padding-top: 6em;
+  padding-top: 2em;
   width: 77%;
   margin: auto;
   height: auto;
@@ -12,6 +12,9 @@
   width: 45%;
 }
 
+.bodyprojects{
+  margin-top: 97px;
+}
 
 .card-img{
   background-image: url("../../Assets/toks.jpg");
