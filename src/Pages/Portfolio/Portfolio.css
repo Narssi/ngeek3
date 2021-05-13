@@ -17,13 +17,15 @@
 }
 
 .card-img{
-  background-image: url("../../Assets/toks.jpg");
+  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 726px;
   width: 35vw;
   border-radius: 90px;
+  margin-top: 40px;
+
 }
 
 .txtcol{
@@ -42,38 +44,6 @@
   padding-top: 80px;
 }
 
-.card-img2{
-  background-image: url("../../Assets/omni.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 726px;
-  width: 35vw;
-  border-radius: 90px;
-  
-}
-
-.card-img4{
-  background-image: url("../../Assets/f1.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 726px;
-  width: 35vw;
-  border-radius: 90px;
-  
-}
-
-.card-img5{
-  background-image: url("../../Assets/front.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 726px;
-  width: 35vw;
-  border-radius: 90px;
-  
-}
 
 
 .txtcol2{
@@ -108,15 +78,9 @@
   height: 726px;
   width: 77vw;
   border-radius: 65px;
+  margin-top: 30px;
 }
 
-.card-img2{
-
-  height: 726px;
-  width: 77vw;
-  border-radius: 65px;
-  margin-top: 5vh;
-}
 
   .gdimg{
     height: 726px;

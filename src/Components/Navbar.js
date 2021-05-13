@@ -15,7 +15,6 @@ class Navbars extends Component {
                 <Navbar.Toggle aria-controls='responsive-navbar-nav' />
                   <Navbar.Collapse id='responsive-navbar-nav'>
                   <Nav className='nav-menu effect-nav'>
-                  
                       <Nav.Link href='/'><span data-hover='ABOUT'>ABOUT</span></Nav.Link>
                       <Nav.Link href='/'><span data-hover='PORTFOLIO'>PORTFOLIO</span></Nav.Link>
                       <Nav.Link href='/'><span data-hover='REWARDS'>REWARDS</span></Nav.Link>

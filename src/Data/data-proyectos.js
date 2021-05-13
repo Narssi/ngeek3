@@ -12,14 +12,36 @@ export const AxityMobile = [
         'id': '2s',
         'text': '',
         'text2': '',
-        'picture': './assets/portafolio/toks.jpg',
+        'picture': './assets/portafolio/omni.jpg',
         
     },
     {
-        'id': '3s',
+        'id': '2s',
         'text': '',
         'text2': '',
-        'picture': './assets/portafolio/toks.jpg'
+        'picture': './assets/portafolio/spotify.jpg',
+        
+    },
+    {
+        'id': '2s',
+        'text': '',
+        'text2': '',
+        'picture': './assets/portafolio/font.jpg',
+        
+    },
+    {
+        'id': '2s',
+        'text': '',
+        'text2': '',
+        'picture': './assets/portafolio/toks2.jpg',
+        
+    },
+    {
+        'id': '2s',
+        'text': '',
+        'text2': '',
+        'picture': './assets/portafolio/tsuba.jpg',
+        
     }
 ],
 AxityWebP = [
