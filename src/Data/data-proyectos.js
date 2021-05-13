@@ -25,6 +25,12 @@ export const MobileApp = [
     },
     {
         'id': '2s',
+        'text': 'Spofity',
+        'picture': './assets/portafolio/44.jpg',
+        
+    },
+    {
+        'id': '2s',
         'text': 'Grupo Tsuba',
         'picture': './assets/portafolio/9.jpg',
         
@@ -34,7 +40,26 @@ export const MobileApp = [
         'text': 'ServiExpress',
         'picture': './assets/portafolio/7.jpg',
         
-    }
+    },
+    {
+        'id': '2s',
+        'text': 'Pinatas Bolita',
+        'picture': './assets/portafolio/pinatas.jpg',
+        
+    },
+    {
+        'id': '2s',
+        'text': 'Tumbii',
+        'picture': './assets/portafolio/tumbi.jpg',
+        
+    },
+    {
+        'id': '2s',
+        'text': 'Contructora',
+        'picture': './assets/portafolio/construct.jpg',
+        
+    },
+    
 ],
 AxityWebP = [
 
