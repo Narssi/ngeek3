@@ -5,7 +5,7 @@ import './Portfolio.css';
 //import { Link } from 'react-router-dom';
 import { motion } from "framer-motion";
 import Logo from '../../Components/Logo';
-import {AxityMobile} from '../../Data/data-proyectos';
+import {MobileApp} from '../../Data/data-proyectos';
 
 const Portafolio = () => {
 
@@ -15,14 +15,14 @@ const Portafolio = () => {
             <Logo/> 
             <div className='bodyprojects'>
             <Row>
-                {AxityMobile.map((axm, key) =>{
+                {MobileApp.map((axm, key) =>{
                     return(
                         <Col key={key} >
-                            <motion.div whileHover={{scale: 1.04}} className="card-img" sm style={{backgroundImage:`url(${axm.picture})`}}></motion.div>
-                            <div className="InfoP" >
-                                
-                            </div>
-                            
+                            <motion.div whileHover={{scale: 1.04}} className="card-img" sm style={{backgroundImage:`url(${axm.picture})`}}>
+                                <div className="InfoP" >
+                                    <h1>{axm.text}</h1>
+                                </div>
+                            </motion.div>   
                         </Col>
                     );
                 })} 

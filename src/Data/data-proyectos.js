@@ -1,45 +1,37 @@
-export const AxityMobile = [
+export const MobileApp = [
 
     {
         'id': 'logotoks',
         'text': 'AcomerCLub',
-        'text2': 'Mobile App',
-        'text3': 'iOS Android',
         'picture': './assets/portafolio/toks.jpg',
-        'button': 'Ver Proceso'
     },
     {
         'id': '2s',
-        'text': '',
-        'text2': '',
+        'text': 'Omnibus de México',
         'picture': './assets/portafolio/omni.jpg',
         
     },
     {
         'id': '2s',
-        'text': '',
-        'text2': '',
+        'text': 'Spotify',
         'picture': './assets/portafolio/spotify.jpg',
         
     },
     {
         'id': '2s',
-        'text': '',
-        'text2': '',
+        'text': 'AcomerCLubWeb',
         'picture': './assets/portafolio/font.jpg',
         
     },
     {
         'id': '2s',
-        'text': '',
-        'text2': '',
+        'text': 'AcomerClub 2',
         'picture': './assets/portafolio/toks2.jpg',
         
     },
     {
         'id': '2s',
-        'text': '',
-        'text2': '',
+        'text': 'Tsuba Web',
         'picture': './assets/portafolio/tsuba.jpg',
         
     }
