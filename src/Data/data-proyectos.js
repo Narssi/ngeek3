@@ -14,13 +14,13 @@ export const MobileApp = [
     {
         'id': '2s',
         'text': 'AcomerClub V2',
-        'picture': './assets/portafolio/f2.jpg',
+        'picture': './assets/portafolio/3.jpg',
         
     },
     {
         'id': '2s',
         'text': 'Omnibus de Mexico',
-        'picture': './assets/portafolio/8.jpg',
+        'picture': './assets/portafolio/6.jpg',
         
     },
     {
@@ -31,8 +31,8 @@ export const MobileApp = [
     },
     {
         'id': '2s',
-        'text': 'Express',
-        'picture': './assets/portafolio/t5.jpg',
+        'text': 'ServiExpress',
+        'picture': './assets/portafolio/7.jpg',
         
     }
 ],
