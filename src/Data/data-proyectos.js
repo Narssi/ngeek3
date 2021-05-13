@@ -3,42 +3,42 @@ export const MobileApp = [
     {
         'id': 'logotoks',
         'text': 'AcomerCLub App',
-        'picture': './assets/portafolio/toks5.jpg',
+        'picture': './assets/portafolio/toks.jpg',
     },
     {
         'id': '2s',
         'text': 'AcomerClub V1',
-        'picture': './assets/portafolio/1.jpg',
+        'picture': './assets/portafolio/acomer1.jpg',
         
     },
     {
         'id': '2s',
         'text': 'AcomerClub V2',
-        'picture': './assets/portafolio/3.jpg',
+        'picture': './assets/portafolio/acomer2.jpg',
         
     },
     {
         'id': '2s',
         'text': 'Omnibus de Mexico',
-        'picture': './assets/portafolio/6.jpg',
+        'picture': './assets/portafolio/omnibus.jpg',
         
     },
     {
         'id': '2s',
         'text': 'Spofity',
-        'picture': './assets/portafolio/44.jpg',
+        'picture': './assets/portafolio/Spotify.jpg',
         
     },
     {
         'id': '2s',
         'text': 'Grupo Tsuba',
-        'picture': './assets/portafolio/9.jpg',
+        'picture': './assets/portafolio/tsuba.jpg',
         
     },
     {
         'id': '2s',
         'text': 'ServiExpress',
-        'picture': './assets/portafolio/7.jpg',
+        'picture': './assets/portafolio/express.jpg',
         
     },
     {
@@ -57,6 +57,18 @@ export const MobileApp = [
         'id': '2s',
         'text': 'Contructora',
         'picture': './assets/portafolio/construct.jpg',
+        
+    },
+    {
+        'id': '2s',
+        'text': 'Alto Empleo',
+        'picture': './assets/portafolio/alto.jpg',
+        
+    },
+    {
+        'id': '2s',
+        'text': 'Universidades',
+        'picture': './assets/portafolio/universidades.jpg',
         
     },
     
