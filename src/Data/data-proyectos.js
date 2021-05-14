@@ -2,6 +2,11 @@ export const MobileApp = [
 
     {
         'id': 'logotoks',
+        'text': 'Terumo',
+        'picture': './assets/portafolio/Terumo.jpg',
+    },
+    {
+        'id': 'logotoks',
         'text': 'AcomerCLub App',
         'picture': './assets/portafolio/toks.jpg',
     },
@@ -69,6 +74,12 @@ export const MobileApp = [
         'id': '2s',
         'text': 'Universidades',
         'picture': './assets/portafolio/universidades.jpg',
+        
+    },
+    {
+        'id': '2s',
+        'text': 'Mundo Animal',
+        'picture': './assets/portafolio/mundo.jpg',
         
     },
     

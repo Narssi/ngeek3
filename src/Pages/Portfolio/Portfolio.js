@@ -11,8 +11,9 @@ const Portafolio = () => {
 
     return (
     <motion.div className='portafolio' initial={{opacity:0, y: 40}} animate={{opacity:1, y: 0 }}>
-        <div className="portf">
-            <Logo/> 
+        
+        <Logo/> 
+        <div className="portf"> 
             <div className='bodyprojects'>
             <Row>
                 {MobileApp.map((axm, key) =>{
@@ -28,6 +29,7 @@ const Portafolio = () => {
                 })} 
             </Row>
             </div>
+          
 
         </div>   
 
