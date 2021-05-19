@@ -6,6 +6,18 @@ export const RewardsData = [
         'picture': './assets/rewards/4.jpg'
     },
     {
+        'id': '1s',
+        'text': 'UI DESIGN & UX RESERCH',
+        'text2': 'Design interfaces Apps',
+        'picture': './assets/rewards/msp.jpg'
+    },
+    {
+        'id': '1s',
+        'text': 'UI DESIGN & UX RESERCH',
+        'text2': 'Design interfaces Apps',
+        'picture': './assets/rewards/msp2.jpg'
+    },
+    {
         'id': '2s',
         'text': 'ALL COURSES',
         'text2': 'Cursos',

@@ -1,0 +1,29 @@
+/***********************
+CSS Footer
+*/
+.Footer {
+    background: -webkit-linear-gradient(135deg, rgb(109, 91, 88), rgb(255, 191, 255));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: black;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .Footer h1{
+    font-size: 2rem;
+  }
+  .Footer h2{
+    font-size: 1.2rem;
+  }
+
+.lss{
+  background-color: #ECF0F8;
+  height: 43px; 
+  }
+
+.ngk{
+    width: 100%;
+    margin: auto;
+    padding: 1em;
+}
+

@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import './style/body.css';
-//import PortList from './Pages/Portafolio/PArchive/PortList';
+
+import PortList from './Pages/Portfolio/DetailsProject/PortList';
 //import AppRouter  from './routes/AppRouter';
 
 import NBmenu from './Components/Navbar';
@@ -18,8 +18,9 @@ function App (){
      <NBmenu/>
      <Switch>
         <Route path="/" exact component={Portafolio}></Route>
-        <Route path="/about" component={About}></Route>
-        <Route path="/rewards" component={Rewards}></Route>
+        <Route exact path="/about" component={About}></Route>
+        <Route exact path="/rewards" component={Rewards}></Route>
+        <Route exact path="/project/:id" component={PortList}></Route>
       </Switch>
      </div>
     </Router>

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style/Footer.css';
+import '../Components/Footer.css';
 import { Data } from "../Data/data-ngk";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';

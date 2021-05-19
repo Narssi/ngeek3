@@ -1,5 +1,4 @@
 import React from 'react';
-import '../style/text.css';
 import { Data } from "../Data/data-ngk";
 import {  motion } from "framer-motion";
 import Typical from 'react-typical';
@@ -20,10 +19,11 @@ const Logo = () => {
 
                   <img src={ng} className="float-center logo"  alt="lk"></img>
                   <h3 className="word w1">Creative Designer</h3>
-                  <h3 className="word w2">UI Design</h3>
+                  <h3 className="word w2">UX Design</h3>
                   <h3 className="word w3">UX Reserch</h3>
-                  <h3 className="word w4">Mobile Developer</h3>
-                  <h3 className="word w5">Front-End Developer</h3>
+                  <h3 className="word w4">UI Developer</h3>
+                  <h3 className="word w5">Mobile Developer</h3>
+                  <h3 className="word w6">Front-End Developer</h3>
 
                    <div className="de">
                    <h2>{Home.SubTittle}</h2>

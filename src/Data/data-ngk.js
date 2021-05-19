@@ -9,8 +9,19 @@ export const Data = [
         'web': 'www.ngeekreyes.com',
         'Register': '© Copyright | NGK ',
         'version': 'Version 11',
+        
     }
 ],
+
+Aboutdata = [
+   
+    {
+        'Tittle': 'Contacto',
+        'SubTittle': 'Developer',
+        'picture': './assets/cursos/fondo2.jpg'
+    }
+],
+
 
 DiplomasData = [
 

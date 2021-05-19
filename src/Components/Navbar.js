@@ -7,7 +7,7 @@ class Navbars extends Component {
     render(){
         return(
           <div className='effect'>   
-            <Navbar collapseOnSelect  expand='lg' className='back'>
+            <Navbar transparent="true" collapseOnSelect  expand='lg' className='back'>
               <Container>
                 <div className="effect-nav lgoeffect">
                 <Nav.Link href='/'><span data-hover='Reyes'>Ng</span></Nav.Link>
