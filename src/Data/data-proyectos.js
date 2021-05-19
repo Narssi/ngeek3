@@ -122,27 +122,42 @@ export const MobileApp = [
     },
     {
         'id': '13',
+        'text': 'MundoAnimal',
+        'picture': './assets/portafolio/animals.jpg',
+        
+    },
+    {
+        'id': '14',
         'text': 'Universidades',
         'picture': './assets/portafolio/universidades.jpg',
         
     },
     {
-        'id': '14',
+        'id': '15',
         'text': 'Mundo Animal',
         'picture': './assets/portafolio/mundo.jpg',
         
     },
-    {
-        'id': '15',
-        'text': 'MundoAnimal',
-        'picture': './assets/portafolio/mundow.jpg',
-        
-    },
+    
     {
         'id': '16',
         'text': 'Maximum Excercise',
         'picture': './assets/portafolio/maximum.jpg',
         
     },
+    {
+        'id': '17',
+        'text': 'Calculadora Calificaciones',
+        'picture': './assets/portafolio/calculadora.jpg',
+        
+    },
+    {
+        'id': '18',
+        'text': 'PanchoVsZombies',
+        'picture': './assets/portafolio/Pancho.jpg',
+        
+    },
+ 
+    
     
 ]

@@ -9,6 +9,7 @@ import About from './Pages/About/About';
 import Portafolio from './Pages/Portfolio/Portfolio';
 import Rewards from  './Pages/Rewards/Rewards';
 import Contact from  './Pages/Contact/Contact';
+import Footer from  './Components/Footer';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App (){
@@ -24,6 +25,7 @@ function App (){
         <Route exact path="/contact" component={Contact}></Route>
         <Route exact path="/project/:id" component={PortList}></Route>
       </Switch>
+      <Footer/>
      </div>
     </Router>
   );

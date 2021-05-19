@@ -1,18 +1,43 @@
 .Contacto{
-    height: 20vh;
+    height: auto;
     text-align: center;
     text-align: center;
+    
+  }
+
+
+  .Bodycontact{
+    width: 80%;
+    padding-top: 5em;
+    margin: auto;
+    padding-bottom: 5em;
   }
 
 .Contacto h1{
-  font-size: 80px;
+  font-size: 70px;
   color: rgba(165, 129, 82, 0.616);
+}
+
+ h4{
+  font-size: 40px;
+  color: rgba(165, 129, 82, 0.616);
+}
+
+.tittlecontact h2{
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.tittlecontact p{
+ 
+  font-size: 15px;
 }
 
 
 
 .icons{
-  width: 20%;
+  width: 30%;
   display: flex;
   margin: auto;
   text-align: center;

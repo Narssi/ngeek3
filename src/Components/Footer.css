@@ -2,7 +2,8 @@
 CSS Footer
 */
 .Footer {
-    background: -webkit-linear-gradient(135deg, rgb(109, 91, 88), rgb(255, 191, 255));
+/*background: -webkit-linear-gradient(135deg, rgb(109, 91, 88), rgb(255, 191, 255));*/
+background: rgba(165, 129, 82, 0.616);
     -webkit-background-clip: text;
     background-clip: text;
     color: black;
