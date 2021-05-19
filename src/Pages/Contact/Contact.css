@@ -1,44 +1,22 @@
 .Contacto{
-    
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
-    display: flex;
     height: 20vh;
+    text-align: center;
     text-align: center;
   }
 
-
-.flex-container9{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    padding: 0;
-    margin: auto;
-    list-style: none;
-    width: 50%;
+.Contacto h1{
+  font-size: 80px;
+  color: rgba(165, 129, 82, 0.616);
 }
 
-.flex-item9 {
-  background: #E9EEF6;
-  padding: 5px;
-  width: 200px;
-  height: 150px;
-  margin-top: 10px;
-  line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-
-}
 
 
 .icons{
-  width: 25%;
+  width: 20%;
   display: flex;
-  margin: 7px;
+  margin: auto;
+  text-align: center;
+  padding-top: 2em;
 }
 
 @media  (max-width: 575.98px) {

@@ -132,5 +132,17 @@ export const MobileApp = [
         'picture': './assets/portafolio/mundo.jpg',
         
     },
+    {
+        'id': '15',
+        'text': 'MundoAnimal',
+        'picture': './assets/portafolio/mundow.jpg',
+        
+    },
+    {
+        'id': '16',
+        'text': 'Maximum Excercise',
+        'picture': './assets/portafolio/maximum.jpg',
+        
+    },
     
 ]

@@ -5,7 +5,7 @@ import React from 'react';
 //import Col from 'react-bootstrap/Col';
 //import {MobileApp} from '../../../Data/data-proyectos';
 import './Port-List.css';
-//import { motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { Redirect, useParams } from 'react-router-dom';
 import { getProjectById } from '../../../selectors/getProjectById';
 
@@ -24,11 +24,8 @@ const PortList = () => {
         picture,
        
     } = project;
-
-   
-
     return(
-        <div className='ListProcess'>
+        <motion.div className='ListProcess' initial={{opacity:0, y: 40}} animate={{opacity:1, y: 0 }}>
 
             <div className="" style={{backgroundImage:`url(${picture})`}}>
                 <h1>{text}</h1>
@@ -36,7 +33,7 @@ const PortList = () => {
                 
             </div>
         
-        </div>
+        </motion.div>
     );
 
 };

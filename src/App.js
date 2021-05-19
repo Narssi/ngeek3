@@ -8,6 +8,7 @@ import NBmenu from './Components/Navbar';
 import About from './Pages/About/About';
 import Portafolio from './Pages/Portfolio/Portfolio';
 import Rewards from  './Pages/Rewards/Rewards';
+import Contact from  './Pages/Contact/Contact';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App (){
@@ -20,6 +21,7 @@ function App (){
         <Route path="/" exact component={Portafolio}></Route>
         <Route exact path="/about" component={About}></Route>
         <Route exact path="/rewards" component={Rewards}></Route>
+        <Route exact path="/contact" component={Contact}></Route>
         <Route exact path="/project/:id" component={PortList}></Route>
       </Switch>
      </div>
