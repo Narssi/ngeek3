@@ -31,7 +31,10 @@ const Contacto = () => {
                         </div>
                 </Col>
                 <Col>
+                   
+                    <motion.div className="resume" whileHover={{scale: 1.04}}>
                     <h4>Resume</h4>
+                    </motion.div>
                 </Col>
             </Row>
            

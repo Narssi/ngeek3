@@ -14,13 +14,15 @@
   }
 
 .Contacto h1{
-  font-size: 70px;
+  font-size: 60px;
   color: rgba(165, 129, 82, 0.616);
 }
 
  h4{
-  font-size: 40px;
-  color: rgba(165, 129, 82, 0.616);
+  font-size: 30px;
+  color: rgba(255, 244, 230, 0.959);
+  margin: auto;
+  padding-top: 4em;
 }
 
 .tittlecontact h2{
@@ -30,18 +32,28 @@
 
 
 .tittlecontact p{
- 
+  
   font-size: 15px;
 }
 
-
+.resume{
+  margin: auto;
+  width: 50%;
+  height: 40vh;
+  background-color: rgb(22, 22, 22);
+  background-image: url('../../Assets/resume.png');
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+  cursor: pointer;
+}
 
 .icons{
   width: 30%;
   display: flex;
   margin: auto;
   text-align: center;
-  padding-top: 2em;
+  padding-top: 1em;
 }
 
 @media  (max-width: 575.98px) {
