@@ -26,7 +26,7 @@ const PortList = () => {
     const {
        
        
-        picture,
+        picture2,
         Overview,
         Understanding,
         Research,
@@ -37,7 +37,7 @@ const PortList = () => {
     return(
         
         <motion.div className='ListProcess'>
-            <div className="back bodyinfo1"  style={{backgroundImage:`url(${picture})`}}>
+            <div className="back bodyinfo1"  style={{backgroundImage:`url(${picture2})`}}>
                 
             </div>
             
