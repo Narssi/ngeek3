@@ -3,7 +3,7 @@ export const MobileApp = [
     {
         'id': 'Leopard',
         'text': 'LeopardFundations',
-        'picture': './assets/portafolio/leo.jpg',
+        'picture': '../Assets/portafolio/leo.jpg',
         'Overview': 'Overview',
         'Understanding': 'Understanding',
         'Research': 'Research',
@@ -18,7 +18,7 @@ export const MobileApp = [
     {
         'id': 'cinema',
         'text': 'CinemaLouis',
-        'picture': './assets/portafolio/cine.jpg',
+        'picture': '../Assets/portafolio/cine.jpg',
         'Overview': 'Overview',
         'Understanding': 'Understanding',
         'Research': 'Research',
@@ -33,7 +33,7 @@ export const MobileApp = [
     {
         'id': 'RegisterHour',
         'text': 'Register Hour',
-        'picture': './assets/portafolio/register.jpg',
+        'picture': '../Assets/portafolio/register.jpg',
         'Overview': 'Overview',
         'Understanding': 'Understanding',
         'Research': 'Research',
@@ -48,7 +48,7 @@ export const MobileApp = [
     {
         'id': 'Terumo',
         'text': 'Terumo',
-        'picture': './assets/portafolio/Terumo.jpg',
+        'picture': '../Assets/portafolio/Terumo.jpg',
         'Overview': 'Overview',
         'Understanding': 'Understanding',
         'Research': 'Research',
@@ -63,7 +63,7 @@ export const MobileApp = [
     {
         'id': '2',
         'text': 'AcomerCLub App',
-        'picture': './assets/portafolio/toks.jpg',
+        'picture': '../Assets/portafolio/toks.jpg',
         'Overview': 'COMING SOON',
         'Understanding': '',
         'Research': '',
@@ -78,7 +78,7 @@ export const MobileApp = [
     {
         'id': '3',
         'text': 'AcomerClub V1',
-        'picture': './assets/portafolio/acomer1.jpg',
+        'picture': '../Assets/portafolio/acomer1.jpg',
         'Overview': 'COMING SOON',
         'Understanding': '',
         'Research': '',
@@ -94,7 +94,7 @@ export const MobileApp = [
     {
         'id': '4',
         'text': 'AcomerClub V2',
-        'picture': './assets/portafolio/acomer2.jpg',
+        'picture': '../Assets/portafolio/acomer2.jpg',
         'Overview': 'COMING SOON',
         'Understanding': '',
         'Research': '',
@@ -110,7 +110,7 @@ export const MobileApp = [
     {
         'id': '5',
         'text': 'Omnibus de Mexico',
-        'picture': './assets/portafolio/omnibus.jpg',
+        'picture': '../Assets/portafolio/omnibus.jpg',
         'Overview': 'COMING SOON',
         'Understanding': '',
         'Research': '',
@@ -126,77 +126,77 @@ export const MobileApp = [
     {
         'id': '6',
         'text': 'Spofity',
-        'picture': './assets/portafolio/Spotify.jpg',
+        'picture': '../Assets/portafolio/Spotify.jpg',
         'Overview': 'COMING SOON',
         
     },
     {
         'id': '7',
         'text': 'Grupo Tsuba',
-        'picture': './assets/portafolio/tsuba.jpg',
+        'picture': '../Assets/portafolio/tsuba.jpg',
         'Overview': 'COMING SOON',
         
     },
     {
         'id': '8',
         'text': 'ServiExpress',
-        'picture': './assets/portafolio/express.jpg',
+        'picture': '../Assets/portafolio/express.jpg',
         'Overview': 'COMING SOON',
         
     },
     {
         'id': 'bokafest',
         'text': 'BokaFest',
-        'picture': './assets/portafolio/boka.jpg',
+        'picture': '../Assets/portafolio/boka.jpg',
         'Overview': 'COMING SOON',
         
     },
     {
         'id': '9',
         'text': 'Pinatas Bolita',
-        'picture': './assets/portafolio/pinatas.jpg',
+        'picture': '../Assets/portafolio/pinatas.jpg',
         'Overview': 'COMING SOON',
         
     },
     {
         'id': '10',
         'text': 'Tumbii',
-        'picture': './assets/portafolio/tumbi.jpg',
+        'picture': '../Assets/portafolio/tumbi.jpg',
         'Overview': 'COMING SOON',
         
     },
     {
         'id': '11',
         'text': 'Contructora',
-        'picture': './assets/portafolio/construct.jpg',
+        'picture': '../Assets/portafolio/construct.jpg',
         'Overview': 'COMING SOON',
         
     },
     {
         'id': '12',
         'text': 'Alto Empleo',
-        'picture': './assets/portafolio/alto.jpg',
+        'picture': '../Assets/portafolio/alto.jpg',
         'Overview': 'COMING SOON',
         
     },
     {
         'id': '13',
         'text': 'MundoAnimal',
-        'picture': './assets/portafolio/animals.jpg',
+        'picture': '../Assets/portafolio/animals.jpg',
         'Overview': 'COMING SOON',
         
     },
     {
         'id': '14',
         'text': 'Universidades',
-        'picture': './assets/portafolio/universidades.jpg',
+        'picture': '../Assets/portafolio/universidades.jpg',
         'Overview': 'COMING SOON',
         
     },
     {
         'id': '15',
         'text': 'Mundo Animal',
-        'picture': './assets/portafolio/mundo.jpg',
+        'picture': '../Assets/portafolio/mundo.jpg',
         'Overview': 'COMING SOON',
         
     },
@@ -204,21 +204,21 @@ export const MobileApp = [
     {
         'id': '16',
         'text': 'Maximum Excercise',
-        'picture': './assets/portafolio/maximum.jpg',
+        'picture': '../Assets/portafolio/maximum.jpg',
         'Overview': 'COMING SOON',
         
     },
     {
         'id': '17',
         'text': 'Calculadora Calificaciones',
-        'picture': './assets/portafolio/calculadora.jpg',
+        'picture': '../Assets/portafolio/calculadora.jpg',
         'Overview': 'COMING SOON',
         
     },
     {
         'id': '18',
         'text': 'PanchoVsZombies',
-        'picture': './assets/portafolio/Pancho.jpg',
+        'picture': '../Assets/portafolio/Pancho.jpg',
         'Overview': 'COMING SOON',
     },
  

@@ -3,6 +3,11 @@
     opacity: 1;
     color: #000000;
     height: 14vw;
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    padding-bottom: 2em;
+    padding-top: 5em;
   }
  
 
@@ -21,7 +26,7 @@
       background-color: transparent;
       letter-spacing: 1px;
       font-weight: 400;
-      text-shadow: 0 0 1px rgba(255,255,255,0.3);
+      
       font-size: 1.35em;
   }
   
@@ -80,6 +85,8 @@
         background-color:transparent;
         height: auto;
         padding-bottom: 20px;
+        position: relative;
+        padding-top: 20px;
       }
   
         .nav-menu{

@@ -10,17 +10,23 @@ import { Redirect, useParams } from 'react-router-dom';
 import { getProjectById } from '../../../selectors/getProjectById';
 
 
+
 const PortList = () => {
 
-    const {id} = useParams();
-    const project = getProjectById( id );
+    
+
+    const {projectid} = useParams();
+    const project = getProjectById( projectid );
+
+    console.log(project)
 
     if(!project){
         return <Redirect to="/" />
     }
 
     const {
-        text,
+       
+        picture,
         Overview,
         Understanding,
         Research,
@@ -29,11 +35,13 @@ const PortList = () => {
         Prototype,
     } = project;
     return(
-        <motion.div className='ListProcess' initial={{opacity:0, y: 0}} animate={{opacity:1, y: 0 }}>
-
-            <Row>
-                <Col className="bodyinfo1"> <h1>{text}</h1></Col>
-            </Row>
+        
+        <motion.div className='ListProcess'>
+            <div className="back bodyinfo1"  style={{backgroundImage:`linear-gradient(to bottom,rgba(255, 255, 255, 0.38),rgba(255, 255, 255, 0.993)),url(${picture})`}}>
+                
+            </div>
+            
+        
             <Row>
                 <Col className="bodyinfo1">
                      <h1>{Overview}</h1>
@@ -55,6 +63,7 @@ const PortList = () => {
             <Row>
                 <Col className="bodyinfo"> <h1>{Prototype}</h1></Col>
             </Row>
+           
 
      
         </motion.div>

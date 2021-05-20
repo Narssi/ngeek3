@@ -25,7 +25,7 @@ function App (){
         <Route exact path="/about" component={About}></Route>
         <Route exact path="/rewards" component={Rewards}></Route>
         <Route exact path="/contact" component={Contact}></Route>
-        <Route exact path="/project/:id" component={PortList}></Route>
+        <Route exact path="/project/:projectid" component={PortList}></Route>
       </Switch>
       <Footer/>
      </div>

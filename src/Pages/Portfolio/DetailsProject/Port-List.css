@@ -22,3 +22,19 @@
     background-color: rgb(255, 255, 255);
     
 }
+
+.ListProcess{
+    background-color: cornsilk;
+}
+.back{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 80vh;
+  
+
+}
+
+.dems{
+    width: 100%;
+    height: 40vh;
+}
