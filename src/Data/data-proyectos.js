@@ -4,7 +4,7 @@ export const MobileApp = [
         'id': 'Leopard',
         'text': 'LeopardFundations',
         'picture': './assets/portafolio/leo.jpg',
-        'picture2': '../Assets/leo.jpg',
+        'picture2': '../Assets/portafolio/leo.jpg',
         'Overview': 'Overview',
         'Understanding': 'Understanding',
         'Research': 'Research',

@@ -38,6 +38,7 @@ const PortList = () => {
         
         <motion.div className='ListProcess'>
             <div className="back bodyinfo1"  style={{backgroundImage:`url(${picture2})`}}>
+              
                 
             </div>
             
