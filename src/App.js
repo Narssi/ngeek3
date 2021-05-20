@@ -11,11 +11,13 @@ import Rewards from  './Pages/Rewards/Rewards';
 import Contact from  './Pages/Contact/Contact';
 import Footer from  './Components/Footer';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import ScrollRestoration from 'react-scroll-restoration'
 
 function App (){
 
   return (
     <Router>
+    <ScrollRestoration />
      <div className="App">
      <NBmenu/>
      <Switch>
