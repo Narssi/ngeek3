@@ -27,20 +27,15 @@ const PortList = () => {
         Design,
         Flow,
         Prototype,
-
-
-
-       
-       
     } = project;
     return(
         <motion.div className='ListProcess' initial={{opacity:0, y: 0}} animate={{opacity:1, y: 0 }}>
 
             <Row>
-                <Col className="bodyinfo"> <h1>{text}</h1></Col>
+                <Col className="bodyinfo1"> <h1>{text}</h1></Col>
             </Row>
             <Row>
-                <Col className="bodyinfo">
+                <Col className="bodyinfo1">
                      <h1>{Overview}</h1>
                      </Col>
                 
@@ -49,13 +44,13 @@ const PortList = () => {
                 <Col className="bodyinfo"> <h1>{Understanding}</h1></Col>
             </Row>
             <Row>
-                <Col className="bodyinfo"> <h1>{Research}</h1></Col>
+                <Col className="bodyinfo1"> <h1>{Research}</h1></Col>
             </Row>
             <Row>
                 <Col className="bodyinfo"> <h1>{Design}</h1></Col>
             </Row>
             <Row>
-                <Col className="bodyinfo"> <h1>{Flow}</h1></Col>
+                <Col className="bodyinfo1"> <h1>{Flow}</h1></Col>
             </Row>
             <Row>
                 <Col className="bodyinfo"> <h1>{Prototype}</h1></Col>

@@ -2,6 +2,7 @@
 
     font-size: 50px;
     color: rgba(165, 129, 82, 0.616);
+    padding-top: 2em;
     
 }
 
@@ -12,6 +13,12 @@
 }
 
 .bodyinfo{
-    height: auto;
+    height: 40vh;
     background-color: rgb(240, 240, 240);
+}
+
+.bodyinfo1{
+    height: 40vh;
+    background-color: rgb(255, 255, 255);
+    
 }
