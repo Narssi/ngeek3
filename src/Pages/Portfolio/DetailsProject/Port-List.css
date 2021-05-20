@@ -1,6 +1,6 @@
 .ListProcess h1{
 
-    font-size: 90px;
+    font-size: 50px;
     color: rgba(165, 129, 82, 0.616);
     
 }
@@ -8,4 +8,10 @@
 .ListProcess h2{
     font-size: 200px;
     color: rgba(165, 129, 82, 0.616);
+    padding-top: 2em;
+}
+
+.bodyinfo{
+    height: auto;
+    background-color: rgb(240, 240, 240);
 }
