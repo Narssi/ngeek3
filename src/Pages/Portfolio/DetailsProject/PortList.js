@@ -26,8 +26,8 @@ const PortList = () => {
 
     const {
        
-    
-        picture2,
+        picture,
+      
         Overview,
         Understanding,
         Research,
@@ -38,7 +38,7 @@ const PortList = () => {
     return(
         
         <motion.div className='ListProcess'>
-            <div className="back bodyinfo1"  style={{backgroundImage:`linear-gradient(to bottom,rgba(255, 255, 255, 0.38),rgba(255, 255, 255, 0.993)),url(${picture2})`}}>
+            <div className="back bodyinfo1"  style={{backgroundImage:`linear-gradient(to bottom,rgba(255, 255, 255, 0.38),rgba(255, 255, 255, 0.993)),url(${picture})`}}>
                 
             </div>
             
