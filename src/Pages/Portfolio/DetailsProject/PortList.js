@@ -18,7 +18,6 @@ const PortList = () => {
     const {projectid} = useParams();
     const project = getProjectById( projectid );
 
-    console.log(project)
 
     if(!project){
         return <Redirect to="/" />
