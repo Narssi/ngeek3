@@ -8,7 +8,7 @@ import './Port-List.css';
 import { motion } from "framer-motion";
 import { Redirect, useParams } from 'react-router-dom';
 import { getProjectById } from '../../../selectors/getProjectById';
-
+//import { CardDetails } from '../../../Components/CardDetails';
 
 
 const PortList = () => {
@@ -26,7 +26,7 @@ const PortList = () => {
     const {
        
        
-        picture,
+        picture2,
         Overview,
         Understanding,
         Research,
@@ -37,8 +37,8 @@ const PortList = () => {
     return(
         
         <motion.div className='ListProcess'>
-            <div className="back bodyinfo1"  style={{backgroundImage:`url(${picture})`}}>
-              
+            <div className="back bodyinfo1"  style={{backgroundImage:`url(${picture2})`}}>
+           
                 
             </div>
             
