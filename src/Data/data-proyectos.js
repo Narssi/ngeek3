@@ -1,6 +1,21 @@
 export const MobileApp = [
 
     {
+        'id': 'Leopard',
+        'text': 'LeopardFundations',
+        'picture': './assets/portafolio/leopard.jpg',
+        'Overview': 'Overview',
+        'Understanding': 'Understanding',
+        'Research': 'Research',
+        'Design': '',
+        'Flow': '',
+        'Prototype': '',
+        'Evaluation': '',
+        'Visual': '',
+        'Next Steps': '',
+        'Reflections': '',
+    },
+    {
         'id': 'cinema',
         'text': 'CinemaLouis',
         'picture': './assets/portafolio/cine.jpg',
@@ -124,6 +139,12 @@ export const MobileApp = [
         'id': '8',
         'text': 'ServiExpress',
         'picture': './assets/portafolio/express.jpg',
+        
+    },
+    {
+        'id': 'bokafest',
+        'text': 'BokaFest',
+        'picture': './assets/portafolio/boka.jpg',
         
     },
     {
