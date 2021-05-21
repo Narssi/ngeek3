@@ -1,11 +1,26 @@
+.perfil{
+    width: 80%;
+    height: 90vh;
+    background-image: url('../../Assets/i.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0%;
+    border-radius: 20px;
+}
+
+.demosl{
+    padding-top: 6em;
+}
+
 .demo{
-    margin-top: 60%;
+    padding-top: 20em;
+    padding-bottom: 20%;
     margin: auto;
     
     width: 100%;
     height: auto;
     margin: auto;
-    padding-top: 30em;
     background-position: center;
     background-repeat: no-repeat;
 }

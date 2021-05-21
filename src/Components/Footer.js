@@ -16,7 +16,6 @@ const Footer = () => {
                         <h2>{Footer.Register} {new Date().getFullYear()}</h2>
                         <p>{Footer.version}</p>
                     </div>
-                    <div className="lss"></div>
                 </div>
             );
         })}

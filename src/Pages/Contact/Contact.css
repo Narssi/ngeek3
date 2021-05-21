@@ -49,7 +49,7 @@
 }
 
 .icons{
-  width: 30%;
+  width: 50%;
   display: flex;
   margin: auto;
   text-align: center;
@@ -58,6 +58,6 @@
 
 @media  (max-width: 575.98px) {
   .icons{
-    width: 40%;
+    width: 50%;
   }
 }

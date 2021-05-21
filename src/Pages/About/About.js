@@ -4,41 +4,33 @@ import Col from 'react-bootstrap/Col';
 import './About.css'
 //import {Aboutdata} from '../../Data/data-ngk';
 import Logo from '../../Components/Logo';
-import nar from '../../Assets/d.jpg';
-const About = () => {
+const About = ({
+    id,
+    tittle,
+    picture,
+}) => {
     return(
 
-    <div className="perfil">
+
+        
+
+    <div className="Perfil">
+
+        
          <Row className="demo">
             <Col sm>
-                <div>
+                <div className="demosl">
                     <Logo/>
                 </div>
              </Col>
              <Col>
-                <div>
-                    <img src={nar} className="float-center dm"  alt="lk"></img>
+                <div className="perfil">
+                  
                 </div>
              </Col>
             </Row>
 
-            <Row className="demo">
-            <Col sm>
-                <div>
-                    <Logo/>
-                </div>
-             </Col>
-             <Col>
-                <div>
-                    <Logo/>
-                </div>
-             </Col>
-             <Col>
-                <div>
-                    <Logo/>
-                </div>
-             </Col>
-            </Row>
+          
         
     </div>
 

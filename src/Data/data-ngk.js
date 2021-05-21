@@ -16,9 +16,10 @@ export const Data = [
 Aboutdata = [
    
     {
+        'id': '1',
         'Tittle': 'Contacto',
         'SubTittle': 'Developer',
-        'picture': './assets/cursos/fondo2.jpg'
+        'picture': './assets/about/d.jpg'
     }
 ],
 
