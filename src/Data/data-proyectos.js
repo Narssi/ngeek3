@@ -122,7 +122,7 @@ export const MobileApp = [
     {
         'id': 'bokafest',
         'tittle': 'BokaFest',
-        'date': '2021',
+        'date': '2018',
         'category': 'Mobile App',
         'picture': './assets/portafolio/boka.jpg',
         'backg': './assets/portafolio/7.jpg',
@@ -132,7 +132,7 @@ export const MobileApp = [
     {
         'id': '9',
         'tittle': 'Pinatas Bolita',
-        'date': '2021',
+        'date': '2016',
         'category': 'Mobile App',
         'picture': './assets/portafolio/pinatas.jpg',
         'backg': './assets/portafolio/pinatas.jpg',
@@ -142,7 +142,7 @@ export const MobileApp = [
     {
         'id': '10',
         'tittle': 'Tumbii',
-        'date': '2021',
+        'date': '2016',
         'category': 'Mobile App',
         'picture': './assets/portafolio/tumbi.jpg',
         'backg': './assets/portafolio/tumbi.jpg',
@@ -152,7 +152,7 @@ export const MobileApp = [
     {
         'id': '11',
         'tittle': 'Contructora',
-        'date': '2021',
+        'date': '2016',
         'category': 'Mobile App',
         'picture': './assets/portafolio/construct.jpg',
         'backg': './assets/portafolio/construct.jpg',
@@ -162,7 +162,7 @@ export const MobileApp = [
     {
         'id': '12',
         'tittle': 'Alto Empleo',
-        'date': '2021',
+        'date': '2016',
         'category': 'Mobile App',
         'picture': './assets/portafolio/alto.jpg',
         'backg': './assets/portafolio/alto.jpg',
@@ -172,7 +172,7 @@ export const MobileApp = [
     {
         'id': '13',
         'tittle': 'MundoAnimal',
-        'date': '2021',
+        'date': '2014',
         'category': 'Mobile App',
         'picture': './assets/portafolio/animals.jpg',
         'backg': './assets/portafolio/animals.jpg',
@@ -182,7 +182,7 @@ export const MobileApp = [
     {
         'id': '14',
         'tittle': 'Universidades',
-        'date': '2021',
+        'date': '2014',
         'category': 'Mobile App',
         'picture': './assets/portafolio/universidades.jpg',
         'backg': './assets/portafolio/universidades.jpg',
@@ -192,7 +192,7 @@ export const MobileApp = [
     {
         'id': '15',
         'tittle': 'Mundo Animal',
-        'date': '2021',
+        'date': '2014',
         'category': 'Mobile App',
         'picture': './assets/portafolio/mundo.jpg',
         'backg': './assets/portafolio/mundo.jpg',
@@ -203,7 +203,7 @@ export const MobileApp = [
     {
         'id': '16',
         'tittle': 'Maximum Excercise',
-        'date': '2021',
+        'date': '2014',
         'category': 'Mobile App',
         'picture': './assets/portafolio/maximum.jpg',
         'backg': './assets/portafolio/maximum.jpg',
@@ -213,7 +213,7 @@ export const MobileApp = [
     {
         'id': '17',
         'tittle': 'Calculadora Calificaciones',
-        'date': '2021',
+        'date': '2013',
         'category': 'Mobile App',
         'picture': './assets/portafolio/calculadora.jpg',
         'backg': './assets/portafolio/calculadora.jpg',
@@ -223,7 +223,7 @@ export const MobileApp = [
     {
         'id': '18',
         'tittle': 'PanchoVsZombies',
-        'date': '2021',
+        'date': '2013',
         'category': 'Mobile App',
         'picture': './assets/portafolio/Pancho.jpg',
         'backg': './assets/portafolio/Pancho.jpg',
