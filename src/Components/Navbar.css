@@ -21,7 +21,7 @@
       position: relative;
       display: inline-block;
       outline: none;
-      color: #fff;
+      color: rgb(255, 255, 255);
       text-decoration: none;
       background-color: transparent;
       letter-spacing: 1px;
@@ -55,6 +55,7 @@
       -moz-transition: -moz-transform 0.3s;
       transition: transform 0.3s;
     color: #000000;
+    
   }
   
   .effect-nav :hover span,
@@ -62,18 +63,21 @@
       -webkit-transform: translateY(-100%);
       -moz-transform: translateY(-100%);
       transform: translateY(-100%);
-    color: #8a835a;
+    /*color: #8a835a;*/
+    /*color: #fbc6a4;*/
+    color: #d99879;
     text-align: center;
   }
   
   .effect-nav  span::before {
       position: absolute;
-      top: 100%;
+      top: 116%;
       content: attr(data-hover);
       font-weight: 900;
       -webkit-transform: translate3d(0,0,0);
       -moz-transform: translate3d(0,0,0);
       transform: translate3d(0,0,0);
+      background-color: white;
   }
   
   

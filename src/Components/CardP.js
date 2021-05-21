@@ -5,14 +5,14 @@ import './CardStyle.css';
 
 export const CardProject = ({
     id,
-    text,
+    tittle,
     picture,
 
 }) => {
     return(
         <motion.div whileHover={{scale: 1.04}} >
             <div className=" card-img" style={{backgroundImage:`url(${picture})`}}>
-            <Link className="InfoP" to={`/project/${ id }`}> <h1>{text}</h1></Link>
+            <Link className="InfoP" to={`/project/${ id }`}> <h1>{tittle}</h1></Link>
             </div>            
         </motion.div>
     )

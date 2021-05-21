@@ -1,8 +1,8 @@
 .ListProcess h1{
 
     font-size: 50px;
-    color: rgba(165, 129, 82, 0.616);
-    padding-top: 2em;
+    color: rgba(0, 0, 0, 0.616);
+    padding-top: 0em;
     
 }
 
@@ -18,7 +18,15 @@
     background-repeat: no-repeat;
     background-size: 100%;
     height: 80vh;
-  
+}
 
+.back h1{
+    padding-top: 11em;
+    color: black;
+}
+
+
+.bodyinfo1{
+    padding: 10em;
 }
 

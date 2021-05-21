@@ -24,48 +24,30 @@ const PortList = () => {
     }
 
     const {
-        picture,
+        tittle,
+        date,
+        category,
+        backg,
         Overview,
-        Understanding,
-        Research,
-        Design,
-        Flow,
-        Prototype,
+     
     } = project;
     
     return(
         
         <motion.div className='ListProcess'>
-            <div className="back bodyinfo1"  style={{backgroundImage:`linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.30),
-      rgba(255, 255, 255, 0.993)
-    ),url(/${picture})`}}>
-            
-                
+            <div className="back"  style={{backgroundImage:`linear-gradient(to bottom,rgba(255, 255, 255, 0.50),rgba(255, 255, 255, 1)),url(/${backg})`}}>
+                <h1>{tittle}</h1>
+                <p>{category}</p>
+                <p>{date}</p>
             </div>
-            
-        
+
+
+
+
             <Row>
                 <Col className="bodyinfo1">
                      <h1>{Overview}</h1>
                      </Col>
-                
-            </Row>
-            <Row>
-                <Col className="bodyinfo"> <h1>{Understanding}</h1></Col>
-            </Row>
-            <Row>
-                <Col className="bodyinfo1"> <h1>{Research}</h1></Col>
-            </Row>
-            <Row>
-                <Col className="bodyinfo"> <h1>{Design}</h1></Col>
-            </Row>
-            <Row>
-                <Col className="bodyinfo1"> <h1>{Flow}</h1></Col>
-            </Row>
-            <Row>
-                <Col className="bodyinfo"> <h1>{Prototype}</h1></Col>
             </Row>
            
 
