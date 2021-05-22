@@ -46,7 +46,7 @@ ContactInfo = [
 
 Contacticons = [
     {
-        'id': 'wa',
+        'id': 'whats',
         'url': 'https://wa.me/525546604693'
     },
     {
