@@ -21,7 +21,7 @@ const Contacto = () => {
                         {Contacticons.map((icons, key) =>{
                             return(
                                 <Link  to={{ pathname: `${icons.url}` }} target="_blank" key={key} className="icon-list">
-                                    <motion.img whileHover={{ scale: 0.8 }}  src={`./assets/Contact/${icons.id}.svg`} className="rounded float-left"  alt="img"/>
+                                    <motion.img whileHover={{ scale: 0.8 }}  src={`./assets/Contact/${icons.id}.svg`}  alt="img"/>
                                 </Link>
                             );
                         })}

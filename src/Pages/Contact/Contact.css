@@ -2,7 +2,6 @@
     height: auto;
     text-align: center;
     padding-top: 15em;
-    
   }
 
 
@@ -24,9 +23,9 @@
 
  h4{
   font-size: 30px;
-  color: rgba(255, 244, 230, 0.959);
+  color: rgba(0, 0, 0, 0.959);
   margin: auto;
-  padding-top: 4em;
+  padding-top: 6em;
 }
 
 .tittlecontact h2{
@@ -44,13 +43,13 @@
   margin: auto;
   width: 26vw;
   height: 60vh;
-  background-image: url('../../Assets/resume.jpg');
-  background-color: rgb(0, 0, 0);
+  background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.699),rgb(212, 212, 212)),url('../../Assets/resume.jpg');
   opacity: 1;
   background-position: center;
   background-size: cover;
   border-radius: 30px;
   cursor: pointer;
+  color: black;
 }
 
 .icons {
@@ -60,15 +59,16 @@
   padding-top: 10px;
   margin: 0;
   list-style: none;
-  width: 100%;
+
 }
 
 .icon-list {
+
   padding: 5px;
-  width: 30px;
-  height: 50px;
+  width: 93px;
+  height: 90px;
   margin-top: 10px;
-  line-height: 150px;
+
   color: white;
   font-weight: bold;
   font-size: 3em;
@@ -76,7 +76,35 @@
 }
 
 @media  (max-width: 575.98px) {
-  .icons{
-    width: 50%;
+
+  .Contacto{
+    height: auto;
+    text-align: center;
+    padding-top: 1em;
+ 
+    
   }
+
+  .aligt{
+    padding-top: 0em;
+  }
+
+
+
+  .icons{
+    width: 100%;
+  }
+
+  .resume{
+    margin: auto;
+    width: 60vw;
+    margin-top: 6em;
+    height: 60vh;
+    opacity: 1;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
 }
