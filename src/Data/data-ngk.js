@@ -50,10 +50,6 @@ Contacticons = [
         'url': 'https://wa.me/525546604693'
     },
     {
-        'id': 'email',
-        'url': 'https://www.linkedin.com/in/ngeekreyes/'
-    },
-    {
         'id': 'in',
         'url': 'https://www.linkedin.com/in/ngeekreyes/'
     },
