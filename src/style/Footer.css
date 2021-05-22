@@ -3,8 +3,8 @@ CSS Footer
 */
 .Footer {
 /*background: -webkit-linear-gradient(135deg, rgb(109, 91, 88), rgb(255, 191, 255));*/
-background: -webkit-linear-gradient(135deg, rgb(235, 235, 235), rgb(238, 238, 238));
-    color: black;
+background: -webkit-linear-gradient(135deg, rgb(40, 40, 43), rgb(40, 40, 43));
+    color: #fbc6a4;
     padding: 2em;
    
     
