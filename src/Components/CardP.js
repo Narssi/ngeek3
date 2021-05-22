@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { motion } from "framer-motion";
-import './CardStyle.css';
+import '../style/CardStyle.css';
 
 export const CardProject = ({
     id,

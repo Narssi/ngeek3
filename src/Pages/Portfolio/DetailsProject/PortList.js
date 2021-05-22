@@ -13,16 +13,11 @@ import { getProjectById } from '../../../selectors/getProjectById';
 
 const PortList = () => {
 
-    
-
     const {projectid} = useParams();
     const project = getProjectById( projectid );
-
-
     if(!project){
         return <Redirect to="/" />
     }
-
     const {
         tittle,
         date,
@@ -40,18 +35,11 @@ const PortList = () => {
                 <p>{category}</p>
                 <p>{date}</p>
             </div>
-
-
-
-
             <Row>
                 <Col className="bodyinfo1">
                      <h1>{Overview}</h1>
                      </Col>
             </Row>
-           
-
-     
         </motion.div>
     );
 

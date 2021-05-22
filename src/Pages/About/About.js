@@ -4,6 +4,9 @@ import Col from 'react-bootstrap/Col';
 import './About.css'
 //import {Aboutdata} from '../../Data/data-ngk';
 import Logo from '../../Components/Logo';
+import carrer from '../../Assets/carrers.svg';
+import experience from '../../Assets/experience.svg'
+import schol from '../../Assets/school.svg'
 const About = ({
     id,
     tittle,
@@ -25,13 +28,12 @@ const About = ({
                
                 <div>
                     <h1>{tittle}</h1>
-                <h1>“Don’t let the noise of others’ opinions drown out your own inner voice.”</h1>
+                    <h1>“Don’t let the noise of others’ opinions drown out your own inner voice.”</h1>
                 <ul className="flex-container">
 
-                    <li className="flex-item">1</li>
-                    <li className="flex-item">2</li>
-                    <li className="flex-item">3</li>
-                    <li className="flex-item">4</li>
+                    <li className="flex-item"><img src={experience} className="rounded float-left lk"  alt="lk"></img></li>
+                    <li className="flex-item"><img src={carrer} className="rounded float-left lk"  alt="lk"></img></li>
+                    <li className="flex-item"><img src={schol} className="rounded float-left lk"  alt="lk"></img></li>
                    
                 </ul>
                 </div>  

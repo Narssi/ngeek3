@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Components/Footer.css';
+import '../style/Footer.css';
 import { Data } from "../Data/data-ngk";
 
 const Footer = () => {
