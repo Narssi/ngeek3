@@ -11,15 +11,15 @@ background: -webkit-linear-gradient(135deg, rgb(235, 235, 235), rgb(238, 238, 23
   }
 
   .Footer h1{
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   .Footer h2{
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
-.ngk{
-    width: 100%;
-    margin: auto;
-    padding: 1em;
-}
+  .Footer p{
+    font-size: 0.8rem;
+  }
+
+
 

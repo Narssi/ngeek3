@@ -22,13 +22,26 @@ const About = ({
                 <div className="demosl">
                     <Logo/>
                 </div>
+               
+                <div>
+                    <h1>{tittle}</h1>
+                <h1>“Don’t let the noise of others’ opinions drown out your own inner voice.”</h1>
+                <ul className="flex-container">
+
+                    <li className="flex-item">1</li>
+                    <li className="flex-item">2</li>
+                    <li className="flex-item">3</li>
+                    <li className="flex-item">4</li>
+                   
+                </ul>
+                </div>  
              </Col>
              <Col>
                 <div className="perfil">
                   
                 </div>
              </Col>
-            </Row>
+        </Row>
 
           
         
