@@ -8,7 +8,7 @@ export const MobileApp = [
         'category': 'Mobile App',
         'picture': './assets/portafolio/leo.jpg',
         'backg': './assets/portafolio/1.jpg',
-        'Overview': 'COMING SOON',
+        'Overview': 'UPLOADING...',
         'detailOv': '',
 
         'Understanding': 'Understanding',
@@ -29,7 +29,7 @@ export const MobileApp = [
         'category': 'Mobile App',
         'picture': './assets/portafolio/cine.jpg',
         'backg': './assets/portafolio/2.jpg',
-        'Overview': 'COMING SOON',
+        'Overview': 'UPLOADING...',
 
     },
     {
@@ -40,7 +40,7 @@ export const MobileApp = [
         'position': 'UX Design Generalist',
         'picture': './assets/portafolio/register.jpg',
         'backg': './assets/portafolio/3.jpg',
-        'Overview': 'COMING SOON',
+        'Overview': 'UPLOADING...',
     },
     {
         'id': 'Terumo',
@@ -50,7 +50,7 @@ export const MobileApp = [
         'position': 'UX Design Generalist',
         'picture': './assets/portafolio/Terumo.jpg',
         'backg': './assets/portafolio/4.jpg',
-        'Overview': 'COMING SOON',
+        'Overview': 'UPLOADING...',
 
     },
     {
@@ -61,7 +61,7 @@ export const MobileApp = [
         'position': 'UX Design Generalist',
         'picture': './assets/portafolio/toks.jpg',
         'backg': './assets/portafolio/toks.jpg',
-        'Overview': 'COMING SOON',
+        'Overview': 'UPLOADING...',
        
     },
     {
@@ -72,7 +72,7 @@ export const MobileApp = [
         'position': 'UX Design Generalist',
         'picture': './assets/portafolio/acomer1.jpg',
         'backg': './assets/portafolio/acomer1.jpg',
-        'Overview': 'COMING SOON',
+        'Overview': 'UPLOADING...',
         
     },
     {
@@ -83,7 +83,7 @@ export const MobileApp = [
         'position': 'UX Design Generalist',
         'picture': './assets/portafolio/acomer2.jpg',
         'backg': './assets/portafolio/acomer2.jpg',
-        'Overview': 'COMING SOON',
+        'Overview': 'UPLOADING...',
         
     },
     {
@@ -94,7 +94,7 @@ export const MobileApp = [
         'position': 'UX Design Generalist',
         'picture': './assets/portafolio/omnibus.jpg',
         'backg': './assets/portafolio/omnibus.jpg',
-        'Overview': 'COMING SOON',
+        'Overview': 'UPLOADING...',
         
     },
     {
@@ -105,7 +105,7 @@ export const MobileApp = [
         'position': 'UX Design Generalist',
         'picture': './assets/portafolio/Spotify.jpg',
         'backg': './assets/portafolio/5.jpg',
-        'Overview': 'COMING SOON',
+        'Overview': 'UPLOADING...',
         
     },
     {
@@ -116,7 +116,7 @@ export const MobileApp = [
         'position': 'UX Design Generalist',
         'picture': './assets/portafolio/tsuba.jpg',
         'backg': './assets/portafolio/tsuba.jpg',
-        'Overview': 'COMING SOON',
+        'Overview': 'UPLOADING...',
         
     },
     {
@@ -127,7 +127,7 @@ export const MobileApp = [
         'position': 'UX Design Generalist',
         'picture': './assets/portafolio/express.jpg',
         'backg': './assets/portafolio/express.jpg',
-        'Overview': 'COMING SOON',
+        'Overview': 'UPLOADING...',
         
     },
     {
@@ -138,7 +138,7 @@ export const MobileApp = [
         'position': 'UX Design Generalist',
         'picture': './assets/portafolio/boka.jpg',
         'backg': './assets/portafolio/7.jpg',
-        'Overview': 'COMING SOON',
+        'Overview': 'UPLOADING...',
         
     },
     {
@@ -149,7 +149,7 @@ export const MobileApp = [
         'position': 'UX Design Generalist',
         'picture': './assets/portafolio/pinatas.jpg',
         'backg': './assets/portafolio/pinatas.jpg',
-        'Overview': 'COMING SOON',
+        'Overview': 'UPLOADING...',
         
     },
     {
@@ -160,7 +160,7 @@ export const MobileApp = [
         'position': 'UX Design Generalist',
         'picture': './assets/portafolio/tumbi.jpg',
         'backg': './assets/portafolio/tumbi.jpg',
-        'Overview': 'COMING SOON',
+        'Overview': 'UPLOADING...',
         
     },
     {
@@ -171,7 +171,7 @@ export const MobileApp = [
         'position': 'UX Design Generalist',
         'picture': './assets/portafolio/construct.jpg',
         'backg': './assets/portafolio/construct.jpg',
-        'Overview': 'COMING SOON',
+        'Overview': 'UPLOADING...',
         
     },
     {
@@ -182,7 +182,7 @@ export const MobileApp = [
         'position': 'UX Design Generalist',
         'picture': './assets/portafolio/alto.jpg',
         'backg': './assets/portafolio/alto.jpg',
-        'Overview': 'COMING SOON',
+        'Overview': 'UPLOADING...',
         
     },
     {
@@ -193,7 +193,7 @@ export const MobileApp = [
         'position': 'UX Design Generalist',
         'picture': './assets/portafolio/animals.jpg',
         'backg': './assets/portafolio/animals.jpg',
-        'Overview': 'COMING SOON',
+        'Overview': 'UPLOADING...',
         
     },
     {
@@ -204,7 +204,7 @@ export const MobileApp = [
         'position': 'UX Design Generalist',
         'picture': './assets/portafolio/universidades.jpg',
         'backg': './assets/portafolio/universidades.jpg',
-        'Overview': 'COMING SOON',
+        'Overview': 'UPLOADING...',
         
     },
     {
@@ -215,7 +215,7 @@ export const MobileApp = [
         'position': 'UX Design Generalist',
         'picture': './assets/portafolio/mundo.jpg',
         'backg': './assets/portafolio/mundo.jpg',
-        'Overview': 'COMING SOON',
+        'Overview': 'UPLOADING...',
         
     },
     
@@ -227,7 +227,7 @@ export const MobileApp = [
         'position': 'UX Design Generalist',
         'picture': './assets/portafolio/maximum.jpg',
         'backg': './assets/portafolio/maximum.jpg',
-        'Overview': 'COMING SOON',
+        'Overview': 'UPLOADING...',
         
     },
     {
@@ -238,7 +238,7 @@ export const MobileApp = [
         'position': 'UX Design Generalist',
         'picture': './assets/portafolio/calculadora.jpg',
         'backg': './assets/portafolio/calculadora.jpg',
-        'Overview': 'COMING SOON',
+        'Overview': 'UPLOADING...',
         
     },
     {
@@ -249,7 +249,7 @@ export const MobileApp = [
         'position': 'UX Design Generalist',
         'picture': './assets/portafolio/Pancho.jpg',
         'backg': './assets/portafolio/Pancho.jpg',
-        'Overview': 'COMING SOON',
+        'Overview': 'UPLOADING...',
     },
  
     
