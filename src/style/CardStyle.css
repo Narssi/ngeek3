@@ -20,32 +20,48 @@
   
   .InfoP{
     background-color: rgb(0, 0, 0);
-    bottom: 7px!important;
+    bottom: 49px!important;
     position: absolute;
-    width: 74%;
-    height: 16vh;
-    text-align: center;
+    width: 40%;
+    height: 35vh;
     padding: 1em;
-    border-radius: 12px 12px 49px 49px;
-    right: 13%;
+    border-radius: 10px 30px 10px 30px;
+    right: 15%;
     color: rgb(255, 255, 255);
     cursor: pointer;
   }
-  
-  h1{
-    font-size: x-large;
+
+  .fount-tittle{
+    margin-top: 1em;
+    width: 5%;
+    height: 4vh;
+    background-color: white;
   }
 
+  .fount-tittle p{
+    font-size: 20px;
+    padding-left: 1em;
+    text-align: center;
+    letter-spacing: 1px;
+   
+  
+  }
+
+
   .fount-text{
-    background-color: black;
-    height: 7vh;
+    background-color: rgb(255, 255, 255);
+    height: 13vh;
     width: 80%;
     margin: auto;
-    color: white;
-    padding-top: 1em;
-    font-size: medium;
-    border: 1px solid white;
     border-radius: 10px;
+    margin-top: 70px;
+  }
+
+  .fount-text p{
+    color: rgb(0, 0, 0);
+    padding-top: 2em;
+    font-size: medium;
+
   }
 
   .InfoP:hover{

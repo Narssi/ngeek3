@@ -2,7 +2,7 @@ export const MobileApp = [
 
     {
         'id': 'Leopard',
-        'tittle': 'LeopardFundations',
+        'tittle': 'Leopard Fundations',
         'date': '2021',
         'position': 'UX Design Generalist',
         'category': 'Mobile App',
@@ -243,7 +243,7 @@ export const MobileApp = [
     },
     {
         'id': '18',
-        'tittle': 'PanchoVsZombies',
+        'tittle': 'Pancho Vs Zombies',
         'date': '2013',
         'category': 'Mobile App',
         'position': 'UX Design Generalist',
