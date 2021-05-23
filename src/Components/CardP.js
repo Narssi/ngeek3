@@ -7,12 +7,18 @@ export const CardProject = ({
     id,
     tittle,
     picture,
+    position,
 
 }) => {
     return(
         <motion.div whileHover={{scale: 1.04}} >
             <div className=" card-img" style={{backgroundImage:`url(${picture})`}}>
-            <Link className="InfoP" to={`/project/${ id }`}> <h1>{tittle}</h1></Link>
+                <Link className="InfoP" to={`/project/${ id }`}>
+                     <h1>{tittle}</h1>
+                     <div className="fount-text">
+                     <p>{position}</p>
+                     </div>
+                 </Link>
             </div>            
         </motion.div>
     )
