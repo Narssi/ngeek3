@@ -1,14 +1,11 @@
 import React from 'react';
 import '../style/Footer.css';
-import { Data } from "../Data/data-ngk";
+import { FooterInfo } from "../Data/data-ngk";
 
 const Footer = () => {
     return (
     <div className='Footer'>
-
-        
-
-        {Data.map((Footer, key) =>{
+        {FooterInfo.map((Footer, key) =>{
             return(
                 <div key={key}>
                     <div  className='corp'>
@@ -19,7 +16,6 @@ const Footer = () => {
                 </div>
             );
         })}
-
     </div>
     );
 };

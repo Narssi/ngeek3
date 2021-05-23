@@ -9,21 +9,16 @@
     margin: auto;
 }
 
-
 .Perfil{
     margin: auto;
     width: 90%;
 }
 
-.demosl{
-    padding-top: 6em;
-}
 
-.demo{
-    padding-top: 20em;
+.aboutbody{
+    padding-top: 22em;
     padding-bottom: 20%;
     margin: auto;
-    
     width: 100%;
     height: auto;
     margin: auto;
@@ -32,46 +27,58 @@
 }
 
 
-.demo img{
+.aboutbody img{
     width: 100%;
     margin-left: -22px;
     margin: auto;
 }
 
-.dm{
-    width: 200px;
+.aboutxt h1{
+    font-size: large;
+
+}
+
+.aboutxt h2{
+    font-size: medium;
+    font-style: italic;
+    margin-top: 2em;
+    text-align: right;
+}
+
+.aboutxt p{
+    font-size: medium;
+    font-style: italic;
+    text-align: right;
 }
 
 
-.flex-container {
-    /* We first create a flex layout context */
+.aboutxt{
+    text-align: center;
+    width: 80%;
+    margin-left: 50px;
+}
+
+.flex-icons {
     display: flex;
-    
-    /* Then we define the flow direction 
-       and if we allow the items to wrap 
-     * Remember this is the same as:
-     * flex-direction: row;
-     * flex-wrap: wrap;
-     */
     flex-flow: row wrap;
-    
-    /* Then we define how is distributed the remaining space */
     justify-content: space-around;
-    
     padding-top:5em;
     margin: 0;
     list-style: none;
   }
   
-  .flex-item {
+  .flex-icon {
     background: rgba(255, 255, 255, 0);
-    padding: 5px;
+    padding: 2px;
     width: 150px;
     height: 150px;
-    margin-top: 10px;
-
+    margin-top: 5px;
     color: white;
     font-weight: bold;
     font-size: 3em;
     text-align: center;
   }
+
+.flex-icon img{
+    width: 100%;
+}

@@ -16,10 +16,9 @@ export const CardDetails =({
     return(
         <motion.div whileHover={{scale: 1.04}} >
              <div className="ba"  style={{backgroundImage:`url(${picture})`}}>
-              
-             <Link className="InfoP" to={`/project/${ id }`}> <h1>{text}</h1></Link>
+                 <Link className="InfoP" to={`/project/${ id }`}> <h1>{text}</h1></Link>
               </div>
-    </motion.div>
+        </motion.div>
     )
 }
 

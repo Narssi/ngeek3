@@ -1,47 +1,47 @@
-export const Data = [
+export const Logos = [
     {
         'Tittle': 'NGK',
-        'SubTittle': '',
+        'log': './assets/logo/ng.png',
         'text': 'by',
-        'ngeek': '',
         'signature': 'Narciso Reyes',
-
-        'web': 'www.ngeekreyes.com',
-        'Register': '© Copyright | NGK ',
-        'version': 'Version 11',
-        
+        'text1': 'Specialist Design',
+        'text2': 'UX Design',
+        'text3': 'UI Design',
+        'text4': 'Mobile Developer',
+        'text5': 'Front-End'
     }
 ],
 
-
-experienceData = [
-
+AboutInfo = [
     {
-        'id': '6',
-        'text': 'Professional Experience'
-    },
-    {
-        'id': 'auto',
-        'text': 'Passionate'
-    },
-    {
-        'id': 'corazon',
-        'text': 'Self-Taught'
-    },
-    {
-        'id': 'team',
-        'text':'Team Work'
-    },
-],
-
-ContactInfo = [
-    {
-        'tittle': 'Available for questions, collaborations, projects',
-        'subtitle': '--Based in Mexico'
+        'tittle': 'Im passionate of create user experiences and user interfaces, solve problems.',
+        'text': 'Don’t let the noise of others’ opinions drown out your own inner voice.',
+        'arts': '-Steve Jobs',
+        'backgroun': './assets/about/reyes.jpg',
     }
 
 ],
 
+AboutIcons = [
+
+    {
+        'id': '1',
+    },
+    {
+        'id': '2',
+    },
+    {
+        'id': '3',
+    }
+],
+
+
+InfoContact = [
+    {
+        'Tittle': 'Available for questions, collaborations, projects',
+        'subtitle': '--Based in Mexico',
+    }
+],
 
 
 Contacticons = [
@@ -65,10 +65,12 @@ Contacticons = [
 ],
 
 
-FooterImg = [
+FooterInfo = [
 
     {
-        'id': 'NGK'
+        'web': 'www.ngeekreyes.com',
+        'Register': '© Copyright | NGK ',
+        'version': 'Version 11',
     },
 
 ]
