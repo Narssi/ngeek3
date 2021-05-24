@@ -75,7 +75,7 @@ export const RewardsData = [
 
 princinpal = [
     {
-        'id': 'UX',
+        'id': 'certificate',
         'text': 'UI DESIGN & UX RESERCH',
         'text2': 'Design interfaces Apps',
         'picture': './assets/rewards/ux.jpg',
