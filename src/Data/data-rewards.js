@@ -71,4 +71,37 @@ export const RewardsData = [
         'text2': 'React, Angular, SwiftUI, XAML',
         'picture': './assets/rewards/3.jpg'
     }
+],
+
+princinpal = [
+    {
+        'id': 'UX',
+        'text': 'UI DESIGN & UX RESERCH',
+        'text2': 'Design interfaces Apps',
+        'picture': './assets/rewards/ux.jpg',
+        'special': 'demo'
+    }
+],
+
+Microsoft = [
+    {
+        'id': '3s',
+        'text': 'FRONT-END MOBILE AND WEB',
+        'text2': 'React, Angular, SwiftUI, XAML',
+        'picture': './assets/rewards/10.jpg'
+    },
+    {
+        'id': '4s',
+        'text': 'UI DESIGN & UX RESERCH',
+        'text2': 'Design interfaces Apps',
+        'picture': './assets/rewards/11.jpg'
+    },
+    {
+        'id': '5s',
+        'text': 'ALL COURSES',
+        'text2': 'Cursos',
+        'picture': './assets/rewards/5.jpg',
+        'button': 'Próximamente'
+
+    }
 ]
