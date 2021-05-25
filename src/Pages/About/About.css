@@ -7,6 +7,7 @@
     background-size: cover;
     border-radius: 20px;
     margin: auto;
+    margin-top: 0px;
 }
 
 .Perfil{
@@ -86,13 +87,24 @@
 
 @media  (max-width: 575.98px) {
 
+    .perfil{
+        width: 100%;
+        height: 60vh;
+        margin-top: -750px;
+    }
+    
+    .flex-icons {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content:space-around;
+        padding-top:30em;
+        margin: 0;
+        list-style: none;
+      }
     .aboutbody{
         padding-top: 2em;
         padding-bottom: 20%;
     }
-
- 
-    
     
     .aboutxt{
         text-align: center;

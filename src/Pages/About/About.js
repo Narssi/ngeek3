@@ -22,15 +22,15 @@ const About = () => {
                             </div>
                             );
                         })}
-                        <ul className="flex-icons">
+                        <div className="flex-icons">
                         {AboutIcons.map((imginfo, key)=>{
                             return(
-                            <li key={key} className="flex-icon">
+                            <div key={key} className="flex-icon">
                                 <img  src={`./assets/about/${imginfo.id}.png`}  alt="img"/> 
-                            </li> 
+                            </div> 
                             );
                         })}
-                        </ul>
+                        </div>
                     </div>  
              </Col>
              <Col>
