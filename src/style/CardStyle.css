@@ -68,12 +68,7 @@
     color: black;
     background-color: rgb(248, 248, 248);
     text-decoration: none;
-  }
-
-
-  
- 
-  
+  } 
   .txtcol2{
     background: #ffffff;
     height: 341px;
@@ -95,16 +90,14 @@
   @media  (max-width: 575.98px) {
   
     .portafolio{
-      width: 84%;
+      width: 100%;
       margin: auto;
     }
   
   
   .card-img{
-  
-    margin-top: 0;
     height: 726px;
-    width: 77vw;
+    width: 90vw;
     border-radius: 65px;
     margin-top: 30px;
   }
@@ -144,6 +137,10 @@
       width: 77vw;
       border-radius: 65px;
       margin-top: 30px;
+    }
+
+    .InfoP{
+      width: 70%;
     }
   
    }

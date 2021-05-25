@@ -61,7 +61,7 @@
 .flex-icons {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content:space-around;
     padding-top:5em;
     margin: 0;
     list-style: none;
@@ -69,7 +69,7 @@
   
   .flex-icon {
     background: rgba(255, 255, 255, 0);
-    padding: 2px;
+    padding: 0px;
     width: 150px;
     height: 150px;
     margin-top: 5px;
@@ -81,4 +81,24 @@
 
 .flex-icon img{
     width: 100%;
+}
+
+
+@media  (max-width: 575.98px) {
+
+    .aboutbody{
+        padding-top: 2em;
+        padding-bottom: 20%;
+    }
+
+ 
+    
+    
+    .aboutxt{
+        text-align: center;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+
 }

@@ -109,3 +109,26 @@ CSS Reconocimientos
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
+
+
+@media  (max-width: 575.98px) {
+
+  .Reconocimientos{
+    padding-top: 2em;
+    width: 100%;
+    margin: auto;
+  
+  }
+  
+  .Popular{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: white;
+    border-radius: 30px;
+    color: #fbc6a4;
+    padding-top: 0em;
+  }
+  
+
+}

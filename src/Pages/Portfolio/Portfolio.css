@@ -10,3 +10,19 @@
   height: auto;
   padding-bottom: 8em;
 }
+
+
+@media  (max-width: 575.98px) {
+
+.logo{
+  width: 100%;
+}
+
+.portafolio{
+  padding-top: 2em;
+  width: 77%;
+  margin: auto;
+  height: auto;
+  padding-bottom: 8em;
+}
+}
