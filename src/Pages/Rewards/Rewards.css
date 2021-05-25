@@ -66,7 +66,7 @@ CSS Reconocimientos
   width: 50%;
   height: auto;
   margin: auto;
-  background-color: rgb(40, 40, 43);
+  background-color: white;
   border-radius: 30px;
   color: #fbc6a4;
   padding-top: 0em;
@@ -76,14 +76,32 @@ CSS Reconocimientos
   width: 100%;
 }
 
+.flex-diplo{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-cards{
+  padding: 1px;
+  width: 360px;
+  height: 350px;
+  margin-top: 10px;
+  line-height: 150px;
+  margin-bottom: 40px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
 
 
 .nav-tabs{
   border-bottom: 0px solid;
-}
-
-.nav{
-  
 }
 
 .nav-tabs .nav-link.active {

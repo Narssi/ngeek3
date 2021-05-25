@@ -4,12 +4,12 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { motion } from "framer-motion";
 //import { Link } from 'react-router-dom';
-import {RewardsData, princinpal, Microsoft} from '../../Data/data-rewards';
+import {RewardsData, princinpal, Microsoft, Developer} from '../../Data/data-rewards';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 const Rewards = () => (
     <div className='Reconocimientos'>
-        <motion.div className='' initial={{opacity:0, y: 40}} animate={{opacity:1, y: 0 }}>
+        <motion.div initial={{opacity:0, y: 40}} animate={{opacity:1, y: 0 }}>
           
           {princinpal.map((diplom, key)=> {
               return(
@@ -21,7 +21,6 @@ const Rewards = () => (
                     <h1>Google - Certificate</h1>
                     <h2>UX Design</h2>
                     <p>2021</p>
-                    
                 </div>
             </div>
               );
@@ -30,38 +29,34 @@ const Rewards = () => (
         <div>
         <Tabs defaultActiveKey="home" transition={false} id="demo">
             <Tab eventKey="home" title="Home">
-                <Row>
+                <div className="flex-diplo">
                 {RewardsData.map((diplom, key) =>{
                     return(
-                        <Col key={key} className="setting col-8 col-md-4" style={{backgroundImage:`linear-gradient(to bottom,rgba(40, 40, 43,0.9),rgba(40, 40, 43, 1)),url(${diplom.picture})`}}> 
-                        </Col>
-                        
+                        <div key={key} className="flex-cards" style={{backgroundImage:`linear-gradient(to bottom,rgba(40, 40, 43,0.9),rgba(40, 40, 43, 1)),url(${diplom.picture})`}}> 
+                        </div>    
                     );
                 })}
-                </Row>
+                </div>
             </Tab>
             <Tab eventKey="Microsoft" title="Microsoft" >
-                <Row>
-                {Microsoft.map((diplom, key) =>{
-                    return(
-                        <Col key={key} className="setting col-8 col-md-4" style={{backgroundImage:`linear-gradient(to bottom,rgba(40, 40, 43,0.9),rgba(40, 40, 43, 1)),url(${diplom.picture})`}}> 
-                        </Col>
-                        
-                    );
-                })}
-                </Row>
-
+                <div className="flex-diplo">
+                    {Microsoft.map((diplom, key) =>{
+                        return(
+                            <div key={key} className="flex-cards" style={{backgroundImage:`linear-gradient(to bottom,rgba(40, 40, 43,0.9),rgba(40, 40, 43, 1)),url(${diplom.picture})`}}> 
+                            </div>    
+                        );
+                    })}
+                </div>
             </Tab>
-            <Tab eventKey="Developer" title="Developer" disabled>
-            <Row>
-                {RewardsData.map((diplom, key) =>{
-                    return(
-                        <Col key={key} className="setting col-8 col-md-4" style={{backgroundImage:`linear-gradient(to bottom,rgba(40, 40, 43,0.9),rgba(40, 40, 43, 1)),url(${diplom.picture})`}}> 
-                        </Col>
-                        
-                    );
-                })}
-                </Row>
+            <Tab eventKey="Developer" title="Developer" >
+            <div className="flex-diplo">
+                    {Developer.map((diplom, key) =>{
+                        return(
+                            <div key={key} className="flex-cards" style={{backgroundImage:`linear-gradient(to bottom,rgba(40, 40, 43,0.9),rgba(40, 40, 43, 1)),url(${diplom.picture})`}}> 
+                            </div>    
+                        );
+                    })}
+                </div>
             </Tab>
             </Tabs>
         </div> 
