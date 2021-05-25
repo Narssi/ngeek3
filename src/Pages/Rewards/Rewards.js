@@ -1,7 +1,5 @@
 import React from 'react';
 import './Rewards.css'
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import { motion } from "framer-motion";
 //import { Link } from 'react-router-dom';
 import {RewardsData, princinpal, Microsoft, Developer} from '../../Data/data-rewards';
