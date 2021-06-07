@@ -27,7 +27,7 @@ const PortList = () => {
     
     return(  
         <motion.div>
-            <div className="header"  style={{backgroundImage:`linear-gradient(to bottom,rgba(244, 244, 242, 0.80),rgba(255, 255, 255, 1)),url(/${backg})`}}>
+            <div className="header"  style={{backgroundImage:`linear-gradient(to bottom,rgba(244, 244, 242, 0.90),rgba(255, 255, 255, 1)),url(/${backg})`}}>
                 <h1>{tittle}</h1>           
             </div>
             <div className="conten">

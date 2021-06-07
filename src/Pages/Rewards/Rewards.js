@@ -15,6 +15,8 @@ const Rewards = () => (
     <div className='Reconocimientos'>
         <motion.div initial={{opacity:0, y: 40}} animate={{opacity:1, y: 0 }} className="Adwards">
         <Logo/>
+        <div className='back1'>
+        </div>
           {princinpal.map((diplom, key)=> {
               return(
             <div key={key} className="popu">
