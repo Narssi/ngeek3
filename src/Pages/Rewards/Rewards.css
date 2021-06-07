@@ -166,12 +166,24 @@ CSS Reconocimientos
 @media  (max-width: 575.98px) {
 
   .Reconocimientos{
-    padding-top: 2em;
     width: 100%;
     margin: auto;
   
   }
   
+
+  .popu{
+    width: 100%;
+    margin: auto !important;
+    padding-top: 9em;
+  }
+
+  .Info {
+    width: 95%;
+    padding-top: 1em;
+    padding-bottom: 5em;
+}
+
   .Popular{
     width: 100%;
     height: auto;
