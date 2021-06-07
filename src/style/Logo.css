@@ -1,0 +1,45 @@
+.Logo {
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 2em;
+  }
+
+ .Logo img{
+     width: 40%;
+ }
+
+
+
+  
+  .Home h1{
+    font-size: 9vw;
+    font-family: 'Comfortaa-Bold';
+    line-height:50%
+  }
+  .word{
+    font-size:1.8em;
+    float:none;
+    opacity:0;
+    position: absolute;
+    left:0%;
+    width: 100%;
+    margin: auto !important;
+    padding-top: 0.5em;
+  }
+  
+  .Home h2, h3{
+    font-size: 18px;
+    margin-top: -39px;
+    
+  }
+  .Home p{
+    font-family: 'Shorthair';
+    font-size: 25px;
+  }

@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import '../style/Navbar.css';
 import { Navbar, Nav, Container } from 'react-bootstrap';
-
 class Navbars extends Component {
 
     render(){
         return(
           <div className='effect'>   
+          
             <Navbar transparent="true" collapseOnSelect  expand='lg' className='back'>
               <Container>
                 <div className="effect-nav lgoeffect">

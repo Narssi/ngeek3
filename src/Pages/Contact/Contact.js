@@ -10,9 +10,11 @@ import Logo from '../../Components/Logo';
 const Contacto = () => {
     return(
         <motion.div className='Contacto' initial={{opacity:0, y: 40}} animate={{opacity:1, y: 0 }}>
+            <Logo/>
+            <div>
             <Row className="Bodycontact">
                 <Col sm className='aligt'>
-                <Logo/>
+                
                     <div className="tittlecontact">
                         <h2>Available for questions, collaborations, projects</h2>
                         <p>-- Based in México</p>
@@ -34,6 +36,7 @@ const Contacto = () => {
                     </motion.div>
                 </Col>
             </Row>
+            </div>
         </motion.div>
     );
 }

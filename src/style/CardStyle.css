@@ -8,67 +8,89 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
-    width: 30vw;
-    border-radius: 60px;
+    height: 100vh;
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
-    
-  }
-  
-  
-  .InfoP{
-    background-color: rgb(0, 0, 0);
-    bottom: 49px!important;
-    position: absolute;
-    width: 40%;
-    height: 35vh;
-    padding: 1em;
-    border-radius: 10px 30px 10px 30px;
-    right: 15%;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-  }
-
-  .fount-tittle{
-    margin-top: 1em;
-    width: 5%;
-    height: 4vh;
-    background-color: white;
-  }
-
-  .fount-tittle p{
-    font-size: 20px;
-    padding-left: 1em;
-    text-align: center;
-    letter-spacing: 1px;
+    text-decoration: none;
    
+  }
   
+  
+  .fount-tittle{
+    width: 100%;
+  }
+
+  .next{
+    width: 5%;
+    margin-left: 15px;
+  }
+
+  .fount-tittle h1{
+    margin-left: 40px;
+    padding-top: 1em;
+    font-size: 35px;
+    text-align: start;
+    font-weight: bold;
+    text-transform:uppercase;
+    font-weight: 800;
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: -0.1em;
+  }
+  .fount-tittle p{
+    margin-left: 40px;
+    padding-top: 0em;
+    font-size: medium;
+    text-align: start;
+    font-weight:500;
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: -0.1em;
   }
 
 
-  .fount-text{
-    background-color: rgb(255, 255, 255);
-    height: 13vh;
-    width: 80%;
-    margin: auto;
-    border-radius: 10px;
-    margin-top: 70px;
+
+
+  .figures{
+    background-image: url('../Assets/fond.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 35%;
+    margin-left: 32%;
+    height: 2.5vh;
+    bottom: 0%;
+    position: absolute;
+    border-radius: 10px 10px 0px 0px;
   }
+
+
+  .clics{
+    bottom: 30px;
+    position: absolute;
+    width: 100%;
+  }
+
 
   .fount-text p{
     color: rgb(0, 0, 0);
     padding-top: 2em;
-    font-size: medium;
-
+    font-size: 15px;
+    font-weight: bold;
+    text-transform:uppercase;
   }
 
-  .InfoP:hover{
-    color: black;
-    background-color: rgb(248, 248, 248);
+  .fount-text p:hover{
+    color: rgb(204, 204, 204);
+    font-weight: bold;
+  }
+
+  a:hover{
     text-decoration: none;
-  } 
+  }
+
+
+
   .txtcol2{
     background: #ffffff;
     height: 341px;
@@ -97,8 +119,8 @@
   
   .card-img{
     height: 726px;
-    width: 90vw;
-    border-radius: 65px;
+    width: 100%;
+    border-radius: 5px;
     margin-top: 30px;
   }
   

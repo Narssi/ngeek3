@@ -25,13 +25,13 @@ AboutInfo = [
 AboutIcons = [
 
     {
-        'id': '1',
+        'id': '11',
     },
     {
-        'id': '2',
+        'id': '12',
     },
     {
-        'id': '3',
+        'id': '13',
     }
 ],
 
@@ -46,19 +46,19 @@ InfoContact = [
 
 Contacticons = [
     {
-        'id': 'whats',
+        'id': 'wh2',
         'url': 'https://wa.me/525546604693'
     },
     {
-        'id': 'in',
+        'id': 'in1',
         'url': 'https://www.linkedin.com/in/ngeekreyes/'
     },
     {
-        'id': 'be',
+        'id': 'be3',
         'url': 'https://www.behance.net/narcisoreyes'
     },
     {
-        'id': 'git',
+        'id': 'git2',
         'url': 'https://github.com/ngeekreyes'
     },
    

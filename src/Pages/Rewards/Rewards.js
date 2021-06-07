@@ -5,13 +5,19 @@ import { motion } from "framer-motion";
 import {RewardsData, princinpal, Microsoft, Developer} from '../../Data/data-rewards';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+import Logo from '../../Components/Logo';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card';
+
+
 const Rewards = () => (
     <div className='Reconocimientos'>
-        <motion.div initial={{opacity:0, y: 40}} animate={{opacity:1, y: 0 }}>
-          
+        <motion.div initial={{opacity:0, y: 40}} animate={{opacity:1, y: 0 }} className="Adwards">
+        <Logo/>
           {princinpal.map((diplom, key)=> {
               return(
-                <div key={key}>
+            <div key={key} className="popu">
                 <div className="Popular">
                     <img  src={`./assets/rewards/${diplom.id}.jpg`}  alt="img"/>   
                 </div>
@@ -25,38 +31,85 @@ const Rewards = () => (
           })}
 
         <div>
-        <Tabs defaultActiveKey="home" transition={false} id="demo">
-            <Tab eventKey="home" title="Home">
-                <div className="flex-diplo">
+        <Tabs defaultActiveKey="Design" transition={false} id="demo">
+            <Tab eventKey="Design" title="Design">
+                <div className="rwbody">
+                <Row>
                 {RewardsData.map((diplom, key) =>{
                     return(
-                        <div key={key} className="flex-cards" style={{backgroundImage:`linear-gradient(to bottom,rgba(40, 40, 43,0.9),rgba(40, 40, 43, 1)),url(${diplom.picture})`}}> 
-                        </div>    
+                        <Col key={key}  md={12} lg={4}>
+                            <Card>
+                                <Card.Img variant="top" className="backsc" style={{backgroundImage:`linear-gradient(to bottom,rgba(255, 255, 255,0),rgba(255, 255, 255, 0)),url(${diplom.picture})`}}/>
+                                <Card.Body>
+                                <Card.Title>{diplom.text}</Card.Title>
+                                <Card.Text>
+                                    {diplom.text2}
+                                </Card.Text>
+                                </Card.Body>
+                                <Card.Footer>
+                                <small className="text-muted">Last updated 3 mins ago</small>
+                                </Card.Footer>
+                            </Card>
+                        </Col>
+                
                     );
                 })}
+                    </Row>
                 </div>
             </Tab>
-            <Tab eventKey="Microsoft" title="Microsoft" >
-                <div className="flex-diplo">
-                    {Microsoft.map((diplom, key) =>{
-                        return(
-                            <div key={key} className="flex-cards" style={{backgroundImage:`linear-gradient(to bottom,rgba(40, 40, 43,0.9),rgba(40, 40, 43, 1)),url(${diplom.picture})`}}> 
-                            </div>    
-                        );
-                    })}
-                </div>
-            </Tab>
-            <Tab eventKey="Developer" title="Developer" >
-            <div className="flex-diplo">
-                    {Developer.map((diplom, key) =>{
-                        return(
-                            <div key={key} className="flex-cards" style={{backgroundImage:`linear-gradient(to bottom,rgba(40, 40, 43,0.9),rgba(40, 40, 43, 1)),url(${diplom.picture})`}}> 
-                            </div>    
-                        );
-                    })}
-                </div>
-            </Tab>
-            </Tabs>
+                <Tab eventKey="Microsoft" title="Microsoft" >
+                    <div className="rwbody">
+                        <Row>
+                        {Microsoft.map((diplom, key) =>{
+                            return(
+                            <Col key={key}  md={12} lg={4}>
+                                <Card>
+                                    <Card.Img variant="top" className="backsc" style={{backgroundImage:`linear-gradient(to bottom,rgba(255, 255, 255,0),rgba(255, 255, 255, 0)),url(${diplom.picture})`}}/>
+                                    <Card.Body>
+                                    <Card.Title>Card title</Card.Title>
+                                    <Card.Text>
+                                        This is a wider card with supporting text below as a natural lead-in to
+                                        additional content. This card has even longer content than the first to
+                                        show that equal height action.
+                                    </Card.Text>
+                                    </Card.Body>
+                                    <Card.Footer>
+                                    <small className="text-muted">Last updated 3 mins ago</small>
+                                    </Card.Footer>
+                                </Card>
+                            </Col>    
+                            );
+                        })}
+                        </Row>
+                    </div>
+                </Tab>
+                <Tab eventKey="Events" title="Events" >
+                    <div className="rwbody">
+                        <Row>
+                            {Developer.map((diplom, key) =>{
+                                return(
+                                    <Col key={key}  md={12} lg={4}>
+                                        <Card>
+                                            <Card.Img variant="top" className="backsc" style={{backgroundImage:`linear-gradient(to bottom,rgba(255, 255, 255,0),rgba(255, 255, 255, 0)),url(${diplom.picture})`}}/>
+                                            <Card.Body>
+                                            <Card.Title>Card title</Card.Title>
+                                            <Card.Text>
+                                                This is a wider card with supporting text below as a natural lead-in to
+                                                additional content. This card has even longer content than the first to
+                                                show that equal height action.
+                                            </Card.Text>
+                                            </Card.Body>
+                                            <Card.Footer>
+                                            <small className="text-muted">Last updated 3 mins ago</small>
+                                            </Card.Footer>
+                                        </Card>
+                                     </Col>        
+                                );
+                            })}
+                        </Row>
+                    </div>
+                </Tab>
+        </Tabs>
         </div> 
       
       </motion.div>

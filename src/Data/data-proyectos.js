@@ -8,13 +8,9 @@ export const MobileApp = [
         'Role': 'UX Designer Generalist',
         'category': 'Mobile / Web',
         'Responsabilities': 'conducting interviews, paper and digital wireframe, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, and iterating on designs.',
-        'picture': './assets/portafolio/leo.jpg',
+        'picture': './assets/portafolio/x1.jpg',
         'backg': './assets/portafolio/1.jpg',
-
-
         
-
-
         'Tittle1': 'Empathy: Define the problem',
         'Details': 'The leopard is the animal more beautiful and fast in the world now have a problem, the clime change, the human has destroyed the habitat and hunted this animal for years.',
         'SubTittle2': 'now in leopardMX created the foundation for saving this animal in all world. now we create a campaign for generating conscience. and can you help us',
@@ -68,9 +64,6 @@ export const MobileApp = [
         'detailsC1': 'details',
         'subtittleC2': 'Reflection',
         'detailsC2':'details',
-
-
-
         'Overview': 'UPLOADING...',
         
 
@@ -81,70 +74,20 @@ export const MobileApp = [
         'date': '2021',
         'position': 'UX Design Generalist',
         'category': 'Mobile App',
-        'picture': './assets/portafolio/cine.jpg',
+        'picture': './assets/portafolio/x4.jpg',
         'backg': './assets/portafolio/2.jpg',
         'Overview': 'UPLOADING...',
 
-
-
-        'Duration': 'Duration: March.2021',
-        'Role': 'Role: UX Designer Generalist',
-        'Responsabilities': 'Responsabilities: conducting interviews, paper and digital wireframe, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, and iterating on designs.',
-        'Details': 'MystoreWDC is a webpage when the users can search all stores of the city of Washington D.C. has many store ́s different, where the users can visit all time. The typical user is of all ages. MystoreWDC is designed to make easy the search of the stores where can see the information of the service. All users can search different category of stores.',
-
-        'Tittle1': 'Empathy: Define the problem',
-        'SubTittle2': 'Problem',
-        'SubTittle3': 'Solution/Goal',
-
-        'Tittle2': 'User Research',
-        'Subtittle4': 'Summary',
-        'Subtittle5': 'Early Usability study: Parameters',
-        'Subtittle6': 'Usabiliti Study: Findings',
-
-
-        'Tittle3':'Research Finding: Paint point',
-        'DetailsPP': 'demos',
-
-        'Tittle4': 'Personas',
-        'imgpersonas':'imagenes',
-
-        'Tittle5': 'Wireframes',
-        'Subttitle7': 'Paper wireframes',
-        'Detailsw': 'demosdsd',
-        'imgwd': 'imagen',
-
-        'Tittle6': 'Digital Wireframe',
-        'imgw': 'imagen',
-
-        'Tittle7': 'Early usability test sample',
-        'imgtest': 'imagenes',
-
-        'Tittle8': 'Early prototypes',
-        'Subtittle8':'Low-fidelity prototype',
-        'imglow': 'imagenes',
-        'detailslow': 'details',
-
-        'Tittle9': 'Refine the original design: Mockups',
-        'DetailsRefine': 'detials',
-        'imgrefine':'imagenes',
-
-        'Tittle10': 'Mockups + Interaction',
-        'Subttitle9': 'High-fidelity prototype',
-        'DetailsHigh': 'details',
-        'ImagehiGH': 'Imagenes',
-
-        'Tittle11': 'Accessibility Considerations',
-        'Detailsaccess': 'details',
-        'imagenaccess':'imagenes',
-
-
-        'Tittle12': 'Conclusion',
-        'subttitleC': 'Impact',
-        'detailsC':'details',
-        'subtittleC1': 'Next Steps',
-        'detailsC1': 'details',
-        'subtittleC2': 'Reflection',
-        'detailsC2':'details',
+    },
+    {
+        'id': 'StoreWDC',
+        'tittle': 'MyStoreWDC',
+        'date': '2021',
+        'position': 'UX Design Generalist',
+        'category': 'Mobile App',
+        'picture': './assets/portafolio/x6.jpg',
+        'backg': './assets/portafolio/2.jpg',
+        'Overview': 'UPLOADING...',
 
     },
     {
@@ -153,139 +96,23 @@ export const MobileApp = [
         'date': '2021',
         'category': 'Mobile App',
         'position': 'UX Design Generalist',
-        'picture': './assets/portafolio/register.jpg',
+        'picture': './assets/portafolio/x100.jpg',
         'backg': './assets/portafolio/3.jpg',
         'Overview': 'UPLOADING...',
 
 
-        'Duration': 'Duration: March.2021',
-        'Role': 'Role: UX Designer Generalist',
-        'Responsabilities': 'Responsabilities: conducting interviews, paper and digital wireframe, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, and iterating on designs.',
-        'Details': 'MystoreWDC is a webpage when the users can search all stores of the city of Washington D.C. has many store ́s different, where the users can visit all time. The typical user is of all ages. MystoreWDC is designed to make easy the search of the stores where can see the information of the service. All users can search different category of stores.',
-
-        'Tittle1': 'Empathy: Define the problem',
-        'SubTittle2': 'Problem',
-        'SubTittle3': 'Solution/Goal',
-
-        'Tittle2': 'User Research',
-        'Subtittle4': 'Summary',
-        'Subtittle5': 'Early Usability study: Parameters',
-        'Subtittle6': 'Usabiliti Study: Findings',
-
-
-        'Tittle3':'Research Finding: Paint point',
-        'DetailsPP': 'demos',
-
-        'Tittle4': 'Personas',
-        'imgpersonas':'imagenes',
-
-        'Tittle5': 'Wireframes',
-        'Subttitle7': 'Paper wireframes',
-        'Detailsw': 'demosdsd',
-        'imgwd': 'imagen',
-
-        'Tittle6': 'Digital Wireframe',
-        'imgw': 'imagen',
-
-        'Tittle7': 'Early usability test sample',
-        'imgtest': 'imagenes',
-
-        'Tittle8': 'Early prototypes',
-        'Subtittle8':'Low-fidelity prototype',
-        'imglow': 'imagenes',
-        'detailslow': 'details',
-
-        'Tittle9': 'Refine the original design: Mockups',
-        'DetailsRefine': 'detials',
-        'imgrefine':'imagenes',
-
-        'Tittle10': 'Mockups + Interaction',
-        'Subttitle9': 'High-fidelity prototype',
-        'DetailsHigh': 'details',
-        'ImagehiGH': 'Imagenes',
-
-        'Tittle11': 'Accessibility Considerations',
-        'Detailsaccess': 'details',
-        'imagenaccess':'imagenes',
-
-
-        'Tittle12': 'Conclusion',
-        'subttitleC': 'Impact',
-        'detailsC':'details',
-        'subtittleC1': 'Next Steps',
-        'detailsC1': 'details',
-        'subtittleC2': 'Reflection',
-        'detailsC2':'details',
+        
     },
     {
         'id': 'Terumo',
         'tittle': 'Terumo',
         'date': '2021',
         'category': 'Mobile App',
-        'position': 'UX Design Generalist',
-        'picture': './assets/portafolio/Terumo.jpg',
+        'position': 'Visual Designer / UI Designer / Mobile Developer',
+        'picture': './assets/portafolio/x5.jpg',
         'backg': './assets/portafolio/4.jpg',
         'Overview': 'UPLOADING...',
 
-
-        'Duration': 'Duration: March.2021',
-        'Role': 'Role: UX Designer Generalist',
-        'Responsabilities': 'Responsabilities: conducting interviews, paper and digital wireframe, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, and iterating on designs.',
-        'Details': 'MystoreWDC is a webpage when the users can search all stores of the city of Washington D.C. has many store ́s different, where the users can visit all time. The typical user is of all ages. MystoreWDC is designed to make easy the search of the stores where can see the information of the service. All users can search different category of stores.',
-
-        'Tittle1': 'Empathy: Define the problem',
-        'SubTittle2': 'Problem',
-        'SubTittle3': 'Solution/Goal',
-
-        'Tittle2': 'User Research',
-        'Subtittle4': 'Summary',
-        'Subtittle5': 'Early Usability study: Parameters',
-        'Subtittle6': 'Usabiliti Study: Findings',
-
-
-        'Tittle3':'Research Finding: Paint point',
-        'DetailsPP': 'demos',
-
-        'Tittle4': 'Personas',
-        'imgpersonas':'imagenes',
-
-        'Tittle5': 'Wireframes',
-        'Subttitle7': 'Paper wireframes',
-        'Detailsw': 'demosdsd',
-        'imgwd': 'imagen',
-
-        'Tittle6': 'Digital Wireframe',
-        'imgw': 'imagen',
-
-        'Tittle7': 'Early usability test sample',
-        'imgtest': 'imagenes',
-
-        'Tittle8': 'Early prototypes',
-        'Subtittle8':'Low-fidelity prototype',
-        'imglow': 'imagenes',
-        'detailslow': 'details',
-
-        'Tittle9': 'Refine the original design: Mockups',
-        'DetailsRefine': 'detials',
-        'imgrefine':'imagenes',
-
-        'Tittle10': 'Mockups + Interaction',
-        'Subttitle9': 'High-fidelity prototype',
-        'DetailsHigh': 'details',
-        'ImagehiGH': 'Imagenes',
-
-        'Tittle11': 'Accessibility Considerations',
-        'Detailsaccess': 'details',
-        'imagenaccess':'imagenes',
-
-
-        'Tittle12': 'Conclusion',
-        'subttitleC': 'Impact',
-        'detailsC':'details',
-        'subtittleC1': 'Next Steps',
-        'detailsC1': 'details',
-        'subtittleC2': 'Reflection',
-        'detailsC2':'details',
 
     },
     {
@@ -293,70 +120,12 @@ export const MobileApp = [
         'tittle': 'AcomerCLub App',
         'date': '2021',
         'category': 'Mobile App',
-        'position': 'UX Design Generalist',
-        'picture': './assets/portafolio/toks.jpg',
+        'position': 'UX Design Generalist / Mobile Developer',
+        'picture': './assets/portafolio/x24.jpg',
         'backg': './assets/portafolio/toks.jpg',
         'Overview': 'UPLOADING...',
 
 
-        'Duration': 'Duration: March.2021',
-        'Role': 'Role: UX Designer Generalist',
-        'Responsabilities': 'Responsabilities: conducting interviews, paper and digital wireframe, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, and iterating on designs.',
-        'Details': 'MystoreWDC is a webpage when the users can search all stores of the city of Washington D.C. has many store ́s different, where the users can visit all time. The typical user is of all ages. MystoreWDC is designed to make easy the search of the stores where can see the information of the service. All users can search different category of stores.',
-
-        'Tittle1': 'Empathy: Define the problem',
-        'SubTittle2': 'Problem',
-        'SubTittle3': 'Solution/Goal',
-
-        'Tittle2': 'User Research',
-        'Subtittle4': 'Summary',
-        'Subtittle5': 'Early Usability study: Parameters',
-        'Subtittle6': 'Usabiliti Study: Findings',
-
-
-        'Tittle3':'Research Finding: Paint point',
-        'DetailsPP': 'demos',
-
-        'Tittle4': 'Personas',
-        'imgpersonas':'imagenes',
-
-        'Tittle5': 'Wireframes',
-        'Subttitle7': 'Paper wireframes',
-        'Detailsw': 'demosdsd',
-        'imgwd': 'imagen',
-
-        'Tittle6': 'Digital Wireframe',
-        'imgw': 'imagen',
-
-        'Tittle7': 'Early usability test sample',
-        'imgtest': 'imagenes',
-
-        'Tittle8': 'Early prototypes',
-        'Subtittle8':'Low-fidelity prototype',
-        'imglow': 'imagenes',
-        'detailslow': 'details',
-
-        'Tittle9': 'Refine the original design: Mockups',
-        'DetailsRefine': 'detials',
-        'imgrefine':'imagenes',
-
-        'Tittle10': 'Mockups + Interaction',
-        'Subttitle9': 'High-fidelity prototype',
-        'DetailsHigh': 'details',
-        'ImagehiGH': 'Imagenes',
-
-        'Tittle11': 'Accessibility Considerations',
-        'Detailsaccess': 'details',
-        'imagenaccess':'imagenes',
-
-
-        'Tittle12': 'Conclusion',
-        'subttitleC': 'Impact',
-        'detailsC':'details',
-        'subtittleC1': 'Next Steps',
-        'detailsC1': 'details',
-        'subtittleC2': 'Reflection',
-        'detailsC2':'details',
        
     },
     {
@@ -364,141 +133,22 @@ export const MobileApp = [
         'tittle': 'AcomerClub V1',
         'date': '2021',
         'category': 'Mobile App',
-        'position': 'UX Design Generalist',
-        'picture': './assets/portafolio/acomer1.jpg',
+        'position': 'UX Design / Visual Designer / UI Designer ',
+        'picture': './assets/portafolio/x15.jpg',
         'backg': './assets/portafolio/acomer1.jpg',
         'Overview': 'UPLOADING...',
 
-
-        'Duration': 'Duration: March.2021',
-        'Role': 'Role: UX Designer Generalist',
-        'Responsabilities': 'Responsabilities: conducting interviews, paper and digital wireframe, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, and iterating on designs.',
-        'Details': 'MystoreWDC is a webpage when the users can search all stores of the city of Washington D.C. has many store ́s different, where the users can visit all time. The typical user is of all ages. MystoreWDC is designed to make easy the search of the stores where can see the information of the service. All users can search different category of stores.',
-
-        'Tittle1': 'Empathy: Define the problem',
-        'SubTittle2': 'Problem',
-        'SubTittle3': 'Solution/Goal',
-
-        'Tittle2': 'User Research',
-        'Subtittle4': 'Summary',
-        'Subtittle5': 'Early Usability study: Parameters',
-        'Subtittle6': 'Usabiliti Study: Findings',
-
-
-        'Tittle3':'Research Finding: Paint point',
-        'DetailsPP': 'demos',
-
-        'Tittle4': 'Personas',
-        'imgpersonas':'imagenes',
-
-        'Tittle5': 'Wireframes',
-        'Subttitle7': 'Paper wireframes',
-        'Detailsw': 'demosdsd',
-        'imgwd': 'imagen',
-
-        'Tittle6': 'Digital Wireframe',
-        'imgw': 'imagen',
-
-        'Tittle7': 'Early usability test sample',
-        'imgtest': 'imagenes',
-
-        'Tittle8': 'Early prototypes',
-        'Subtittle8':'Low-fidelity prototype',
-        'imglow': 'imagenes',
-        'detailslow': 'details',
-
-        'Tittle9': 'Refine the original design: Mockups',
-        'DetailsRefine': 'detials',
-        'imgrefine':'imagenes',
-
-        'Tittle10': 'Mockups + Interaction',
-        'Subttitle9': 'High-fidelity prototype',
-        'DetailsHigh': 'details',
-        'ImagehiGH': 'Imagenes',
-
-        'Tittle11': 'Accessibility Considerations',
-        'Detailsaccess': 'details',
-        'imagenaccess':'imagenes',
-
-
-        'Tittle12': 'Conclusion',
-        'subttitleC': 'Impact',
-        'detailsC':'details',
-        'subtittleC1': 'Next Steps',
-        'detailsC1': 'details',
-        'subtittleC2': 'Reflection',
-        'detailsC2':'details',
-        
     },
     {
         'id': '4',
         'tittle': 'AcomerClub V2',
         'date': '2021',
         'category': 'Mobile App',
-        'position': 'UX Design Generalist',
-        'picture': './assets/portafolio/acomer2.jpg',
+        'position': 'UX Design / Visual Designer / UI Designer ',
+        'picture': './assets/portafolio/x20.jpg',
         'backg': './assets/portafolio/acomer2.jpg',
         'Overview': 'UPLOADING...',
 
-
-        'Duration': 'Duration: March.2021',
-        'Role': 'Role: UX Designer Generalist',
-        'Responsabilities': 'Responsabilities: conducting interviews, paper and digital wireframe, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, and iterating on designs.',
-        'Details': 'MystoreWDC is a webpage when the users can search all stores of the city of Washington D.C. has many store ́s different, where the users can visit all time. The typical user is of all ages. MystoreWDC is designed to make easy the search of the stores where can see the information of the service. All users can search different category of stores.',
-
-        'Tittle1': 'Empathy: Define the problem',
-        'SubTittle2': 'Problem',
-        'SubTittle3': 'Solution/Goal',
-
-        'Tittle2': 'User Research',
-        'Subtittle4': 'Summary',
-        'Subtittle5': 'Early Usability study: Parameters',
-        'Subtittle6': 'Usabiliti Study: Findings',
-
-
-        'Tittle3':'Research Finding: Paint point',
-        'DetailsPP': 'demos',
-
-        'Tittle4': 'Personas',
-        'imgpersonas':'imagenes',
-
-        'Tittle5': 'Wireframes',
-        'Subttitle7': 'Paper wireframes',
-        'Detailsw': 'demosdsd',
-        'imgwd': 'imagen',
-
-        'Tittle6': 'Digital Wireframe',
-        'imgw': 'imagen',
-
-        'Tittle7': 'Early usability test sample',
-        'imgtest': 'imagenes',
-
-        'Tittle8': 'Early prototypes',
-        'Subtittle8':'Low-fidelity prototype',
-        'imglow': 'imagenes',
-        'detailslow': 'details',
-
-        'Tittle9': 'Refine the original design: Mockups',
-        'DetailsRefine': 'detials',
-        'imgrefine':'imagenes',
-
-        'Tittle10': 'Mockups + Interaction',
-        'Subttitle9': 'High-fidelity prototype',
-        'DetailsHigh': 'details',
-        'ImagehiGH': 'Imagenes',
-
-        'Tittle11': 'Accessibility Considerations',
-        'Detailsaccess': 'details',
-        'imagenaccess':'imagenes',
-
-
-        'Tittle12': 'Conclusion',
-        'subttitleC': 'Impact',
-        'detailsC':'details',
-        'subtittleC1': 'Next Steps',
-        'detailsC1': 'details',
-        'subtittleC2': 'Reflection',
-        'detailsC2':'details',
         
     },
     {
@@ -507,69 +157,11 @@ export const MobileApp = [
         'date': '2021',
         'category': 'Mobile App',
         'position': 'UX Design Generalist',
-        'picture': './assets/portafolio/omnibus.jpg',
+        'picture': './assets/portafolio/x3.jpg',
         'backg': './assets/portafolio/omnibus.jpg',
         'Overview': 'UPLOADING...',
 
 
-        'Duration': 'Duration: March.2021',
-        'Role': 'Role: UX Designer Generalist',
-        'Responsabilities': 'Responsabilities: conducting interviews, paper and digital wireframe, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, and iterating on designs.',
-        'Details': 'MystoreWDC is a webpage when the users can search all stores of the city of Washington D.C. has many store ́s different, where the users can visit all time. The typical user is of all ages. MystoreWDC is designed to make easy the search of the stores where can see the information of the service. All users can search different category of stores.',
-
-        'Tittle1': 'Empathy: Define the problem',
-        'SubTittle2': 'Problem',
-        'SubTittle3': 'Solution/Goal',
-
-        'Tittle2': 'User Research',
-        'Subtittle4': 'Summary',
-        'Subtittle5': 'Early Usability study: Parameters',
-        'Subtittle6': 'Usabiliti Study: Findings',
-
-
-        'Tittle3':'Research Finding: Paint point',
-        'DetailsPP': 'demos',
-
-        'Tittle4': 'Personas',
-        'imgpersonas':'imagenes',
-
-        'Tittle5': 'Wireframes',
-        'Subttitle7': 'Paper wireframes',
-        'Detailsw': 'demosdsd',
-        'imgwd': 'imagen',
-
-        'Tittle6': 'Digital Wireframe',
-        'imgw': 'imagen',
-
-        'Tittle7': 'Early usability test sample',
-        'imgtest': 'imagenes',
-
-        'Tittle8': 'Early prototypes',
-        'Subtittle8':'Low-fidelity prototype',
-        'imglow': 'imagenes',
-        'detailslow': 'details',
-
-        'Tittle9': 'Refine the original design: Mockups',
-        'DetailsRefine': 'detials',
-        'imgrefine':'imagenes',
-
-        'Tittle10': 'Mockups + Interaction',
-        'Subttitle9': 'High-fidelity prototype',
-        'DetailsHigh': 'details',
-        'ImagehiGH': 'Imagenes',
-
-        'Tittle11': 'Accessibility Considerations',
-        'Detailsaccess': 'details',
-        'imagenaccess':'imagenes',
-
-
-        'Tittle12': 'Conclusion',
-        'subttitleC': 'Impact',
-        'detailsC':'details',
-        'subtittleC1': 'Next Steps',
-        'detailsC1': 'details',
-        'subtittleC2': 'Reflection',
-        'detailsC2':'details',
         
     },
     {
@@ -577,70 +169,12 @@ export const MobileApp = [
         'tittle': 'Spofity',
         'date': '2021',
         'category': 'Mobile App',
-        'position': 'UX Design Generalist',
-        'picture': './assets/portafolio/Spotify.jpg',
+        'position': 'UX Design / Visual Designer / UI Designer',
+        'picture': './assets/portafolio/x9.jpg',
         'backg': './assets/portafolio/5.jpg',
         'Overview': 'UPLOADING...',
 
 
-        'Duration': 'Duration: March.2021',
-        'Role': 'Role: UX Designer Generalist',
-        'Responsabilities': 'Responsabilities: conducting interviews, paper and digital wireframe, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, and iterating on designs.',
-        'Details': 'MystoreWDC is a webpage when the users can search all stores of the city of Washington D.C. has many store ́s different, where the users can visit all time. The typical user is of all ages. MystoreWDC is designed to make easy the search of the stores where can see the information of the service. All users can search different category of stores.',
-
-        'Tittle1': 'Empathy: Define the problem',
-        'SubTittle2': 'Problem',
-        'SubTittle3': 'Solution/Goal',
-
-        'Tittle2': 'User Research',
-        'Subtittle4': 'Summary',
-        'Subtittle5': 'Early Usability study: Parameters',
-        'Subtittle6': 'Usabiliti Study: Findings',
-
-
-        'Tittle3':'Research Finding: Paint point',
-        'DetailsPP': 'demos',
-
-        'Tittle4': 'Personas',
-        'imgpersonas':'imagenes',
-
-        'Tittle5': 'Wireframes',
-        'Subttitle7': 'Paper wireframes',
-        'Detailsw': 'demosdsd',
-        'imgwd': 'imagen',
-
-        'Tittle6': 'Digital Wireframe',
-        'imgw': 'imagen',
-
-        'Tittle7': 'Early usability test sample',
-        'imgtest': 'imagenes',
-
-        'Tittle8': 'Early prototypes',
-        'Subtittle8':'Low-fidelity prototype',
-        'imglow': 'imagenes',
-        'detailslow': 'details',
-
-        'Tittle9': 'Refine the original design: Mockups',
-        'DetailsRefine': 'detials',
-        'imgrefine':'imagenes',
-
-        'Tittle10': 'Mockups + Interaction',
-        'Subttitle9': 'High-fidelity prototype',
-        'DetailsHigh': 'details',
-        'ImagehiGH': 'Imagenes',
-
-        'Tittle11': 'Accessibility Considerations',
-        'Detailsaccess': 'details',
-        'imagenaccess':'imagenes',
-
-
-        'Tittle12': 'Conclusion',
-        'subttitleC': 'Impact',
-        'detailsC':'details',
-        'subtittleC1': 'Next Steps',
-        'detailsC1': 'details',
-        'subtittleC2': 'Reflection',
-        'detailsC2':'details',
         
     },
     {
@@ -648,70 +182,12 @@ export const MobileApp = [
         'tittle': 'Grupo Tsuba',
         'date': '2021',
         'category': 'Mobile App',
-        'position': 'UX Design Generalist',
-        'picture': './assets/portafolio/tsuba.jpg',
+        'position': 'UX Design / Visual Designer / UI Designer',
+        'picture': './assets/portafolio/x13.jpg',
         'backg': './assets/portafolio/tsuba.jpg',
         'Overview': 'UPLOADING...',
 
 
-        'Duration': 'Duration: March.2021',
-        'Role': 'Role: UX Designer Generalist',
-        'Responsabilities': 'Responsabilities: conducting interviews, paper and digital wireframe, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, and iterating on designs.',
-        'Details': 'MystoreWDC is a webpage when the users can search all stores of the city of Washington D.C. has many store ́s different, where the users can visit all time. The typical user is of all ages. MystoreWDC is designed to make easy the search of the stores where can see the information of the service. All users can search different category of stores.',
-
-        'Tittle1': 'Empathy: Define the problem',
-        'SubTittle2': 'Problem',
-        'SubTittle3': 'Solution/Goal',
-
-        'Tittle2': 'User Research',
-        'Subtittle4': 'Summary',
-        'Subtittle5': 'Early Usability study: Parameters',
-        'Subtittle6': 'Usabiliti Study: Findings',
-
-
-        'Tittle3':'Research Finding: Paint point',
-        'DetailsPP': 'demos',
-
-        'Tittle4': 'Personas',
-        'imgpersonas':'imagenes',
-
-        'Tittle5': 'Wireframes',
-        'Subttitle7': 'Paper wireframes',
-        'Detailsw': 'demosdsd',
-        'imgwd': 'imagen',
-
-        'Tittle6': 'Digital Wireframe',
-        'imgw': 'imagen',
-
-        'Tittle7': 'Early usability test sample',
-        'imgtest': 'imagenes',
-
-        'Tittle8': 'Early prototypes',
-        'Subtittle8':'Low-fidelity prototype',
-        'imglow': 'imagenes',
-        'detailslow': 'details',
-
-        'Tittle9': 'Refine the original design: Mockups',
-        'DetailsRefine': 'detials',
-        'imgrefine':'imagenes',
-
-        'Tittle10': 'Mockups + Interaction',
-        'Subttitle9': 'High-fidelity prototype',
-        'DetailsHigh': 'details',
-        'ImagehiGH': 'Imagenes',
-
-        'Tittle11': 'Accessibility Considerations',
-        'Detailsaccess': 'details',
-        'imagenaccess':'imagenes',
-
-
-        'Tittle12': 'Conclusion',
-        'subttitleC': 'Impact',
-        'detailsC':'details',
-        'subtittleC1': 'Next Steps',
-        'detailsC1': 'details',
-        'subtittleC2': 'Reflection',
-        'detailsC2':'details',
         
     },
     {
@@ -719,70 +195,12 @@ export const MobileApp = [
         'tittle': 'ServiExpress',
         'date': '2021',
         'category': 'Mobile App',
-        'position': 'UX Design Generalist',
-        'picture': './assets/portafolio/express.jpg',
+        'position': 'UX Design / Visual Designer / UI Designer',
+        'picture': './assets/portafolio/x25.jpg',
         'backg': './assets/portafolio/express.jpg',
         'Overview': 'UPLOADING...',
 
 
-        'Duration': 'Duration: March.2021',
-        'Role': 'Role: UX Designer Generalist',
-        'Responsabilities': 'Responsabilities: conducting interviews, paper and digital wireframe, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, and iterating on designs.',
-        'Details': 'MystoreWDC is a webpage when the users can search all stores of the city of Washington D.C. has many store ́s different, where the users can visit all time. The typical user is of all ages. MystoreWDC is designed to make easy the search of the stores where can see the information of the service. All users can search different category of stores.',
-
-        'Tittle1': 'Empathy: Define the problem',
-        'SubTittle2': 'Problem',
-        'SubTittle3': 'Solution/Goal',
-
-        'Tittle2': 'User Research',
-        'Subtittle4': 'Summary',
-        'Subtittle5': 'Early Usability study: Parameters',
-        'Subtittle6': 'Usabiliti Study: Findings',
-
-
-        'Tittle3':'Research Finding: Paint point',
-        'DetailsPP': 'demos',
-
-        'Tittle4': 'Personas',
-        'imgpersonas':'imagenes',
-
-        'Tittle5': 'Wireframes',
-        'Subttitle7': 'Paper wireframes',
-        'Detailsw': 'demosdsd',
-        'imgwd': 'imagen',
-
-        'Tittle6': 'Digital Wireframe',
-        'imgw': 'imagen',
-
-        'Tittle7': 'Early usability test sample',
-        'imgtest': 'imagenes',
-
-        'Tittle8': 'Early prototypes',
-        'Subtittle8':'Low-fidelity prototype',
-        'imglow': 'imagenes',
-        'detailslow': 'details',
-
-        'Tittle9': 'Refine the original design: Mockups',
-        'DetailsRefine': 'detials',
-        'imgrefine':'imagenes',
-
-        'Tittle10': 'Mockups + Interaction',
-        'Subttitle9': 'High-fidelity prototype',
-        'DetailsHigh': 'details',
-        'ImagehiGH': 'Imagenes',
-
-        'Tittle11': 'Accessibility Considerations',
-        'Detailsaccess': 'details',
-        'imagenaccess':'imagenes',
-
-
-        'Tittle12': 'Conclusion',
-        'subttitleC': 'Impact',
-        'detailsC':'details',
-        'subtittleC1': 'Next Steps',
-        'detailsC1': 'details',
-        'subtittleC2': 'Reflection',
-        'detailsC2':'details',
         
     },
     {
@@ -791,69 +209,11 @@ export const MobileApp = [
         'date': '2018',
         'category': 'Mobile App',
         'position': 'UX Design Generalist',
-        'picture': './assets/portafolio/boka.jpg',
+        'picture': './assets/portafolio/x8.jpg',
         'backg': './assets/portafolio/7.jpg',
         'Overview': 'UPLOADING...',
 
 
-        'Duration': 'Duration: March.2021',
-        'Role': 'Role: UX Designer Generalist',
-        'Responsabilities': 'Responsabilities: conducting interviews, paper and digital wireframe, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, and iterating on designs.',
-        'Details': 'MystoreWDC is a webpage when the users can search all stores of the city of Washington D.C. has many store ́s different, where the users can visit all time. The typical user is of all ages. MystoreWDC is designed to make easy the search of the stores where can see the information of the service. All users can search different category of stores.',
-
-        'Tittle1': 'Empathy: Define the problem',
-        'SubTittle2': 'Problem',
-        'SubTittle3': 'Solution/Goal',
-
-        'Tittle2': 'User Research',
-        'Subtittle4': 'Summary',
-        'Subtittle5': 'Early Usability study: Parameters',
-        'Subtittle6': 'Usabiliti Study: Findings',
-
-
-        'Tittle3':'Research Finding: Paint point',
-        'DetailsPP': 'demos',
-
-        'Tittle4': 'Personas',
-        'imgpersonas':'imagenes',
-
-        'Tittle5': 'Wireframes',
-        'Subttitle7': 'Paper wireframes',
-        'Detailsw': 'demosdsd',
-        'imgwd': 'imagen',
-
-        'Tittle6': 'Digital Wireframe',
-        'imgw': 'imagen',
-
-        'Tittle7': 'Early usability test sample',
-        'imgtest': 'imagenes',
-
-        'Tittle8': 'Early prototypes',
-        'Subtittle8':'Low-fidelity prototype',
-        'imglow': 'imagenes',
-        'detailslow': 'details',
-
-        'Tittle9': 'Refine the original design: Mockups',
-        'DetailsRefine': 'detials',
-        'imgrefine':'imagenes',
-
-        'Tittle10': 'Mockups + Interaction',
-        'Subttitle9': 'High-fidelity prototype',
-        'DetailsHigh': 'details',
-        'ImagehiGH': 'Imagenes',
-
-        'Tittle11': 'Accessibility Considerations',
-        'Detailsaccess': 'details',
-        'imagenaccess':'imagenes',
-
-
-        'Tittle12': 'Conclusion',
-        'subttitleC': 'Impact',
-        'detailsC':'details',
-        'subtittleC1': 'Next Steps',
-        'detailsC1': 'details',
-        'subtittleC2': 'Reflection',
-        'detailsC2':'details',
         
     },
     {
@@ -861,141 +221,25 @@ export const MobileApp = [
         'tittle': 'Pinatas Bolita',
         'date': '2016',
         'category': 'Mobile App',
-        'position': 'UX Design Generalist',
-        'picture': './assets/portafolio/pinatas.jpg',
+        'position': 'UX Design / Visual Designer / UI Designer',
+        'picture': './assets/portafolio/x11.jpg',
         'backg': './assets/portafolio/pinatas.jpg',
         'Overview': 'UPLOADING...',
 
 
-        'Duration': 'Duration: March.2021',
-        'Role': 'Role: UX Designer Generalist',
-        'Responsabilities': 'Responsabilities: conducting interviews, paper and digital wireframe, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, and iterating on designs.',
-        'Details': 'MystoreWDC is a webpage when the users can search all stores of the city of Washington D.C. has many store ́s different, where the users can visit all time. The typical user is of all ages. MystoreWDC is designed to make easy the search of the stores where can see the information of the service. All users can search different category of stores.',
-
-        'Tittle1': 'Empathy: Define the problem',
-        'SubTittle2': 'Problem',
-        'SubTittle3': 'Solution/Goal',
-
-        'Tittle2': 'User Research',
-        'Subtittle4': 'Summary',
-        'Subtittle5': 'Early Usability study: Parameters',
-        'Subtittle6': 'Usabiliti Study: Findings',
-
-
-        'Tittle3':'Research Finding: Paint point',
-        'DetailsPP': 'demos',
-
-        'Tittle4': 'Personas',
-        'imgpersonas':'imagenes',
-
-        'Tittle5': 'Wireframes',
-        'Subttitle7': 'Paper wireframes',
-        'Detailsw': 'demosdsd',
-        'imgwd': 'imagen',
-
-        'Tittle6': 'Digital Wireframe',
-        'imgw': 'imagen',
-
-        'Tittle7': 'Early usability test sample',
-        'imgtest': 'imagenes',
-
-        'Tittle8': 'Early prototypes',
-        'Subtittle8':'Low-fidelity prototype',
-        'imglow': 'imagenes',
-        'detailslow': 'details',
-
-        'Tittle9': 'Refine the original design: Mockups',
-        'DetailsRefine': 'detials',
-        'imgrefine':'imagenes',
-
-        'Tittle10': 'Mockups + Interaction',
-        'Subttitle9': 'High-fidelity prototype',
-        'DetailsHigh': 'details',
-        'ImagehiGH': 'Imagenes',
-
-        'Tittle11': 'Accessibility Considerations',
-        'Detailsaccess': 'details',
-        'imagenaccess':'imagenes',
-
-
-        'Tittle12': 'Conclusion',
-        'subttitleC': 'Impact',
-        'detailsC':'details',
-        'subtittleC1': 'Next Steps',
-        'detailsC1': 'details',
-        'subtittleC2': 'Reflection',
-        'detailsC2':'details',
         
     },
     {
         'id': '10',
         'tittle': 'Tumbii',
         'date': '2016',
-        'category': 'Mobile App',
+        'category': 'UX Design / Visual Designer / UI Designer',
         'position': 'UX Design Generalist',
-        'picture': './assets/portafolio/tumbi.jpg',
+        'picture': './assets/portafolio/x12.jpg',
         'backg': './assets/portafolio/tumbi.jpg',
         'Overview': 'UPLOADING...',
 
 
-        'Duration': 'Duration: March.2021',
-        'Role': 'Role: UX Designer Generalist',
-        'Responsabilities': 'Responsabilities: conducting interviews, paper and digital wireframe, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, and iterating on designs.',
-        'Details': 'MystoreWDC is a webpage when the users can search all stores of the city of Washington D.C. has many store ́s different, where the users can visit all time. The typical user is of all ages. MystoreWDC is designed to make easy the search of the stores where can see the information of the service. All users can search different category of stores.',
-
-        'Tittle1': 'Empathy: Define the problem',
-        'SubTittle2': 'Problem',
-        'SubTittle3': 'Solution/Goal',
-
-        'Tittle2': 'User Research',
-        'Subtittle4': 'Summary',
-        'Subtittle5': 'Early Usability study: Parameters',
-        'Subtittle6': 'Usabiliti Study: Findings',
-
-
-        'Tittle3':'Research Finding: Paint point',
-        'DetailsPP': 'demos',
-
-        'Tittle4': 'Personas',
-        'imgpersonas':'imagenes',
-
-        'Tittle5': 'Wireframes',
-        'Subttitle7': 'Paper wireframes',
-        'Detailsw': 'demosdsd',
-        'imgwd': 'imagen',
-
-        'Tittle6': 'Digital Wireframe',
-        'imgw': 'imagen',
-
-        'Tittle7': 'Early usability test sample',
-        'imgtest': 'imagenes',
-
-        'Tittle8': 'Early prototypes',
-        'Subtittle8':'Low-fidelity prototype',
-        'imglow': 'imagenes',
-        'detailslow': 'details',
-
-        'Tittle9': 'Refine the original design: Mockups',
-        'DetailsRefine': 'detials',
-        'imgrefine':'imagenes',
-
-        'Tittle10': 'Mockups + Interaction',
-        'Subttitle9': 'High-fidelity prototype',
-        'DetailsHigh': 'details',
-        'ImagehiGH': 'Imagenes',
-
-        'Tittle11': 'Accessibility Considerations',
-        'Detailsaccess': 'details',
-        'imagenaccess':'imagenes',
-
-
-        'Tittle12': 'Conclusion',
-        'subttitleC': 'Impact',
-        'detailsC':'details',
-        'subtittleC1': 'Next Steps',
-        'detailsC1': 'details',
-        'subtittleC2': 'Reflection',
-        'detailsC2':'details',
         
     },
     {
@@ -1003,141 +247,24 @@ export const MobileApp = [
         'tittle': 'Contructora',
         'date': '2016',
         'category': 'Mobile App',
-        'position': 'UX Design Generalist',
-        'picture': './assets/portafolio/construct.jpg',
+        'position': 'UX Design / Visual Designer / UI Designer',
+        'picture': './assets/portafolio/x10.jpg',
         'backg': './assets/portafolio/construct.jpg',
         'Overview': 'UPLOADING...',
         
 
-
-        'Duration': 'Duration: March.2021',
-        'Role': 'Role: UX Designer Generalist',
-        'Responsabilities': 'Responsabilities: conducting interviews, paper and digital wireframe, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, and iterating on designs.',
-        'Details': 'MystoreWDC is a webpage when the users can search all stores of the city of Washington D.C. has many store ́s different, where the users can visit all time. The typical user is of all ages. MystoreWDC is designed to make easy the search of the stores where can see the information of the service. All users can search different category of stores.',
-
-        'Tittle1': 'Empathy: Define the problem',
-        'SubTittle2': 'Problem',
-        'SubTittle3': 'Solution/Goal',
-
-        'Tittle2': 'User Research',
-        'Subtittle4': 'Summary',
-        'Subtittle5': 'Early Usability study: Parameters',
-        'Subtittle6': 'Usabiliti Study: Findings',
-
-
-        'Tittle3':'Research Finding: Paint point',
-        'DetailsPP': 'demos',
-
-        'Tittle4': 'Personas',
-        'imgpersonas':'imagenes',
-
-        'Tittle5': 'Wireframes',
-        'Subttitle7': 'Paper wireframes',
-        'Detailsw': 'demosdsd',
-        'imgwd': 'imagen',
-
-        'Tittle6': 'Digital Wireframe',
-        'imgw': 'imagen',
-
-        'Tittle7': 'Early usability test sample',
-        'imgtest': 'imagenes',
-
-        'Tittle8': 'Early prototypes',
-        'Subtittle8':'Low-fidelity prototype',
-        'imglow': 'imagenes',
-        'detailslow': 'details',
-
-        'Tittle9': 'Refine the original design: Mockups',
-        'DetailsRefine': 'detials',
-        'imgrefine':'imagenes',
-
-        'Tittle10': 'Mockups + Interaction',
-        'Subttitle9': 'High-fidelity prototype',
-        'DetailsHigh': 'details',
-        'ImagehiGH': 'Imagenes',
-
-        'Tittle11': 'Accessibility Considerations',
-        'Detailsaccess': 'details',
-        'imagenaccess':'imagenes',
-
-
-        'Tittle12': 'Conclusion',
-        'subttitleC': 'Impact',
-        'detailsC':'details',
-        'subtittleC1': 'Next Steps',
-        'detailsC1': 'details',
-        'subtittleC2': 'Reflection',
-        'detailsC2':'details',
     },
     {
         'id': '12',
         'tittle': 'Alto Empleo',
         'date': '2016',
         'category': 'Mobile App',
-        'position': 'UX Design Generalist',
-        'picture': './assets/portafolio/alto.jpg',
+        'position': 'UX Design / Visual Designer / UI Designer',
+        'picture': './assets/portafolio/x7.jpg',
         'backg': './assets/portafolio/alto.jpg',
         'Overview': 'UPLOADING...',
 
 
-        'Duration': 'Duration: March.2021',
-        'Role': 'Role: UX Designer Generalist',
-        'Responsabilities': 'Responsabilities: conducting interviews, paper and digital wireframe, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, and iterating on designs.',
-        'Details': 'MystoreWDC is a webpage when the users can search all stores of the city of Washington D.C. has many store ́s different, where the users can visit all time. The typical user is of all ages. MystoreWDC is designed to make easy the search of the stores where can see the information of the service. All users can search different category of stores.',
-
-        'Tittle1': 'Empathy: Define the problem',
-        'SubTittle2': 'Problem',
-        'SubTittle3': 'Solution/Goal',
-
-        'Tittle2': 'User Research',
-        'Subtittle4': 'Summary',
-        'Subtittle5': 'Early Usability study: Parameters',
-        'Subtittle6': 'Usabiliti Study: Findings',
-
-
-        'Tittle3':'Research Finding: Paint point',
-        'DetailsPP': 'demos',
-
-        'Tittle4': 'Personas',
-        'imgpersonas':'imagenes',
-
-        'Tittle5': 'Wireframes',
-        'Subttitle7': 'Paper wireframes',
-        'Detailsw': 'demosdsd',
-        'imgwd': 'imagen',
-
-        'Tittle6': 'Digital Wireframe',
-        'imgw': 'imagen',
-
-        'Tittle7': 'Early usability test sample',
-        'imgtest': 'imagenes',
-
-        'Tittle8': 'Early prototypes',
-        'Subtittle8':'Low-fidelity prototype',
-        'imglow': 'imagenes',
-        'detailslow': 'details',
-
-        'Tittle9': 'Refine the original design: Mockups',
-        'DetailsRefine': 'detials',
-        'imgrefine':'imagenes',
-
-        'Tittle10': 'Mockups + Interaction',
-        'Subttitle9': 'High-fidelity prototype',
-        'DetailsHigh': 'details',
-        'ImagehiGH': 'Imagenes',
-
-        'Tittle11': 'Accessibility Considerations',
-        'Detailsaccess': 'details',
-        'imagenaccess':'imagenes',
-
-
-        'Tittle12': 'Conclusion',
-        'subttitleC': 'Impact',
-        'detailsC':'details',
-        'subtittleC1': 'Next Steps',
-        'detailsC1': 'details',
-        'subtittleC2': 'Reflection',
-        'detailsC2':'details',
         
     },
     {
@@ -1145,79 +272,20 @@ export const MobileApp = [
         'tittle': 'MundoAnimal',
         'date': '2014',
         'category': 'Mobile App',
-        'position': 'UX Design Generalist',
-        'picture': './assets/portafolio/animals.jpg',
+        'position': 'UX Design Specialist / Mobile Developer',
+        'picture': './assets/portafolio/x19.jpg',
         'backg': './assets/portafolio/animals.jpg',
         'Overview': 'UPLOADING...',
 
 
-        'Duration': 'Duration: March.2021',
-        'Role': 'Role: UX Designer Generalist',
-        'Responsabilities': 'Responsabilities: conducting interviews, paper and digital wireframe, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, and iterating on designs.',
-        'Details': 'MystoreWDC is a webpage when the users can search all stores of the city of Washington D.C. has many store ́s different, where the users can visit all time. The typical user is of all ages. MystoreWDC is designed to make easy the search of the stores where can see the information of the service. All users can search different category of stores.',
-
-        'Tittle1': 'Empathy: Define the problem',
-        'SubTittle2': 'Problem',
-        'SubTittle3': 'Solution/Goal',
-
-        'Tittle2': 'User Research',
-        'Subtittle4': 'Summary',
-        'Subtittle5': 'Early Usability study: Parameters',
-        'Subtittle6': 'Usabiliti Study: Findings',
-
-
-        'Tittle3':'Research Finding: Paint point',
-        'DetailsPP': 'demos',
-
-        'Tittle4': 'Personas',
-        'imgpersonas':'imagenes',
-
-        'Tittle5': 'Wireframes',
-        'Subttitle7': 'Paper wireframes',
-        'Detailsw': 'demosdsd',
-        'imgwd': 'imagen',
-
-        'Tittle6': 'Digital Wireframe',
-        'imgw': 'imagen',
-
-        'Tittle7': 'Early usability test sample',
-        'imgtest': 'imagenes',
-
-        'Tittle8': 'Early prototypes',
-        'Subtittle8':'Low-fidelity prototype',
-        'imglow': 'imagenes',
-        'detailslow': 'details',
-
-        'Tittle9': 'Refine the original design: Mockups',
-        'DetailsRefine': 'detials',
-        'imgrefine':'imagenes',
-
-        'Tittle10': 'Mockups + Interaction',
-        'Subttitle9': 'High-fidelity prototype',
-        'DetailsHigh': 'details',
-        'ImagehiGH': 'Imagenes',
-
-        'Tittle11': 'Accessibility Considerations',
-        'Detailsaccess': 'details',
-        'imagenaccess':'imagenes',
-
-
-        'Tittle12': 'Conclusion',
-        'subttitleC': 'Impact',
-        'detailsC':'details',
-        'subtittleC1': 'Next Steps',
-        'detailsC1': 'details',
-        'subtittleC2': 'Reflection',
-        'detailsC2':'details',
-        
     },
     {
         'id': '14',
         'tittle': 'Universidades',
         'date': '2014',
         'category': 'Mobile App',
-        'position': 'UX Design Generalist',
-        'picture': './assets/portafolio/universidades.jpg',
+        'position': 'UX Design Specialist / Mobile Developer',
+        'picture': './assets/portafolio/x17.jpg',
         'backg': './assets/portafolio/universidades.jpg',
         'Overview': 'UPLOADING...',
         
@@ -1227,8 +295,8 @@ export const MobileApp = [
         'tittle': 'Mundo Animal',
         'date': '2014',
         'category': 'Mobile App',
-        'position': 'UX Design Generalist',
-        'picture': './assets/portafolio/mundo.jpg',
+        'position': 'UX Design Specialist / App Developer',
+        'picture': './assets/portafolio/x21.jpg',
         'backg': './assets/portafolio/mundo.jpg',
         'Overview': 'UPLOADING...',
         
@@ -1239,8 +307,8 @@ export const MobileApp = [
         'tittle': 'Maximum Excercise',
         'date': '2014',
         'category': 'Mobile App',
-        'position': 'UX Design Generalist',
-        'picture': './assets/portafolio/maximum.jpg',
+        'position': 'UX Design Specialist / Mobile Developer',
+        'picture': './assets/portafolio/x27.jpg',
         'backg': './assets/portafolio/maximum.jpg',
         'Overview': 'UPLOADING...',
         
@@ -1250,8 +318,8 @@ export const MobileApp = [
         'tittle': 'Calculadora Calificaciones',
         'date': '2013',
         'category': 'Mobile App',
-        'position': 'UX Design Generalist',
-        'picture': './assets/portafolio/calculadora.jpg',
+        'position': 'UX Design Specialist / Mobile Developer',
+        'picture': './assets/portafolio/x16.jpg',
         'backg': './assets/portafolio/calculadora.jpg',
         'Overview': 'UPLOADING...',
         
@@ -1261,8 +329,18 @@ export const MobileApp = [
         'tittle': 'Pancho Vs Zombies',
         'date': '2013',
         'category': 'Mobile App',
-        'position': 'UX Design Generalist',
-        'picture': './assets/portafolio/Pancho.jpg',
+        'position': 'UX Design Specialist / Videogames Developer',
+        'picture': './assets/portafolio/x28.jpg',
+        'backg': './assets/portafolio/Pancho.jpg',
+        'Overview': 'UPLOADING...',
+    },
+    {
+        'id': '19',
+        'tittle': 'Pingu atrapa peces',
+        'date': '2013',
+        'category': 'Mobile App',
+        'position': 'UX Design Specialist / Videogames Developer',
+        'picture': './assets/portafolio/x30.jpg',
         'backg': './assets/portafolio/Pancho.jpg',
         'Overview': 'UPLOADING...',
     },

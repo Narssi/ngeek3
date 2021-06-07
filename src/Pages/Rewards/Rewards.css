@@ -5,12 +5,61 @@ CSS Reconocimientos
 
 
 .Reconocimientos{
-  padding-top: 15em;
-  width: 80%;
+  padding-top: 0em;
+  width: 100%;
   margin: auto;
 
 }
 
+.popu{
+  width: 80%;
+  margin: auto !important;
+  padding-top: 15em;
+}
+
+.Adwards{
+  width: 80%;
+  margin: auto !important;
+}
+
+.logo{
+  width: 20%;
+  padding-top: 4em;
+  margin: auto !important;
+}
+
+
+
+.rwbody{
+  padding-top: 5em;
+  padding-bottom: 10em;
+}
+
+.backsc{
+  height: 30vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.col-lg-4,.col-lg-12{
+  padding-top: 2em;
+}
+
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #f4f4f4;
+  background-clip: border-box;
+  border: 0px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
 
 
 .Info{
@@ -76,38 +125,41 @@ CSS Reconocimientos
   width: 100%;
 }
 
-.flex-diplo{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.flex-cards{
-  padding: 1px;
-  width: 360px;
-  height: 350px;
-  margin-top: 10px;
-  line-height: 150px;
-  margin-bottom: 40px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-}
-
 
 
 .nav-tabs{
   border-bottom: 0px solid;
+    /* margin-left: 420px; */
+    margin: auto;
+    width: 60%;
 }
 
-.nav-tabs .nav-link.active {
+
+.Reconocimientos .nav-link {
+  display: block;
+  padding: 1.5rem 0rem;
+  margin: auto;
+}
+
+.Reconocimientos .nav-tabs .nav-link.active {
   color: #1b1b1b;
-  background-color: #fff;
-  border-color: #dee2e6 #dee2e6 #fff;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0px solid;
+  
+}
+
+
+
+.Reconocimientos .nav-tabs .nav-link {
+  border: 0px solid transparent;
+  border-top-left-radius: .0rem;
+  border-top-right-radius: .0rem;
+}
+
+.Reconocimientos a{
+  color: #bdbfc0;
+  text-decoration: none;
+  background-color: transparent;
 }
 
 
@@ -129,6 +181,42 @@ CSS Reconocimientos
     color: #fbc6a4;
     padding-top: 0em;
   }
+
+
+
+.nav-tabs{
+  border-bottom: 0px solid;
+    /* margin-left: 420px; */
+    margin: auto;
+    width: 100%;
+    font-size: medium;
+}
+
+
+.Reconocimientos .nav-link {
+  display: block;
+  padding: 1.5rem 0rem;
+  margin: auto;
+}
+
+.Reconocimientos .nav-tabs .nav-link.active {
+  color: #1b1b1b;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0px solid;
+  
+}
+
+
+
+.Reconocimientos .nav-tabs .nav-link {
+  border: 0px solid transparent;
+  border-top-left-radius: .0rem;
+  border-top-right-radius: .0rem;
+}
+
+
+
+
   
 
 }

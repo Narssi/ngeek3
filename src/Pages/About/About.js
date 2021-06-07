@@ -4,14 +4,14 @@ import Col from 'react-bootstrap/Col';
 import './About.css'
 import {AboutInfo, AboutIcons} from '../../Data/data-ngk';
 import Logo from '../../Components/Logo';
-
 const About = () => {
     return(
 
     <div className="Perfil">
+         <Logo/>
          <Row className="aboutbody">
-            <Col sm>
-                <Logo/> 
+            <Col sm className="blakinfo">
+                   
                     <div>
                         {AboutInfo.map((textinfo, key)=>{
                             return(
@@ -34,7 +34,7 @@ const About = () => {
                     </div>  
              </Col>
              <Col>
-                <div className="perfil"></div>
+                <div className="photo"></div>
              </Col>
         </Row>
     </div>

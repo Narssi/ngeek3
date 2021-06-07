@@ -1,13 +1,20 @@
 .Contacto{
     height: auto;
     text-align: center;
-    padding-top: 15em;
+    width: 100%;
+    margin: auto !important;
   }
+  
+  .logo{
+    width: 20%;
+    margin: auto !important;
+  }
+  
 
 
   .Bodycontact{
     width: 80%;
-    padding-top: 6em;
+    padding-top: 15em;
     margin: auto;
     padding-bottom: 10em;
   }
@@ -23,7 +30,7 @@
 
  h4{
   font-size: 30px;
-  color: #fbc6a4;
+  color: #383838;
   margin: auto;
   padding-top: 7em;
 }
@@ -49,7 +56,7 @@
   background-size: cover;
   border-radius: 30px;
   cursor: pointer;
-  color: #fbc6a4;
+  color: #363636;
   border: 1px solid;
 }
 
@@ -82,13 +89,15 @@
     height: auto;
     text-align: center;
     padding-top: 1em;
+    width: 100%;
+    margin: auto !important;
  
     
   }
 
   .Bodycontact{
-    width: 80%;
-    padding-top: 2em;
+    width: 100%;
+    padding-top: 4em;
     margin: auto;
     padding-bottom: 10em;
   }
@@ -96,8 +105,6 @@
   .aligt{
     padding-top: 0em;
   }
-
-
 
   .icons{
     width: 100%;
