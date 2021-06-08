@@ -8,7 +8,6 @@ import Tabs from 'react-bootstrap/Tabs';
 import Logo from '../../Components/Logo';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Card from 'react-bootstrap/Card';
 
 
 const Rewards = () => (
@@ -16,42 +15,65 @@ const Rewards = () => (
         <motion.div initial={{opacity:0, y: 40}} animate={{opacity:1, y: 0 }} className="Adwards">
         <Logo/>
         <div className='back1'>
-        </div>
-          {princinpal.map((diplom, key)=> {
+        {princinpal.map((diplom, key)=> {
               return(
-            <div key={key} className="popu">
-                <div className="Popular">
-                    <img  src={`./assets/rewards/${diplom.id}.jpg`}  alt="img"/>   
+                <div key={key} className="popu">  
+                   
+                    <div className="Popular">
+                        <img  src={`./assets/rewards/${diplom.id}.png`}  alt="img"/>   
+                        <div className="Info">
+                            <h1>Google - Certificate</h1>
+                            <h2>UX Design</h2>
+                            <p>2021</p>
+                        </div>
+                    </div>
+                   
+                   
+                    
                 </div>
-                <div className="Info">
-                    <h1>Google - Certificate</h1>
-                    <h2>UX Design</h2>
-                    <p>2021</p>
-                </div>
-            </div>
               );
           })}
+        </div>
+        
 
-        <div>
+        
+           
+
+   
+
+     
+
+       
+
+
+
+          
+
+    <div>
         <Tabs defaultActiveKey="Design" transition={false} id="demo">
             <Tab eventKey="Design" title="Design">
                 <div className="rwbody">
                 <Row>
                 {RewardsData.map((diplom, key) =>{
                     return(
-                        <Col key={key}  md={12} lg={4}>
-                            <Card>
-                                <Card.Img variant="top" className="backsc" style={{backgroundImage:`linear-gradient(to bottom,rgba(255, 255, 255,0),rgba(255, 255, 255, 0)),url(${diplom.picture})`}}/>
-                                <Card.Body>
-                                <Card.Title>{diplom.text}</Card.Title>
-                                <Card.Text>
-                                    {diplom.text2}
-                                </Card.Text>
-                                </Card.Body>
-                                <Card.Footer>
-                                <small className="text-muted">Last updated 3 mins ago</small>
-                                </Card.Footer>
-                            </Card>
+                        <Col  key={key}  md={12} lg={4}>
+                            <div  className="card-02">
+
+                                <div className="imgstyle" style={{backgroundImage:`linear-gradient(to bottom,rgba(0, 0, 0,0),rgba(255, 255, 255, 0)),url(${diplom.picture})`}}>   
+                                </div>
+                                
+                                <div className="info-dip">
+                                    <h1>{diplom.text}</h1>
+                                    <p>
+                                        {diplom.text2}
+                                    </p>
+                                    
+                                </div>
+                                <div className="txt-title">
+                                        <small>{diplom.date}</small>
+                                    </div>
+                    
+                            </div>
                         </Col>
                 
                     );
@@ -65,20 +87,22 @@ const Rewards = () => (
                         {Microsoft.map((diplom, key) =>{
                             return(
                             <Col key={key}  md={12} lg={4}>
-                                <Card>
-                                    <Card.Img variant="top" className="backsc" style={{backgroundImage:`linear-gradient(to bottom,rgba(255, 255, 255,0),rgba(255, 255, 255, 0)),url(${diplom.picture})`}}/>
-                                    <Card.Body>
-                                    <Card.Title>Card title</Card.Title>
-                                    <Card.Text>
-                                        This is a wider card with supporting text below as a natural lead-in to
-                                        additional content. This card has even longer content than the first to
-                                        show that equal height action.
-                                    </Card.Text>
-                                    </Card.Body>
-                                    <Card.Footer>
-                                    <small className="text-muted">Last updated 3 mins ago</small>
-                                    </Card.Footer>
-                                </Card>
+                                <div  className="card-02">
+
+                                <div className="imgstyle" style={{backgroundImage:`linear-gradient(to bottom,rgba(0, 0, 0,0),rgba(255, 255, 255, 0)),url(${diplom.picture})`}}>   
+                                </div>
+
+                                <div className="info-dip">
+                                    <h1>{diplom.text}</h1>
+                                    <p>
+                                        {diplom.text2}
+                                    </p>
+                                    <div className="txt-title">
+                                        <small>{diplom.date}</small>
+                                    </div>
+                                </div>
+
+                                </div>
                             </Col>    
                             );
                         })}
@@ -91,20 +115,22 @@ const Rewards = () => (
                             {Developer.map((diplom, key) =>{
                                 return(
                                     <Col key={key}  md={12} lg={4}>
-                                        <Card>
-                                            <Card.Img variant="top" className="backsc" style={{backgroundImage:`linear-gradient(to bottom,rgba(255, 255, 255,0),rgba(255, 255, 255, 0)),url(${diplom.picture})`}}/>
-                                            <Card.Body>
-                                            <Card.Title>Card title</Card.Title>
-                                            <Card.Text>
-                                                This is a wider card with supporting text below as a natural lead-in to
-                                                additional content. This card has even longer content than the first to
-                                                show that equal height action.
-                                            </Card.Text>
-                                            </Card.Body>
-                                            <Card.Footer>
-                                            <small className="text-muted">Last updated 3 mins ago</small>
-                                            </Card.Footer>
-                                        </Card>
+                                       <div  className="card-02">
+
+                                        <div className="imgstyle" style={{backgroundImage:`linear-gradient(to bottom,rgba(0, 0, 0,0),rgba(255, 255, 255, 0)),url(${diplom.picture})`}}>   
+                                        </div>
+
+                                        <div className="info-dip">
+                                            <h1>{diplom.text}</h1>
+                                            <p>
+                                                {diplom.text2}
+                                            </p>
+                                            <div className="txt-title">
+                                                <small>{diplom.date}</small>
+                                            </div>
+                                        </div>
+
+                                        </div>
                                      </Col>        
                                 );
                             })}

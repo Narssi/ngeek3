@@ -1,65 +1,42 @@
 export const RewardsData = [
     {
-        'id': '1s',
-        'text': 'UI DESIGN & UX RESERCH',
-        'text2': 'Design interfaces Apps',
-        'picture': './assets/rewards/Design/1.jpg'
+        'id': '1a',
+        'text': 'ADOBE XD PROFESIONAL',
+        'text2': 'Udemy',
+        'picture': './assets/rewards/Design/1.jpg',
+        'date': 'Jan.2021'
     },
     {
-        'id': '1s',
-        'text': 'UI DESIGN & UX RESERCH',
-        'text2': 'Design interfaces Apps',
-        'picture': './assets/rewards/Design/2.jpg'
+        'id': '2a',
+        'text': 'Adobe XD CC Master Prototypes',
+        'text2': 'Udemy',
+        'picture': './assets/rewards/Design/2.jpg',
+        'date': 'Jan.2021'
     },
     {
-        'id': '1s',
-        'text': 'UI DESIGN & UX RESERCH',
-        'text2': 'Design interfaces Apps',
-        'picture': './assets/rewards/Design/3.jpg'
+        'id': '3a',
+        'text': 'UX Design Beginner',
+        'text2': 'Udemy',
+        'picture': './assets/rewards/Design/3.jpg',
+        'date': 'Jan.2021'
     },
     {
-        'id': '2s',
-        'text': 'ALL COURSES',
-        'text2': 'Cursos',
+        'id': '4a',
+        'text': 'UX Master Web Design and User Experience',
+        'text2': 'Udemy',
         'picture': './assets/rewards/Design/4.jpg',
-        'button': 'Próximamente'
+        'date': 'Jan.2021'
 
-    },
-    {
-        'id': '3s',
-        'text': 'FRONT-END MOBILE AND WEB',
-        'text2': 'React, Angular, SwiftUI, XAML',
-        'picture': './assets/rewards/Design/5.jpg'
-    },
-    {
-        'id': '4s',
-        'text': 'UI DESIGN & UX RESERCH',
-        'text2': 'Design interfaces Apps',
-        'picture': './assets/rewards/Design/6.jpg'
-    },
-    {
-        'id': '5s',
-        'text': 'ALL COURSES',
-        'text2': 'Cursos',
-        'picture': './assets/rewards/Design/7.jpg',
-        'button': 'Próximamente'
-
-    },
-    {
-        'id': '6s',
-        'text': 'FRONT-END MOBILE AND WEB',
-        'text2': 'React, Angular, SwiftUI, XAML',
-        'picture': './assets/rewards/Design/8.jpg'
     }
  
 ],
 
 princinpal = [
     {
-        'id': 'certificate',
+        'id': 'GoogleUX',
         'text': 'UI DESIGN & UX RESERCH',
         'text2': 'Design interfaces Apps',
-        'picture': './assets/rewards/ux.jpg',
+        'picture': './assets/rewards/GoogleUX.png',
         'special': 'demo'
     }
 ],
@@ -67,122 +44,128 @@ princinpal = [
 Microsoft = [
     {
         'id': '3s',
-        'text': 'FRONT-END MOBILE AND WEB',
-        'text2': 'React, Angular, SwiftUI, XAML',
-        'picture': './assets/rewards/Microsoft/1.jpg'
+        'text': 'Microsoft Student Partners',
+        'text2': 'Microsoft',
+        'picture': './assets/rewards/Microsoft/1.jpg',
+        'date': 'Jan.2016'
     },
     {
         'id': '4s',
-        'text': 'UI DESIGN & UX RESERCH',
-        'text2': 'Design interfaces Apps',
-        'picture': './assets/rewards/Microsoft/2.jpg'
+        'text': 'Microsoft Student Partners',
+        'text2': 'Microsoft',
+        'picture': './assets/rewards/Microsoft/2.jpg',
+        'date': 'Jan.2013',
     },
     {
         'id': '5s',
-        'text': 'ALL COURSES',
-        'text2': 'Cursos',
+        'text': 'Microsoft Student Partners Expert',
+        'text2': 'Microsoft',
         'picture': './assets/rewards/Microsoft/3.jpg',
-        'button': 'Próximamente'
+        'date': 'Jan.2014',
+        
 
     },
     {
         'id': '5ss',
-        'text': 'ALL COURSES',
-        'text2': 'Cursos',
+        'text': 'Office Word 2010',
+        'text2': 'Certificate Microsoft',
         'picture': './assets/rewards/Microsoft/4.jpg',
-        'button': 'Próximamente'
+        'date': 'Jan.2021',
+        
 
     }
     ,
     {
         'id': '5sl',
-        'text': 'ALL COURSES',
-        'text2': 'Cursos',
+        'text': 'Office PowerPoint 2010',
+        'text2': 'Certificate Microsoft',
         'picture': './assets/rewards/Microsoft/5.jpg',
-        'button': 'Próximamente'
+        'date': 'Jan.2021',
+        
 
     }
     ,
     {
         'id': '5sll',
-        'text': 'ALL COURSES',
-        'text2': 'Cursos',
+        'text': 'Office Excel 2010',
+        'text2': 'Certificate Microsoft',
         'picture': './assets/rewards/Microsoft/6.jpg',
-        'button': 'Próximamente'
+        'date': 'Jan.2021',
+        
 
     }
     ,
     {
         'id': '34',
-        'text': 'ALL COURSES',
-        'text2': 'Cursos',
+        'text': 'Videogames for Windows 8',
+        'text2': 'Microsoft Course',
         'picture': './assets/rewards/Microsoft/7.jpg',
-        'button': 'Próximamente'
+        'date': 'May.2013',
+        
 
     },
     {
         'id': '33',
-        'text': 'ALL COURSES',
-        'text2': 'Cursos',
+        'text': 'Xamarin for Absolute Beginners',
+        'text2': 'Microsoft Virtual Academy',
         'picture': './assets/rewards/Microsoft/8.jpg',
-        'button': 'Próximamente'
+        'date': 'Oct.2017',
+        
 
     },
     {
         'id': '32',
-        'text': 'ALL COURSES',
-        'text2': 'Cursos',
+        'text': 'Xamarin Introductions',
+        'text2': 'Microsoft Virtual Academy',
         'picture': './assets/rewards/Microsoft/9.jpg',
-        'button': 'Próximamente'
+        'date': 'Jun.2016',
+        
 
     },
     {
         'id': '53',
-        'text': 'ALL COURSES',
-        'text2': 'Cursos',
+        'text': 'Developer Apps Multiplatforms',
+        'text2': 'Microsoft Virtual Academy',
         'picture': './assets/rewards/Microsoft/10.jpg',
-        'button': 'Próximamente'
+        'date': 'Jun.2014',
+        
 
     },
     {
         'id': '43',
-        'text': 'ALL COURSES',
-        'text2': 'Cursos',
+        'text': 'Create your first videogame with Construct 2',
+        'text2': 'Microsoft Virtual Academy',
         'picture': './assets/rewards/Microsoft/11.jpg',
-        'button': 'Próximamente'
+        'date': 'Jun.2016',
+        
 
     },
     {
         'id': '44',
-        'text': 'ALL COURSES',
-        'text2': 'Cursos',
+        'text': 'IT PRO Evolution Azure',
+        'text2': 'Microsoft Virtual Academy',
         'picture': './assets/rewards/Microsoft/12.jpg',
-        'button': 'Próximamente'
+        'date': 'Dec.2014',
+        
 
     },
     {
         'id': '45',
-        'text': 'ALL COURSES',
-        'text2': 'Cursos',
+        'text': 'Videogames 2D for Windows 8.1',
+        'text2': 'Microsoft Virtual Academy',
         'picture': './assets/rewards/Microsoft/13.jpg',
-        'button': 'Próximamente'
+        'date': 'Dec.2013',
+        
 
     },
-    {
-        'id': '54',
-        'text': 'ALL COURSES',
-        'text2': 'Cursos',
-        'picture': './assets/rewards/Microsoft/14.jpg',
-        'button': 'Próximamente'
-
-    }
 ],
 Developer = [
     {
         'id': '3s',
-        'text': 'FRONT-END MOBILE AND WEB',
-        'text2': 'React, Angular, SwiftUI, XAML',
-        'picture': './assets/rewards/Events/1.jpg'
+        'text': 'Neural Network',
+        'text2': 'CONACYT',
+        'picture': './assets/rewards/Events/1.jpg',
+        'date': 'Aug.2014',
     },
     
 ]
