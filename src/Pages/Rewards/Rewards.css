@@ -14,12 +14,12 @@ CSS Reconocimientos
 .back1{
   width: 100%;
   height: 150vh;
-  background-image: linear-gradient(180deg,rgba(255, 255, 255, 0.705),rgb(255, 255, 255)),url('../../Assets/demo.jpg');
+  background-image: linear-gradient(180deg,rgba(255, 255, 255, 0.856),rgb(255, 255, 255)),url('../../Assets/demo.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: -440px;
-  background-attachment: fixed;
+
 }
 
 
