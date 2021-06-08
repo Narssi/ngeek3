@@ -31,13 +31,79 @@ export const RewardsData = [
  
 ],
 
+linkbtn = [
+    {
+        'id': 'googleux',
+        'url': 'https://www.credly.com/badges/976965be-03c6-47d4-8f9b-98c742fffa30/linked_in'
+    },
+],
+
 princinpal = [
     {
         'id': 'GoogleUX',
         'text': 'UI DESIGN & UX RESERCH',
         'text2': 'Design interfaces Apps',
         'picture': './assets/rewards/GoogleUX.png',
-        'special': 'demo'
+        'date': 'Jan.2021'
+    }
+],
+
+GoogleUX = [
+    {
+        'id': 'certificate',
+        'text': 'Google UX Certificate',
+        'text2': 'Coursera Google',
+        'picture': './assets/rewards/Google/certificate.jpg',
+        'date': 'Jan.2021'
+    },
+    {
+        'id': '1g',
+        'text': 'Foundations of User Experience (UX) Design',
+        'text2': 'Google UX Certificate',
+        'picture': './assets/rewards/Google/1.jpg',
+        'date': 'Jan.2021'
+    },
+    {
+        'id': '2g',
+        'text': 'Start the UX Design Process: Empathize, Define, and Ideate',
+        'text2': 'Google UX Certificate',
+        'picture': './assets/rewards/Google/2.jpg',
+        'date': 'Jan.2021'
+    },
+    {
+        'id': '3g',
+        'text': 'Build Wireframes and Low- Fidelity Prototypes',
+        'text2': 'Google UX Certificate',
+        'picture': './assets/rewards/Google/3.jpg',
+        'date': 'Jan.2021'
+    },
+    {
+        'id': '4g',
+        'text': 'Conduct UX Research and Test Early Concepts',
+        'text2': 'Google UX Certificate',
+        'picture': './assets/rewards/Google/4.jpg',
+        'date': 'Jan.2021'
+    },
+    {
+        'id': '5g',
+        'text': 'Create High-Fidelity Designs and Prototypes in Figma',
+        'text2': 'Google UX Certificate',
+        'picture': './assets/rewards/Google/5.jpg',
+        'date': 'Jan.2021'
+    },
+    {
+        'id': '6g',
+        'text': 'Responsive Web Design in Adobe XD',
+        'text2': 'Google UX Certificate',
+        'picture': './assets/rewards/Google/6.jpg',
+        'date': 'Jan.2021'
+    },
+    {
+        'id': '7g',
+        'text': 'Design a User Experience for Social Good',
+        'text2': 'Google UX Certificate',
+        'picture': './assets/rewards/Google/7.jpg',
+        'date': 'Jan.2021'
     }
 ],
 

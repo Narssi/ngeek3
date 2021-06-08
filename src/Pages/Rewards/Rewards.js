@@ -1,8 +1,8 @@
 import React from 'react';
 import './Rewards.css'
 import { motion } from "framer-motion";
-//import { Link } from 'react-router-dom';
-import {RewardsData, princinpal, Microsoft, Developer} from '../../Data/data-rewards';
+import { Link } from 'react-router-dom';
+import {RewardsData, princinpal, Microsoft, Developer,GoogleUX,linkbtn} from '../../Data/data-rewards';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import Logo from '../../Components/Logo';
@@ -26,122 +26,143 @@ const Rewards = () => (
                             <h2>UX Design</h2>
                             <p>2021</p>
                         </div>
+                        <div>
+                            {linkbtn.map((buttons, key) =>{
+                                return(
+                                    <Link  to={{ pathname: `${buttons.url}` }} target="_blank" key={key} >
+                                        <button className="btnlink">View Certificate</button>
+                                    </Link>
+                                );
+                            })}
+                        </div>
                     </div>
-                   
-                   
-                    
                 </div>
               );
           })}
         </div>
-        
-
-        
-           
-
-   
-
-     
-
-       
-
-
-
-          
-
-    <div>
-        <Tabs defaultActiveKey="Design" transition={false} id="demo">
-            <Tab eventKey="Design" title="Design">
-                <div className="rwbody">
-                <Row>
-                {RewardsData.map((diplom, key) =>{
-                    return(
-                        <Col  key={key}  md={12} lg={4}>
-                            <div  className="card-02">
-
-                                <div className="imgstyle" style={{backgroundImage:`linear-gradient(to bottom,rgba(0, 0, 0,0),rgba(255, 255, 255, 0)),url(${diplom.picture})`}}>   
-                                </div>
-                                
-                                <div className="info-dip">
-                                    <h1>{diplom.text}</h1>
-                                    <p>
-                                        {diplom.text2}
-                                    </p>
-                                    
-                                </div>
-                                <div className="txt-title">
-                                        <small>{diplom.date}</small>
-                                    </div>
-                    
-                            </div>
-                        </Col>
-                
-                    );
-                })}
-                    </Row>
-                </div>
-            </Tab>
-                <Tab eventKey="Microsoft" title="Microsoft" >
+        <div>
+            <Tabs defaultActiveKey="GoogleUX" transition={false} id="demo">
+            <Tab eventKey="GoogleUX" title="Google UX">
                     <div className="rwbody">
-                        <Row>
-                        {Microsoft.map((diplom, key) =>{
-                            return(
-                            <Col key={key}  md={12} lg={4}>
+                    <Row>
+                    {GoogleUX.map((diplom, key) =>{
+                        return(
+                            <Col  key={key}  md={12} lg={4}>
                                 <div  className="card-02">
 
-                                <div className="imgstyle" style={{backgroundImage:`linear-gradient(to bottom,rgba(0, 0, 0,0),rgba(255, 255, 255, 0)),url(${diplom.picture})`}}>   
-                                </div>
-
-                                <div className="info-dip">
-                                    <h1>{diplom.text}</h1>
-                                    <p>
-                                        {diplom.text2}
-                                    </p>
-                                    <div className="txt-title">
-                                        <small>{diplom.date}</small>
+                                    <div className="imgstyle" style={{backgroundImage:`linear-gradient(to bottom,rgba(0, 0, 0,0),rgba(255, 255, 255, 0)),url(${diplom.picture})`}}>   
                                     </div>
+                                    
+                                    <div className="info-dip">
+                                        <h1>{diplom.text}</h1>
+                                        <p>
+                                            {diplom.text2}
+                                        </p>
+                                        
+                                    </div>
+                                    <div className="txt-title">
+                                            <small>{diplom.date}</small>
+                                        </div>
+                        
                                 </div>
-
-                                </div>
-                            </Col>    
-                            );
-                        })}
+                            </Col>
+                    
+                        );
+                    })}
                         </Row>
                     </div>
                 </Tab>
-                <Tab eventKey="Events" title="Events" >
+                <Tab eventKey="Design" title="Design">
                     <div className="rwbody">
-                        <Row>
-                            {Developer.map((diplom, key) =>{
+                    <Row>
+                    {RewardsData.map((diplom, key) =>{
+                        return(
+                            <Col  key={key}  md={12} lg={4}>
+                                <div  className="card-02">
+
+                                    <div className="imgstyle" style={{backgroundImage:`linear-gradient(to bottom,rgba(0, 0, 0,0),rgba(255, 255, 255, 0)),url(${diplom.picture})`}}>   
+                                    </div>
+                                    
+                                    <div className="info-dip">
+                                        <h1>{diplom.text}</h1>
+                                        <p>
+                                            {diplom.text2}
+                                        </p>
+                                        
+                                    </div>
+                                    <div className="txt-title">
+                                            <small>{diplom.date}</small>
+                                        </div>
+                        
+                                </div>
+                            </Col>
+                    
+                        );
+                    })}
+                        </Row>
+                    </div>
+                </Tab>
+                    <Tab eventKey="Microsoft" title="Microsoft" >
+                        <div className="rwbody">
+                            <Row>
+                            {Microsoft.map((diplom, key) =>{
                                 return(
-                                    <Col key={key}  md={12} lg={4}>
-                                       <div  className="card-02">
+                                <Col key={key}  md={12} lg={4}>
+                                    <div  className="card-02">
 
-                                        <div className="imgstyle" style={{backgroundImage:`linear-gradient(to bottom,rgba(0, 0, 0,0),rgba(255, 255, 255, 0)),url(${diplom.picture})`}}>   
-                                        </div>
+                                    <div className="imgstyle" style={{backgroundImage:`linear-gradient(to bottom,rgba(0, 0, 0,0),rgba(255, 255, 255, 0)),url(${diplom.picture})`}}>   
+                                    </div>
 
-                                        <div className="info-dip">
-                                            <h1>{diplom.text}</h1>
-                                            <p>
-                                                {diplom.text2}
-                                            </p>
-                                            <div className="txt-title">
-                                                <small>{diplom.date}</small>
-                                            </div>
+                                    <div className="info-dip">
+                                        <h1>{diplom.text}</h1>
+                                        <p>
+                                            {diplom.text2}
+                                        </p>
+                                        <div className="txt-title">
+                                            <small>{diplom.date}</small>
                                         </div>
+                                    </div>
 
-                                        </div>
-                                     </Col>        
+                                    </div>
+                                </Col>    
                                 );
                             })}
-                        </Row>
-                    </div>
-                </Tab>
-        </Tabs>
-        </div> 
-      
-      </motion.div>
-    </div>
+                            </Row>
+                        </div>
+                    </Tab>
+                    <Tab eventKey="Events" title="Events" >
+                        <div className="rwbody">
+                            <Row>
+                                {Developer.map((diplom, key) =>{
+                                    return(
+                                        <Col key={key}  md={12} lg={4}>
+                                        <div  className="card-02">
+
+                                            <div className="imgstyle" style={{backgroundImage:`linear-gradient(to bottom,rgba(0, 0, 0,0),rgba(255, 255, 255, 0)),url(${diplom.picture})`}}>   
+                                            </div>
+
+                                            <div className="info-dip">
+                                                <h1>{diplom.text}</h1>
+                                                <p>
+                                                    {diplom.text2}
+                                                </p>
+                                                <div className="txt-title">
+                                                    <small>{diplom.date}</small>
+                                                </div>
+                                            </div>
+
+                                            </div>
+                                        </Col>        
+                                    );
+                                })}
+                            </Row>
+                        </div>
+                    </Tab>
+            </Tabs>
+            </div> 
+        
+        </motion.div>
+        </div>
 );
 
 export default Rewards;

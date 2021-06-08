@@ -14,7 +14,7 @@ CSS Reconocimientos
 .back1{
   width: 100%;
   height: 150vh;
-  background-image: linear-gradient(180deg,rgba(255, 255, 255, 0.74),rgb(255, 255, 255)),url('../../Assets/demo1.jpg');
+  background-image: linear-gradient(180deg,rgba(255, 255, 255, 0.705),rgb(255, 255, 255)),url('../../Assets/demo.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -77,17 +77,35 @@ CSS Reconocimientos
 }
 
 .txt-title{
-  margin: auto;
   width: 90%;
-  text-align: center;
+  text-align: start;
   font-size: 20px;
   position: absolute;
   color: #c0a2a2;
-  bottom: 5%;
-
-
-  
+  bottom: 2%;
+  margin-left: 45px;
 }
+
+
+.btnlink{
+  background-color: black;
+    border: 0px solid;
+    border-radius: 30px;
+    height: 6vh;
+    width: 30%;
+    color: #ffffff;
+}
+
+.btnlink:hover{
+  background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 30px;
+    height: 6vh;
+    width: 30%;
+    color: #000000;
+}
+
+
 
 .info-dip{
   padding-top: 50px;
@@ -106,7 +124,6 @@ CSS Reconocimientos
 
 .info-dip p{
   font-size: 14px;
-  padding-top: 1em;
   margin-left: 50px;
   margin-right: 20px;
 }
