@@ -15,11 +15,12 @@
 .backs{
   width: 100%;
   height: 75vh;
-  background-image: linear-gradient(180deg,rgba(255, 255, 255, 0.6),rgba(255, 255, 255, 0.993)),url('../../Assets/backs.jpg');
+  background-image: linear-gradient(180deg,rgba(255, 255, 255, 0.877),rgba(255, 255, 255, 0.993)),url('../../Assets/backs.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: -440px;
+  
 }
 
 .backs h1{
