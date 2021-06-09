@@ -8,7 +8,7 @@ export const MobileApp = [
         'Role': 'UX Designer Generalist',
         'category': 'Mobile / Web',
         'Responsabilities': 'conducting interviews, paper and digital wireframe, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, and iterating on designs.',
-        'picture': './assets/portafolio/x1.jpg',
+        'picture': './assets/portafolio/s0.jpg',
         'backg': './assets/portafolio/1.jpg',
         
         'Tittle1': 'Empathy: Define the problem',
@@ -74,7 +74,7 @@ export const MobileApp = [
         'date': '2021',
         'position': 'UX Design Generalist',
         'category': 'Mobile App',
-        'picture': './assets/portafolio/x4.jpg',
+        'picture': './assets/portafolio/s1.jpg',
         'backg': './assets/portafolio/2.jpg',
         'Overview': 'UPLOADING...',
 
@@ -121,7 +121,7 @@ export const MobileApp = [
         'date': '2021',
         'category': 'Mobile App',
         'position': 'UX Design Generalist / Mobile Developer',
-        'picture': './assets/portafolio/x24.jpg',
+        'picture': './assets/portafolio/s2.jpg',
         'backg': './assets/portafolio/toks.jpg',
         'Overview': 'UPLOADING...',
 

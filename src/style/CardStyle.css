@@ -3,6 +3,14 @@
 .bodyprojects{
     margin-top: 97px;
   }
+
+
+  .bodycard{
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   
   .card-img{
     background-position: center;
@@ -13,14 +21,20 @@
     margin-left: auto;
     margin-right: auto;
     text-decoration: none;
-    box-shadow: 5px 7px 20px 5px rgb(238, 238, 238);
-    border-radius: 30px;
    
   }
   
   
   .fount-tittle{
-    width: 100%;
+    
+    width: 98.5%;
+    position: absolute;
+    margin-top: 20em;
+    background: rgb(255, 255, 255);
+    /* height: 30px; */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
   }
 
   .next{
@@ -29,10 +43,8 @@
   }
 
   .fount-tittle h1{
-    margin-left: 40px;
     padding-top: 1em;
     font-size: 35px;
-    text-align: start;
     font-weight: bold;
     text-transform:uppercase;
     font-weight: 800;
@@ -40,10 +52,8 @@
     letter-spacing: -0.1em;
   }
   .fount-tittle p{
-    margin-left: 40px;
     padding-top: 0em;
     font-size: medium;
-    text-align: start;
     font-weight:500;
     font-family: 'Comfortaa', cursive;
     letter-spacing: -0.1em;
@@ -53,17 +63,19 @@
 
 
   .figures{
-    background-image: url('../Assets/fond.jpg');
+    background-image: url('../Assets/fond2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    width: 35%;
-    margin-left: 32%;
-    height: 2.5vh;
+    width: 98%;
+    /* margin-left: 32%; */
+    height: 1.5vh;
     bottom: 0%;
     position: absolute;
-    border-radius: 10px 10px 0px 0px;
+    /* border-radius: 10px 10px 0px 0px; */
+    display: block;
+    
   }
 
 
