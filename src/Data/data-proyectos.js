@@ -85,7 +85,7 @@ export const MobileApp = [
         'date': '2021',
         'position': 'UX Design Generalist',
         'category': 'Mobile App',
-        'picture': './assets/portafolio/x6.jpg',
+        'picture': './assets/portafolio/s5.jpg',
         'backg': './assets/portafolio/2.jpg',
         'Overview': 'UPLOADING...',
 
@@ -96,7 +96,7 @@ export const MobileApp = [
         'date': '2021',
         'category': 'Mobile App',
         'position': 'UX Design Generalist',
-        'picture': './assets/portafolio/x100.jpg',
+        'picture': './assets/portafolio/s4.jpg',
         'backg': './assets/portafolio/3.jpg',
         'Overview': 'UPLOADING...',
 
@@ -109,7 +109,7 @@ export const MobileApp = [
         'date': '2021',
         'category': 'Mobile App',
         'position': 'Visual Designer / UI Designer / Mobile Developer',
-        'picture': './assets/portafolio/x5.jpg',
+        'picture': './assets/portafolio/s3.jpg',
         'backg': './assets/portafolio/4.jpg',
         'Overview': 'UPLOADING...',
 
@@ -134,7 +134,7 @@ export const MobileApp = [
         'date': '2021',
         'category': 'Mobile App',
         'position': 'UX Design / Visual Designer / UI Designer ',
-        'picture': './assets/portafolio/x15.jpg',
+        'picture': './assets/portafolio/s6.jpg',
         'backg': './assets/portafolio/acomer1.jpg',
         'Overview': 'UPLOADING...',
 
@@ -145,7 +145,7 @@ export const MobileApp = [
         'date': '2021',
         'category': 'Mobile App',
         'position': 'UX Design / Visual Designer / UI Designer ',
-        'picture': './assets/portafolio/x20.jpg',
+        'picture': './assets/portafolio/s7.jpg',
         'backg': './assets/portafolio/acomer2.jpg',
         'Overview': 'UPLOADING...',
 
@@ -157,7 +157,7 @@ export const MobileApp = [
         'date': '2021',
         'category': 'Mobile App',
         'position': 'UX Design Generalist',
-        'picture': './assets/portafolio/x3.jpg',
+        'picture': './assets/portafolio/s8.jpg',
         'backg': './assets/portafolio/omnibus.jpg',
         'Overview': 'UPLOADING...',
 
@@ -183,7 +183,7 @@ export const MobileApp = [
         'date': '2021',
         'category': 'Mobile App',
         'position': 'UX Design / Visual Designer / UI Designer',
-        'picture': './assets/portafolio/x13.jpg',
+        'picture': './assets/portafolio/s9.jpg',
         'backg': './assets/portafolio/tsuba.jpg',
         'Overview': 'UPLOADING...',
 
@@ -260,7 +260,7 @@ export const MobileApp = [
         'date': '2016',
         'category': 'Mobile App',
         'position': 'UX Design / Visual Designer / UI Designer',
-        'picture': './assets/portafolio/x7.jpg',
+        'picture': './assets/portafolio/s10.jpg',
         'backg': './assets/portafolio/alto.jpg',
         'Overview': 'UPLOADING...',
 
