@@ -18,12 +18,12 @@ export const CardProject = ({
                 <Link to={`/project/${ id }`}>
                     <div className="fount-text">
                     <img src={arrow} className="next" alt="next"/>
-                    </div>
-                  
+                    </div>               
                 </Link> 
+                <div className="figures">
+                </div>    
             </div>
-            <div className="figures">
-            </div>     
+             
         </motion.div>
     )
 }
