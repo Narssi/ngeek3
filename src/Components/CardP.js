@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { motion } from "framer-motion";
 import '../style/CardStyle.css';
-import next from '../Assets/next.svg';
+import arrow from '../Assets/arrow.svg';
 export const CardProject = ({
     id,
     tittle,
@@ -15,17 +15,13 @@ export const CardProject = ({
             <div className="fount-tittle">
                 <h1>{tittle}</h1>
                 <p>{position}</p>
-            </div>
-
-            <div className="clics">
                 <Link to={`/project/${ id }`}>
                     <div className="fount-text">
-                    <p>View more <img src={next} className="next" alt="next"/></p>
-                 
+                    <img src={arrow} className="next" alt="next"/>
                     </div>
                   
                 </Link> 
-            </div>    
+            </div>
             <div className="figures">
             </div>     
         </motion.div>

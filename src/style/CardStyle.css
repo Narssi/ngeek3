@@ -21,38 +21,37 @@
     margin-left: auto;
     margin-right: auto;
     text-decoration: none;
- 
-   
+
   }
   
   
   .fount-tittle{
     
-    width: 80%;
+    width: 96.3%;
     margin-top: 20em;
-    background: rgb(255, 255, 255);
+   
     /* height: 30px; */
-    margin-left: 9%;
+    margin-left: 0%;
     margin-right: auto;
     text-align: center;
     position: absolute;
-
+    backdrop-filter: saturate(180%) blur(20px);
+    background-color: hsla(0,0%,100%,.70);
+    color: #1f1f1f;
   }
 
-  .next{
-    width: 5%;
-    margin-left: 15px;
-  }
 
   .fount-tittle h1{
     padding-top: 1em;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: bold;
     text-transform:uppercase;
     font-weight: 800;
     font-family: 'Comfortaa', cursive;
     letter-spacing: -0.1em;
   }
+
+
   .fount-tittle p{
     padding-top: 0em;
     font-size: medium;
@@ -65,20 +64,40 @@
 
 
   .figures{
-    background-image: url('../Assets/32.jpg');
+
+    background: linear-gradient(-45deg, #ffdada, #ebd8b7, #ccf2f4, #ffe3fe);
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite;
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    width: 50%;
-    margin-left: 25%;
-    height: 1.5vh;
+    width: 60%;
+    margin-left: 20%;
+    height: 2.5vh;
     bottom: 0%;
     position: absolute;
-    border-radius: 10px 10px 0px 0px;
     display: block;
+    border-radius: 30px 30px 0px 0px;
+
+    backdrop-filter: saturate(180%) blur(20px);
+
     
   }
+
+
+  @keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
 
 
   .clics{
@@ -88,17 +107,15 @@
   }
 
 
-  .fount-text p{
+  .fount-text img{
     color: rgb(0, 0, 0);
     padding-top: 2em;
-    font-size: 15px;
-    font-weight: bold;
-    text-transform:uppercase;
+    padding-bottom: 2em;
+    width: 9%;
   }
 
-  .fount-text p:hover{
+  .fount-text img:hover{
     color: rgb(204, 204, 204);
-    font-weight: bold;
   }
 
   a:hover{
