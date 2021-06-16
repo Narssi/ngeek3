@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { motion } from "framer-motion";
 import '../style/CardStyle.css';
-import arrow from '../Assets/arrow.svg';
+import arrow from '../Assets/fl.svg';
 export const CardProject = ({
     id,
     tittle,
@@ -20,8 +20,6 @@ export const CardProject = ({
                     <img src={arrow} className="next" alt="next"/>
                     </div>               
                 </Link> 
-                <div className="figures">
-                </div>    
             </div>
              
         </motion.div>

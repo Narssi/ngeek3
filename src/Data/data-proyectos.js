@@ -170,7 +170,7 @@ export const MobileApp = [
         'date': '2021',
         'category': 'Mobile App',
         'position': 'UX Design / Visual Designer / UI Designer',
-        'picture': './assets/portafolio/x9.jpg',
+        'picture': './assets/portafolio/Spotify.jpg',
         'backg': './assets/portafolio/5.jpg',
         'Overview': 'UPLOADING...',
 
@@ -196,7 +196,7 @@ export const MobileApp = [
         'date': '2021',
         'category': 'Mobile App',
         'position': 'UX Design / Visual Designer / UI Designer',
-        'picture': './assets/portafolio/x25.jpg',
+        'picture': './assets/portafolio/express.jpg',
         'backg': './assets/portafolio/express.jpg',
         'Overview': 'UPLOADING...',
 
@@ -260,7 +260,7 @@ export const MobileApp = [
         'date': '2016',
         'category': 'Mobile App',
         'position': 'UX Design / Visual Designer / UI Designer',
-        'picture': './assets/portafolio/s10.jpg',
+        'picture': './assets/portafolio/alto.jpg',
         'backg': './assets/portafolio/alto.jpg',
         'Overview': 'UPLOADING...',
 
