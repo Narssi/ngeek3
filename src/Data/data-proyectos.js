@@ -9,7 +9,7 @@ export const MobileApp = [
         'category': 'Mobile / Web',
         'Responsabilities': 'conducting interviews, paper and digital wireframe, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, and iterating on designs.',
         'picture': './assets/portafolio/s0.jpg',
-        'backg': './assets/portafolio/1.jpg',
+        'backg': './assets/portafolio/s0.jpg',
         
         'Tittle1': 'Empathy: Define the problem',
         'Details': 'The leopard is the animal more beautiful and fast in the world now have a problem, the clime change, the human has destroyed the habitat and hunted this animal for years.',
@@ -222,7 +222,7 @@ export const MobileApp = [
         'date': '2016',
         'category': 'Mobile App',
         'position': 'UX Design / Visual Designer / UI Designer',
-        'picture': './assets/portafolio/x11.jpg',
+        'picture': './assets/portafolio/demo11.jpg',
         'backg': './assets/portafolio/pinatas.jpg',
         'Overview': 'UPLOADING...',
 
@@ -248,7 +248,7 @@ export const MobileApp = [
         'date': '2016',
         'category': 'Mobile App',
         'position': 'UX Design / Visual Designer / UI Designer',
-        'picture': './assets/portafolio/x10.jpg',
+        'picture': './assets/portafolio/demo20.jpg',
         'backg': './assets/portafolio/construct.jpg',
         'Overview': 'UPLOADING...',
         
@@ -308,7 +308,7 @@ export const MobileApp = [
         'date': '2014',
         'category': 'Mobile App',
         'position': 'UX Design Specialist / Mobile Developer',
-        'picture': './assets/portafolio/x27.jpg',
+        'picture': './assets/portafolio/demo50.jpg',
         'backg': './assets/portafolio/maximum.jpg',
         'Overview': 'UPLOADING...',
         

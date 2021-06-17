@@ -17,13 +17,11 @@
     margin: auto;
 }
 
-.header{
+.head-port{
     background-repeat: no-repeat;
-    background-size: 100%;
-    height: 70vh;
-    background-attachment: fixed;
-    background-position: center;
     background-size: cover;
+    height: 120vh;
+    background-position: center;
 }
 
 .kk{
@@ -37,13 +35,13 @@
     padding-top: 5em;
 }
 
-.header h1{
+.head-port h1{
     font-size: 50px;
     color: rgba(0, 0, 0, 0.616);
     padding-top: 10em;    
 }
 
-.header h2{
+.head-port h2{
     font-size: 200px;
     color: rgba(165, 129, 82, 0.616);
     padding-top: 2em;
