@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { motion } from "framer-motion";
 import '../style/CardStyle.css';
 import arrow from '../Assets/fl.svg';
-export const CardProject = ({
+export const CardMS = ({
     id,
     tittle,
     picture,
@@ -17,7 +17,7 @@ export const CardProject = ({
                 <hr/>
                 <p>{position}</p>
                 
-                <Link to={`/google/${ id }`}>
+                <Link to={`/microsoft/${ id }`}>
                     <div className="fount-text">
                     <img src={arrow} className="next" alt="next"/>
                     </div>               

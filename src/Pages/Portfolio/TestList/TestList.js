@@ -4,26 +4,25 @@ import React from 'react';
 //import Row from 'react-bootstrap/Row';
 //import Col from 'react-bootstrap/Col';
 //import {MobileApp} from '../../../Data/data-proyectos';
-import './Port-List.css';
+import '../DetailsProject/Port-List.css';
 import { motion } from "framer-motion";
 import { Redirect, useParams } from 'react-router-dom';
-import { getProjectById } from '../../../selectors/getProjectById';
+import { getProjectById4 } from '../../../selectors/getProjectById';
 //import { CardDetails } from '../../../Components/CardDetails';
 
-const PortList = () => {
+const TestList = () => {
 
     const {projectid} = useParams();
-    const google = getProjectById( projectid );
-    if(!google){
+    const testproject = getProjectById4( projectid );
+    if(!testproject){
         return <Redirect to="/" />
     }
     const {
         tittle,
         Overview,
         picture
-       
-     
-    } = google;
+
+    } = testproject;
     
     return(  
         <motion.div>
@@ -40,4 +39,4 @@ const PortList = () => {
 
 };
 
-export default PortList;
+export default TestList;

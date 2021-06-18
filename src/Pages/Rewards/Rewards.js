@@ -26,7 +26,7 @@ const Rewards = () => (
                             <h2>UX Design</h2>
                             <p>2021</p>
                         </div>
-                        <div>
+                        <div className="bdcards">
                             {linkbtn.map((buttons, key) =>{
                                 return(
                                     <Link  to={{ pathname: `${buttons.url}` }} target="_blank" key={key} >

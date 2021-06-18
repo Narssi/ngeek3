@@ -4,17 +4,17 @@ import React from 'react';
 //import Row from 'react-bootstrap/Row';
 //import Col from 'react-bootstrap/Col';
 //import {MobileApp} from '../../../Data/data-proyectos';
-import './Port-List.css';
+import '../DetailsProject/Port-List.css';
 import { motion } from "framer-motion";
 import { Redirect, useParams } from 'react-router-dom';
-import { getProjectById } from '../../../selectors/getProjectById';
+import { getProjectById2 } from '../../../selectors/getProjectById';
 //import { CardDetails } from '../../../Components/CardDetails';
 
-const PortList = () => {
+const CompanyList = () => {
 
     const {projectid} = useParams();
-    const google = getProjectById( projectid );
-    if(!google){
+    const company = getProjectById2( projectid );
+    if(!company){
         return <Redirect to="/" />
     }
     const {
@@ -23,7 +23,7 @@ const PortList = () => {
         picture
        
      
-    } = google;
+    } = company;
     
     return(  
         <motion.div>
@@ -40,4 +40,4 @@ const PortList = () => {
 
 };
 
-export default PortList;
+export default CompanyList;

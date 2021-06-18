@@ -24,6 +24,18 @@
   
 }
 
+.BoxTittle{
+  height: 40vh;
+  padding-top: 10em;
+}
+
+
+
+.BoxTittle h1{
+  font-size: 70px;
+}
+
+
 .backs h1{
   font-size: 45px;
   margin: auto;

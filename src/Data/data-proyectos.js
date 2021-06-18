@@ -1,4 +1,4 @@
-export const MobileApp = [
+export const GoogleUX = [
 
     {
         'id': 'Leopard',
@@ -90,19 +90,15 @@ export const MobileApp = [
         'Overview': 'UPLOADING...',
 
     },
-    {
-        'id': 'RegisterHour',
-        'tittle': 'Register Hour',
-        'date': '2021',
-        'category': 'Mobile App',
-        'position': 'UX Design Generalist',
-        'picture': './assets/portafolio/demo5.jpg',
-        'backg': './assets/portafolio/3.jpg',
-        'Overview': 'UPLOADING...',
+
+    
+   
+
+],
 
 
+CompanyProject = [
         
-    },
     {
         'id': 'Terumo',
         'tittle': 'Terumo',
@@ -151,6 +147,7 @@ export const MobileApp = [
 
         
     },
+    
     {
         'id': '5',
         'tittle': 'Omnibus de Mexico',
@@ -159,19 +156,6 @@ export const MobileApp = [
         'position': 'UX Design Generalist',
         'picture': './assets/portafolio/s8.jpg',
         'backg': './assets/portafolio/omnibus.jpg',
-        'Overview': 'UPLOADING...',
-
-
-        
-    },
-    {
-        'id': '6',
-        'tittle': 'Spofity',
-        'date': '2021',
-        'category': 'Mobile App',
-        'position': 'UX Design / Visual Designer / UI Designer',
-        'picture': './assets/portafolio/demo3.jpg',
-        'backg': './assets/portafolio/5.jpg',
         'Overview': 'UPLOADING...',
 
 
@@ -190,6 +174,35 @@ export const MobileApp = [
 
         
     },
+    
+    
+],
+
+TestJobs = [
+    {
+        'id': 'RegisterHour',
+        'tittle': 'Register Hour',
+        'date': '2021',
+        'category': 'Mobile App',
+        'position': 'UX Design Generalist',
+        'picture': './assets/portafolio/demo5.jpg',
+        'backg': './assets/portafolio/3.jpg',
+        'Overview': 'UPLOADING...',
+    },
+    {
+        'id': '6',
+        'tittle': 'Spofity',
+        'date': '2021',
+        'category': 'Mobile App',
+        'position': 'UX Design / Visual Designer / UI Designer',
+        'picture': './assets/portafolio/demo3.jpg',
+        'backg': './assets/portafolio/5.jpg',
+        'Overview': 'UPLOADING...',  
+    },
+    
+],
+
+Prototypes = [
     {
         'id': '8',
         'tittle': 'ServiExpress',
@@ -212,9 +225,7 @@ export const MobileApp = [
         'picture': './assets/portafolio/demo9.jpg',
         'backg': './assets/portafolio/7.jpg',
         'Overview': 'UPLOADING...',
-
-
-        
+ 
     },
     {
         'id': '9',
@@ -267,6 +278,11 @@ export const MobileApp = [
 
         
     },
+    
+],
+
+
+MicrosoftStudent = [
     {
         'id': '13',
         'tittle': 'MundoAnimal',
@@ -344,4 +360,6 @@ export const MobileApp = [
         'backg': './assets/portafolio/Pancho.jpg',
         'Overview': 'UPLOADING...',
     },
+    
 ]
+

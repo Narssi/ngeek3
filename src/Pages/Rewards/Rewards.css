@@ -214,11 +214,15 @@ CSS Reconocimientos
   margin: auto;
   border-radius: 30px;
   color: #fbc6a4;
-  padding-top: 3em;
+  padding-top: 1em;
 }
 
 .Popular img{
   width: 50%;
+}
+
+.bdcards{
+  padding-top: 4em;
 }
 
 

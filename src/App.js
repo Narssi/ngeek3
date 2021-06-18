@@ -2,6 +2,10 @@ import React from 'react';
 import './App.css';
 
 import PortList from './Pages/Portfolio/DetailsProject/PortList';
+import MicrosoftList from './Pages/Portfolio/MicrosoftStudent/MicrosoftList';
+import CompanyList from './Pages/Portfolio/CompanyList/CompanyList';
+import TestList from './Pages/Portfolio/TestList/TestList';
+import PrototypeList from './Pages/Portfolio/Prototypes/Prototypes'
 //import AppRouter  from './routes/AppRouter';
 
 import NBmenu from './Components/Navbar';
@@ -25,7 +29,11 @@ function App (){
         <Route exact path="/about" component={About}></Route>
         <Route exact path="/rewards" component={Rewards}></Route>
         <Route exact path="/contact" component={Contact}></Route>
-        <Route exact path="/project/:projectid" component={PortList}></Route>
+        <Route exact path="/google/:projectid" component={PortList}></Route>
+        <Route exact path="/company/:projectid" component={CompanyList}></Route>
+        <Route exact path="/testproject/:projectid" component={TestList}></Route>
+        <Route exact path="/prototype/:projectid" component={PrototypeList}></Route>
+        <Route exact path="/microsoft/:projectid" component={MicrosoftList}></Route>
       </Switch>
       <Footer/>
      </div>
