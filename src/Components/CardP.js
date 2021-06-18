@@ -14,7 +14,9 @@ export const CardProject = ({
         <motion.div whileHover={{scale: 1.00}} className="card-img" style={{backgroundImage:`url(${picture})`}}>
             <div className="fount-tittle">
                 <h1>{tittle}</h1>
+                <hr/>
                 <p>{position}</p>
+                
                 <Link to={`/project/${ id }`}>
                     <div className="fount-text">
                     <img src={arrow} className="next" alt="next"/>

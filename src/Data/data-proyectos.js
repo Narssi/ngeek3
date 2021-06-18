@@ -344,7 +344,4 @@ export const MobileApp = [
         'backg': './assets/portafolio/Pancho.jpg',
         'Overview': 'UPLOADING...',
     },
- 
-    
-    
 ]
